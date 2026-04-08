@@ -1563,7 +1563,7 @@ function Navbar() {
   useEffect(() => {
     setMobileOpen(false);
   }, [location]);
-  return /* @__PURE__ */ jsx("nav", { className: `navbar ${scrolled ? "navbar--scrolled" : ""}`, id: "main-nav", children: /* @__PURE__ */ jsxs("div", { className: "navbar__inner container", children: [
+  return /* @__PURE__ */ jsx("nav", { className: `navbar ${scrolled ? "navbar--scrolled" : ""} ${mobileOpen ? "navbar--open" : ""}`, id: "main-nav", children: /* @__PURE__ */ jsxs("div", { className: "navbar__inner container", children: [
     /* @__PURE__ */ jsxs(Link, { to: "/", className: "navbar__logo", id: "nav-logo", children: [
       /* @__PURE__ */ jsx("span", { className: "navbar__logo-icon material-icons-outlined", children: "forest" }),
       /* @__PURE__ */ jsxs("span", { className: "navbar__logo-text", children: [
@@ -1688,7 +1688,7 @@ function ScrollToTop() {
   }, [pathname]);
   return null;
 }
-const HomePage = lazy(() => import("./assets/HomePage-mG4v-1xq.js"));
+const HomePage = lazy(() => import("./assets/HomePage-D5xD0QGd.js"));
 const PricingPage = lazy(() => import("./assets/PricingPage-pHWLQQ7G.js"));
 const FaqPage = lazy(() => import("./assets/FaqPage-B3MaXMK7.js"));
 const ContactPage = lazy(() => import("./assets/ContactPage-c__W9OQS.js"));
@@ -1704,7 +1704,13 @@ const TutorialTivimatePage = lazy(() => import("./assets/TutorialTivimatePage-Bw
 const TutorialSmartersPage = lazy(() => import("./assets/TutorialSmartersPage-faOPBloy.js"));
 const TutorialIBOPage = lazy(() => import("./assets/TutorialIBOPage-D4BL-139.js"));
 const TutorialDownloaderPage = lazy(() => import("./assets/TutorialDownloaderPage-DFybB2hn.js"));
-const BlogPage = lazy(() => import("./assets/BlogPage-Cq6EglYf.js"));
+const BlogPage = lazy(() => import("./assets/BlogPage-BXUvSQ5q.js"));
+const BlogBufferingPage = lazy(() => import("./assets/BlogBufferingPage-_26NEawG.js"));
+const FirestickSetupPage = lazy(() => import("./assets/FirestickSetupPage-BSglJVI6.js"));
+const CordCuttingPage = lazy(() => import("./assets/CordCuttingPage-CPGGCuZw.js"));
+const IPTVCrackdown2026Page = lazy(() => import("./assets/IPTVCrackdown2026Page-DWDY7tQ0.js"));
+const IPTVGuideBlankPage = lazy(() => import("./assets/IPTVGuideBlankPage-But3qM_9.js"));
+const ISPBlockingIPTVPage = lazy(() => import("./assets/ISPBlockingIPTVPage-IHz-taXe.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-uPtwR0EF.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -1726,6 +1732,12 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/tutorials/how-to-set-up-downloader", element: /* @__PURE__ */ jsx(TutorialDownloaderPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/channel-list", element: /* @__PURE__ */ jsx(ChannelPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog", element: /* @__PURE__ */ jsx(BlogPage, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/why-is-my-iptv-buffering-5-easy-fixes-to-stop-freezing-in-2026", element: /* @__PURE__ */ jsx(BlogBufferingPage, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/how-to-setup-iptv-on-amazon-firestick-2026-guide", element: /* @__PURE__ */ jsx(FirestickSetupPage, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/top-5-benefits-cutting-the-cord-premium-iptv", element: /* @__PURE__ */ jsx(CordCuttingPage, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/2026-iptv-crackdown-dodgy-firestick-safety", element: /* @__PURE__ */ jsx(IPTVCrackdown2026Page, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/iptv-guide-blank-buffering-fix-2026", element: /* @__PURE__ */ jsx(IPTVGuideBlankPage, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/isp-blocking-iptv-how-to-bypass", element: /* @__PURE__ */ jsx(ISPBlockingIPTVPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/refund", element: /* @__PURE__ */ jsx(RefundPage, {}) })

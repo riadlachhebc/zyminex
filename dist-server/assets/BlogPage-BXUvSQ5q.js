@@ -1,5 +1,6 @@
 import { jsxs, jsx } from "react/jsx-runtime";
 import { H as Helmet, L as Link } from "../entry-server.js";
+/* empty css                  */
 import "react";
 import "react-dom/server";
 import "@remix-run/router";
@@ -8,7 +9,62 @@ import "react-fast-compare";
 import "invariant";
 import "shallowequal";
 import "react-dom";
-const blogPosts = [];
+const blogPosts = [
+  {
+    id: "isp-blocking-iptv",
+    path: "/isp-blocking-iptv-how-to-bypass",
+    image: "https://i.ibb.co/ns6wHhfV/Glowing-Wi-Fi-router-202604082313.jpg",
+    category: "Troubleshooting & Tech Guides",
+    date: "Apr 8, 2026",
+    title: "Is Your ISP Blocking Your IPTV? (How to Bypass the April 2026 Network Blocks)",
+    excerpt: "Is your IPTV showing a connection error on Wi-Fi but working perfectly on your mobile data? Your Internet Service Provider (ISP) is actively blocking your stream. Learn how to diagnose ISP throttling and bypass the April 2026 live network blocks in minutes."
+  },
+  {
+    id: "iptv-guide-blank-fix",
+    path: "/iptv-guide-blank-buffering-fix-2026",
+    image: "https://i.ibb.co/Y7cTG0pC/A-frustrated-user-202604052301.jpg",
+    category: "Troubleshooting & Tech Guides",
+    date: "Apr 5, 2026",
+    title: "Why Your IPTV Guide Is Blank & Buffering (April 2026 Fix)",
+    excerpt: "Is your TV guide suddenly blank, or does your stream freeze during live sports? Discover the hidden hardware and network issues plaguing IPTV in April 2026."
+  },
+  {
+    id: "iptv-crackdown-2026",
+    path: "/2026-iptv-crackdown-dodgy-firestick-safety",
+    image: "https://i.ibb.co/zzfBBp2/Padlock-over-TV-202604030125.jpg",
+    category: "Industry News & Security",
+    date: "Apr 3, 2026",
+    title: 'The 2026 IPTV Crackdown: Are "Dodgy Firesticks" Safe? (Security Guide)',
+    excerpt: 'Authorities are launching massive crackdowns on "dodgy Firesticks" and cheap IPTV providers. Discover if your data is safe and how to secure your setup.'
+  },
+  {
+    id: "iptv-buffering-fixes",
+    path: "/why-is-my-iptv-buffering-5-easy-fixes-to-stop-freezing-in-2026",
+    image: "https://i.ibb.co/zVTFYS9T/IPTV-buffering-blog-202604020446.jpg",
+    category: "Guides & Fixes",
+    date: "Apr 2, 2026",
+    title: "Why Is My IPTV Buffering? (5 Easy Fixes to Stop Freezing in 2026)",
+    excerpt: "Tired of your screen freezing right before the big game? Discover the top 5 reasons your IPTV keeps buffering and learn how to fix it instantly in 2026."
+  },
+  {
+    id: "firestick-setup",
+    path: "/how-to-setup-iptv-on-amazon-firestick-2026-guide",
+    image: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    category: "Tutorials & Guides",
+    date: "Apr 2, 2026",
+    title: "How to Setup IPTV on Amazon Firestick (2026 Guide)",
+    excerpt: "Learn how to quickly step up and install IPTV on your Amazon Firestick for smooth 4K streaming."
+  },
+  {
+    id: "cutting-cord",
+    path: "/top-5-benefits-cutting-the-cord-premium-iptv",
+    image: "https://images.unsplash.com/photo-1584697964400-2af6a2f6204c?auto=format&fit=crop&w=800&q=80",
+    category: "Industry Insights",
+    date: "Apr 2, 2026",
+    title: "Top 5 Benefits of Cutting the Cord Using Premium IPTV",
+    excerpt: "Discover why millions are cutting cable and how premium IPTV can save you thousands of dollars while offering a massive catalog of content."
+  }
+];
 function BlogPage() {
   return /* @__PURE__ */ jsxs("div", { className: "blog-page", children: [
     /* @__PURE__ */ jsxs(Helmet, { children: [
@@ -58,9 +114,9 @@ function BlogPage() {
       ] }),
       /* @__PURE__ */ jsxs("div", { className: "blog-card__content", children: [
         /* @__PURE__ */ jsx("span", { className: "label-sm", style: { color: "var(--outline)" }, children: post.date }),
-        /* @__PURE__ */ jsx("h2", { className: "title-lg blog-card__title", children: /* @__PURE__ */ jsx(Link, { to: `/blog/${post.id}`, children: post.title }) }),
+        /* @__PURE__ */ jsx("h2", { className: "title-lg blog-card__title", children: /* @__PURE__ */ jsx(Link, { to: post.path || `/blog/${post.id}`, children: post.title }) }),
         /* @__PURE__ */ jsx("p", { className: "body-md blog-card__excerpt", style: { color: "var(--on-surface-variant)" }, children: post.excerpt }),
-        /* @__PURE__ */ jsxs(Link, { to: `/blog/${post.id}`, className: "blog-card__read-more", children: [
+        /* @__PURE__ */ jsxs(Link, { to: post.path || `/blog/${post.id}`, className: "blog-card__read-more", children: [
           "Read Article ",
           /* @__PURE__ */ jsx("span", { className: "material-icons-outlined", style: { fontSize: "16px" }, children: "arrow_forward" })
         ] })

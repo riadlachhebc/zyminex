@@ -4,6 +4,15 @@ import './BlogPage.css'
 
 const blogPosts = [
   {
+    id: 'isp-blocking-iptv',
+    path: '/isp-blocking-iptv-how-to-bypass',
+    image: 'https://i.ibb.co/ns6wHhfV/Glowing-Wi-Fi-router-202604082313.jpg',
+    category: 'Troubleshooting & Tech Guides',
+    date: 'Apr 8, 2026',
+    title: 'Is Your ISP Blocking Your IPTV? (How to Bypass the April 2026 Network Blocks)',
+    excerpt: 'Is your IPTV showing a connection error on Wi-Fi but working perfectly on your mobile data? Your Internet Service Provider (ISP) is actively blocking your stream. Learn how to diagnose ISP throttling and bypass the April 2026 live network blocks in minutes.'
+  },
+  {
     id: 'iptv-guide-blank-fix',
     path: '/iptv-guide-blank-buffering-fix-2026',
     image: 'https://i.ibb.co/Y7cTG0pC/A-frustrated-user-202604052301.jpg',

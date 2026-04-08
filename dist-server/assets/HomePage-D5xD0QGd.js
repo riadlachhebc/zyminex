@@ -2,6 +2,7 @@ import { jsx, jsxs } from "react/jsx-runtime";
 import { useState } from "react";
 import { H as Helmet, L as Link } from "../entry-server.js";
 /* empty css                     */
+/* empty css                  */
 import "react-dom/server";
 import "@remix-run/router";
 import "react-router";
@@ -163,6 +164,35 @@ const plans = [
     ],
     badge: "Popular",
     highlighted: false
+  }
+];
+const homeBlogPosts = [
+  {
+    id: "iptv-buffering-fixes",
+    path: "/why-is-my-iptv-buffering-5-easy-fixes-to-stop-freezing-in-2026",
+    image: "https://i.ibb.co/zVTFYS9T/IPTV-buffering-blog-202604020446.jpg",
+    category: "Guides & Fixes",
+    date: "Apr 2, 2026",
+    title: "Why Is My IPTV Buffering? (5 Easy Fixes to Stop Freezing in 2026)",
+    excerpt: "Tired of your screen freezing right before the big game? Discover the top 5 reasons your IPTV keeps buffering and learn how to fix it instantly in 2026."
+  },
+  {
+    id: "firestick-setup",
+    path: "/how-to-setup-iptv-on-amazon-firestick-2026-guide",
+    image: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    category: "Tutorials & Guides",
+    date: "Apr 2, 2026",
+    title: "How to Setup IPTV on Amazon Firestick (2026 Guide)",
+    excerpt: "Learn how to quickly step up and install IPTV on your Amazon Firestick for smooth 4K streaming."
+  },
+  {
+    id: "cutting-cord",
+    path: "/top-5-benefits-cutting-the-cord-premium-iptv",
+    image: "https://images.unsplash.com/photo-1584697964400-2af6a2f6204c?auto=format&fit=crop&w=800&q=80",
+    category: "Industry Insights",
+    date: "Apr 2, 2026",
+    title: "Top 5 Benefits of Cutting the Cord Using Premium IPTV",
+    excerpt: "Discover why millions are cutting cable and how premium IPTV can save you thousands of dollars while offering a massive catalog of content."
   }
 ];
 function HomePage() {
@@ -410,6 +440,25 @@ function HomePage() {
         openFaq === idx && /* @__PURE__ */ jsx("div", { style: { padding: "var(--space-4) var(--space-5)", background: "var(--surface-container-low)", color: "var(--on-surface-variant)", borderBottomLeftRadius: "var(--radius-lg)", borderBottomRightRadius: "var(--radius-lg)", marginTop: "-8px" }, children: /* @__PURE__ */ jsx("p", { className: "body-lg", children: faq.a }) })
       ] }, idx)) }),
       /* @__PURE__ */ jsx("div", { style: { textAlign: "center", marginTop: "var(--space-6)" }, children: /* @__PURE__ */ jsx(Link, { to: "/faq", className: "btn btn-secondary", children: "Read Full FAQ" }) })
+    ] }) }),
+    /* @__PURE__ */ jsx("section", { className: "section", id: "home-articles", children: /* @__PURE__ */ jsxs("div", { className: "container", children: [
+      /* @__PURE__ */ jsx("div", { className: "section-header", children: /* @__PURE__ */ jsx("h2", { className: "display-sm", children: "Latest Guides & Insights" }) }),
+      /* @__PURE__ */ jsx("div", { className: "blog-grid", style: { marginTop: "var(--space-8)" }, children: homeBlogPosts.map((post) => /* @__PURE__ */ jsxs("article", { className: "blog-card card", children: [
+        /* @__PURE__ */ jsxs("div", { className: "blog-card__image-container", children: [
+          /* @__PURE__ */ jsx("img", { src: post.image, alt: post.title, className: "blog-card__image", loading: "lazy" }),
+          /* @__PURE__ */ jsx("span", { className: "blog-card__category", children: post.category })
+        ] }),
+        /* @__PURE__ */ jsxs("div", { className: "blog-card__content", children: [
+          /* @__PURE__ */ jsx("span", { className: "label-sm", style: { color: "var(--outline)" }, children: post.date }),
+          /* @__PURE__ */ jsx("h2", { className: "title-lg blog-card__title", children: /* @__PURE__ */ jsx(Link, { to: post.path, children: post.title }) }),
+          /* @__PURE__ */ jsx("p", { className: "body-md blog-card__excerpt", style: { color: "var(--on-surface-variant)" }, children: post.excerpt }),
+          /* @__PURE__ */ jsxs(Link, { to: post.path, className: "blog-card__read-more", children: [
+            "Read Article ",
+            /* @__PURE__ */ jsx("span", { className: "material-icons-outlined", style: { fontSize: "16px" }, children: "arrow_forward" })
+          ] })
+        ] })
+      ] }, post.id)) }),
+      /* @__PURE__ */ jsx("div", { style: { textAlign: "center", marginTop: "var(--space-8)" }, children: /* @__PURE__ */ jsx(Link, { to: "/blog", className: "btn btn-secondary btn-lg", children: "View All Articles" }) })
     ] }) })
   ] });
 }
