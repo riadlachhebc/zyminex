@@ -4,6 +4,15 @@ import './BlogPage.css'
 
 const blogPosts = [
   {
+    id: 'iptv-channels-disappeared',
+    path: '/iptv-channels-disappeared-empty-playlist-fix',
+    image: 'https://i.ibb.co/gb2QvJ7s/Person-holding-remote-202604120000.jpg',
+    category: 'Troubleshooting & Tech Guides',
+    date: 'Apr 11, 2026',
+    title: 'IPTV Channels Disappeared? How to Fix an Empty Playlist (2026 Guide)',
+    excerpt: 'Did you turn on your TV only to find the "No Playlist Found" error? Learn why your IPTV channels suddenly disappeared overnight and how to restore your streams.'
+  },
+  {
     id: 'isp-blocking-iptv',
     path: '/isp-blocking-iptv-how-to-bypass',
     image: 'https://i.ibb.co/ns6wHhfV/Glowing-Wi-Fi-router-202604082313.jpg',

@@ -29,6 +29,7 @@ const CordCuttingPage = lazy(() => import('./pages/articles/CordCuttingPage'))
 const IPTVCrackdown2026Page = lazy(() => import('./pages/articles/IPTVCrackdown2026Page'))
 const IPTVGuideBlankPage = lazy(() => import('./pages/articles/IPTVGuideBlankPage'))
 const ISPBlockingIPTVPage = lazy(() => import('./pages/articles/ISPBlockingIPTVPage'))
+const IPTVChannelsDisappearedPage = lazy(() => import('./pages/articles/IPTVChannelsDisappearedPage'))
 const ChannelPage = lazy(() => import('./pages/ChannelPage'))
 
 import './App.css'
@@ -62,6 +63,7 @@ function App() {
             <Route path="/2026-iptv-crackdown-dodgy-firestick-safety" element={<IPTVCrackdown2026Page />} />
             <Route path="/iptv-guide-blank-buffering-fix-2026" element={<IPTVGuideBlankPage />} />
             <Route path="/isp-blocking-iptv-how-to-bypass" element={<ISPBlockingIPTVPage />} />
+            <Route path="/iptv-channels-disappeared-empty-playlist-fix" element={<IPTVChannelsDisappearedPage />} />
             <Route path="/terms" element={<TermsPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/refund" element={<RefundPage />} />
