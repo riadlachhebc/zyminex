@@ -1,7 +1,6 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import './ContactPage.css'
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' })
@@ -12,7 +11,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const text = `Hello Forest IPTV Support,\n\nName: ${formData.name}\nSubject: ${formData.subject}\n\nMessage: ${formData.message}`
+    const text = `Hello Zyminex Support,\n\nName: ${formData.name}\nSubject: ${formData.subject}\n\nMessage: ${formData.message}`
     const whatsappUrl = `https://wa.me/212763569826?text=${encodeURIComponent(text)}`
     window.open(whatsappUrl, '_blank')
     setFormData({ name: formData.name, email: formData.email, subject: '', message: '' })
@@ -20,27 +19,30 @@ export default function ContactPage() {
 
   return (
     <div className="contact-page" id="contact-page">
-      <Helmet>
-        <title>Contact Forest IPTV — 24/7 Support via WhatsApp</title>
-        <meta name="description" content="Get 24/7 support from Forest IPTV. Contact us via WhatsApp for instant help with setup, billing, or technical issues." />
-        <link rel="canonical" href="https://www.forestiptv.pro/contact" />
-        <meta property="og:title" content="Contact Forest IPTV — 24/7 Support via WhatsApp" />
-        <meta property="og:description" content="Get 24/7 support from Forest IPTV. Contact us via WhatsApp for instant help with setup, billing, or technical issues." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/contact" />
+            <Helmet>
+        <title>Contact24/7 Support via WhatsApp | Zyminex</title>
+        <meta name="description" content="Get 24/7 support from Zyminex. Contact us via WhatsApp for instant help with setup, billing, or technical issues." />
+        <link rel="canonical" href="https://www.zyminex.pro/contact" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — Contact24/7 Support via WhatsApp" />
+        <meta property="og:description" content="Get 24/7 support from Zyminex. Contact us via WhatsApp for instant help with setup, billing, or technical issues." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/contact" />
         <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact Forest IPTV — 24/7 Support" />
-        <meta name="twitter:description" content="Need help? Contact us via WhatsApp for instant support with your IPTV setup." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
+        <meta name="twitter:title" content="Zyminex — Contact24/7 Support via WhatsApp" />
+        <meta name="twitter:description" content="Get 24/7 support from Zyminex. Contact us via WhatsApp for instant help with setup, billing, or technical issues." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       <section className="contact-hero" id="contact-hero">
         <div className="contact-hero__glow"></div>
         <div className="container">
           <span className="label-md" style={{ color: 'var(--primary)' }}>Support</span>
-          <h1 className="display-lg" style={{ marginTop: 'var(--space-3)' }}>Contact Forest IPTV Support</h1>
+          <h1 className="display-lg" style={{ marginTop: 'var(--space-3)' }}>Contact Zyminex Support</h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '800px', margin: 'var(--space-4) auto 0' }}>
             Our support team is available 24 hours a day, 7 days a week. Whether you need help with installation, have a billing question, or are experiencing technical issues — we are always just one message away.
           </p>
@@ -81,7 +83,7 @@ export default function ContactPage() {
                   We currently offer support through WhatsApp for the fastest response times. Simply send us a message and our team will respond within minutes.
                 </p>
                 <a 
-                  href={`https://wa.me/212763569826?text=${encodeURIComponent('Hello Forest IPTV Support, I am contacting you from the contact page for assistance.')}`} 
+                  href={`https://wa.me/212763569826?text=${encodeURIComponent('Hello Zyminex Support, I am contacting you from the contact page for assistance.')}`} 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn btn-primary btn-lg" 
@@ -168,3 +170,5 @@ export default function ContactPage() {
     </div>
   )
 }
+
+

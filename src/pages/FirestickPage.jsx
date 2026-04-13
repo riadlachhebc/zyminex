@@ -1,43 +1,26 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function FirestickPage() {
   return (
     <div className="firestick-page" id="firestick-page">
-      <Helmet>
-        <title>Best IPTV Subscription for Firestick & Fire TV | Forest IPTV</title>
-        <meta name="description" content="Looking for the best IPTV for Amazon Firestick? Get Forest IPTV for seamless, buffer-free 4K streaming. Easy setup with Downloader, Smarters, or TiviMate." />
-        <link rel="canonical" href="https://www.forestiptv.pro/iptv-for-firestick" />
-        <meta property="og:title" content="Best IPTV Subscription for Firestick — Forest IPTV" />
-        <meta property="og:description" content="Looking for the best IPTV for Amazon Firestick? Get Forest IPTV for seamless, buffer-free 4K streaming." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/iptv-for-firestick" />
-        <meta property="og:type" content="article" />
+            <Helmet>
+        <title>Best IPTV Subscription for Firestick & Fire TV | Zyminex</title>
+        <meta name="description" content="Looking for the best IPTV for Amazon Firestick? Get Zyminex for seamless, buffer-free 4K streaming. Easy setup with Downloader, Smarters, or TiviMate." />
+        <link rel="canonical" href="https://www.zyminex.pro/iptv-for-firestick" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — Best IPTV Subscription for Firestick & Fire TV" />
+        <meta property="og:description" content="Looking for the best IPTV for Amazon Firestick? Get Zyminex for seamless, buffer-free 4K streaming. Easy setup with Downloader, Smarters, or TiviMate." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/iptv-for-firestick" />
+        <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Best Firestick IPTV | Forest IPTV" />
-        <meta name="twitter:description" content="Seamless 4K streaming on Amazon Firestick and Fire TV." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "IPTV for Firestick",
-                "item": "https://www.forestiptv.pro/iptv-for-firestick"
-              }
-            ]
-          })}
-        </script>
+        <meta name="twitter:title" content="Zyminex — Best IPTV Subscription for Firestick & Fire TV" />
+        <meta name="twitter:description" content="Looking for the best IPTV for Amazon Firestick? Get Zyminex for seamless, buffer-free 4K streaming. Easy setup with Downloader, Smarters, or TiviMate." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       {/* Hero */}
@@ -62,7 +45,7 @@ export default function FirestickPage() {
       <section className="section section-alt">
         <div className="container">
            <div className="section-header" style={{ textAlign: 'center', marginBottom: 'var(--space-10)' }}>
-             <h2 className="display-sm">Why Forest IPTV is the Best Choice for Firestick Users</h2>
+             <h2 className="display-sm">Why Zyminex is the Best Choice for Firestick Users</h2>
              <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '600px', margin: '0 auto' }}>
                We engineered our streams to be incredibly lightweight, meaning your Firestick runs cool and fast without menus lagging or apps crashing.
              </p>
@@ -110,7 +93,7 @@ export default function FirestickPage() {
       {/* Quick Setup */}
       <section className="section section-alt">
         <div className="container">
-           <h2 className="display-sm" style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>Quick Setup: How to Install Forest IPTV on Fire TV</h2>
+           <h2 className="display-sm" style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>Quick Setup: How to Install Zyminex on Fire TV</h2>
            <div style={{ maxWidth: '700px', margin: '0 auto', background: 'var(--surface-container-low)', padding: 'var(--space-8)', borderRadius: 'var(--radius-xl)' }}>
               <ol style={{ listStylePosition: 'inside', color: 'var(--on-surface)', display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
                  <li className="body-lg"><strong style={{ color: 'var(--primary)' }}>Enable Sideloading:</strong> Go to Settings &gt; My Fire TV &gt; Developer Options and turn on "Apps from Unknown Sources".</li>
@@ -124,3 +107,4 @@ export default function FirestickPage() {
     </div>
   )
 }
+

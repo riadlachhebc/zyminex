@@ -1,12 +1,12 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function TutorialTivimatePage() {
   const howToSchema = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    "name": "How to Set Up Forest IPTV on TiviMate",
-    "description": "Learn how to easily install and configure the TiviMate app with your Forest IPTV subscription using Xtream Codes.",
+    "name": "How to Set Up Zyminex on TiviMate",
+    "description": "Learn how to easily install and configure the TiviMate app with your Zyminex subscription using Xtream Codes.",
     "step": [
       {
         "@type": "HowToStep",
@@ -21,7 +21,7 @@ export default function TutorialTivimatePage() {
       {
         "@type": "HowToStep",
         "name": "Enter Details",
-        "text": "Input the Server URL, Username, and Password provided in your Forest IPTV welcome email, then click Next."
+        "text": "Input the Server URL, Username, and Password provided in your Zyminex welcome email, then click Next."
       },
       {
         "@type": "HowToStep",
@@ -33,49 +33,23 @@ export default function TutorialTivimatePage() {
 
   return (
     <div className="tutorial-page">
-      <Helmet>
-        <title>How to Set Up Forest IPTV on TiviMate (2026 Guide)</title>
-        <meta name="description" content="Follow our step-by-step guide to configure Forest IPTV on TiviMate using Xtream Codes API or M3U playlist." />
-        <link rel="canonical" href="https://www.forestiptv.pro/tutorials/how-to-setup-tivimate" />
-        <meta property="og:title" content="Forest IPTV: TiviMate Setup Guide" />
-        <meta property="og:description" content="Configure Forest IPTV on TiviMate in minutes using Xtream Codes API or M3U." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/tutorials/how-to-setup-tivimate" />
-        <meta property="og:type" content="article" />
+            <Helmet>
+        <title>How to Set Upon TiviMate (2026 Guide) | Zyminex</title>
+        <meta name="description" content="Follow our step-by-step guide to configure Zyminex on TiviMate using Xtream Codes API or M3U playlist." />
+        <link rel="canonical" href="https://www.zyminex.pro/tutorials/how-to-setup-tivimate" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — How to Set Upon TiviMate (2026 Guide)" />
+        <meta property="og:description" content="Follow our step-by-step guide to configure Zyminex on TiviMate using Xtream Codes API or M3U playlist." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/tutorials/how-to-setup-tivimate" />
+        <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="TiviMate Setup | Forest IPTV" />
-        <meta name="twitter:description" content="Step-by-step configuration for the TiviMate app." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Setup Guides",
-                "item": "https://www.forestiptv.pro/setup-guides"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "How to Setup TiviMate",
-                "item": "https://www.forestiptv.pro/tutorials/how-to-setup-tivimate"
-              }
-            ]
-          })}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(howToSchema)}
-        </script>
+        <meta name="twitter:title" content="Zyminex — How to Set Upon TiviMate (2026 Guide)" />
+        <meta name="twitter:description" content="Follow our step-by-step guide to configure Zyminex on TiviMate using Xtream Codes API or M3U playlist." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       {/* Hero */}
@@ -85,7 +59,7 @@ export default function TutorialTivimatePage() {
         </div>
         <div className="container hero__content" style={{ textAlign: 'center' }}>
           <span className="label-md" style={{ color: 'var(--primary)', marginBottom: 'var(--space-4)', display: 'inline-block' }}>Installation Guide</span>
-          <h1 className="display-lg hero__title">How to Set Up Forest IPTV on TiviMate <span className="hero__title-accent">(Step-by-Step)</span></h1>
+          <h1 className="display-lg hero__title">How to Set Up Zyminex on TiviMate <span className="hero__title-accent">(Step-by-Step)</span></h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '640px', margin: 'var(--space-4) auto var(--space-6)' }}>
             TiviMate offers the most premium, cable-like viewing experience. Follow this simple guide to deploy your streaming line.
           </p>
@@ -111,7 +85,7 @@ export default function TutorialTivimatePage() {
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)', color: 'var(--primary)' }}>What You Need Before Starting</h2>
             <ul style={{ listStyleType: 'disc', listStylePosition: 'inside', color: 'var(--on-surface)', marginBottom: 'var(--space-8)', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
                <li>An Android TV Box, Nvidia Shield, or Amazon Firestick.</li>
-               <li>Your Forest IPTV subscription email (containing your Server URL, Username, and Password).</li>
+               <li>Your Zyminex subscription email (containing your Server URL, Username, and Password).</li>
                <li>An active internet connection.</li>
             </ul>
 
@@ -166,3 +140,4 @@ export default function TutorialTivimatePage() {
     </div>
   )
 }
+

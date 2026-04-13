@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import './Footer.css'
 
 export default function Footer() {
   return (
@@ -7,7 +6,7 @@ export default function Footer() {
       {/* CTA Band */}
       <div className="footer__cta-band">
         <div className="container footer__cta-inner">
-          <h2 className="display-sm">Ready to enter the forest?</h2>
+          <h2 className="display-sm">Ready to upgrade your streaming?</h2>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '520px', margin: '0 auto' }}>
             Join over 50,000 users who have ditched traditional cable for the future of streaming.
           </p>
@@ -23,13 +22,13 @@ export default function Footer() {
         <div className="container footer__grid">
           <div className="footer__brand">
             <div className="footer__logo">
-              <span className="material-icons-outlined" style={{ fontSize: '1.75rem', color: 'var(--primary)' }}>forest</span>
+              <span className="material-icons-outlined" style={{ fontSize: '1.75rem', color: 'var(--primary)' }}>play_circle</span>
               <span style={{ fontFamily: 'var(--font-headline)', fontWeight: 800, fontSize: '1.25rem' }}>
-                Forest <span style={{ color: 'var(--primary)' }}>IPTV</span>
+                Zyminex
               </span>
             </div>
             <p className="body-md" style={{ color: 'var(--outline)', marginTop: 'var(--space-3)' }}>
-              Deeply rooted in streaming. Premium 4K channels delivered through the digital canopy.
+              Premium 4K IPTV streaming. Blazing-fast delivery, rock-solid uptime.
             </p>
             <div className="footer__socials">
               <a 
@@ -43,7 +42,7 @@ export default function Footer() {
                 <span className="material-icons-outlined">chat</span>
               </a>
               <a 
-                href="mailto:contact@forestiptv.pro" 
+                href="mailto:contact@zyminex.pro" 
                 className="footer__social-link" 
                 aria-label="Email" 
                 id="footer-email"
@@ -84,10 +83,11 @@ export default function Footer() {
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
           <p className="body-md" style={{ color: 'var(--outline)' }}>
-            © {new Date().getFullYear()} Forest IPTV. All rights reserved. Deeply rooted in streaming.
+            © 2026 Zyminex. All rights reserved.
           </p>
         </div>
       </div>
     </footer>
   )
 }
+

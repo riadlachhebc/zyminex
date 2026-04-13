@@ -1,12 +1,12 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function TutorialSmartersPage() {
   const howToSchema = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    "name": "How to Set Up Forest IPTV on IPTV Smarters Pro",
-    "description": "Learn how to easily install and configure IPTV Smarters Pro with your Forest IPTV subscription.",
+    "name": "How to Set Up Zyminex on IPTV Smarters Pro",
+    "description": "Learn how to easily install and configure IPTV Smarters Pro with your Zyminex subscription.",
     "step": [
       {
         "@type": "HowToStep",
@@ -33,49 +33,23 @@ export default function TutorialSmartersPage() {
 
   return (
     <div className="tutorial-page">
-      <Helmet>
-        <title>How to Set Up Forest IPTV on Smarters Pro (2026 Guide)</title>
-        <meta name="description" content="Step-by-step guide to installing Forest IPTV on IPTV Smarters Pro for Android, iOS, Windows, Mac, and Smart TVs." />
-        <link rel="canonical" href="https://www.forestiptv.pro/tutorials/how-to-setup-smarters-pro" />
-        <meta property="og:title" content="IPTV Smarters Pro Setup | Forest IPTV" />
-        <meta property="og:description" content="Learn how to install and configure Forest IPTV on Smarters Pro for any device." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/tutorials/how-to-setup-smarters-pro" />
-        <meta property="og:type" content="article" />
+            <Helmet>
+        <title>How to Set Upon Smarters Pro (2026 Guide) | Zyminex</title>
+        <meta name="description" content="Step-by-step guide to installing Zyminex on IPTV Smarters Pro for Android, iOS, Windows, Mac, and Smart TVs." />
+        <link rel="canonical" href="https://www.zyminex.pro/tutorials/how-to-setup-smarters-pro" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — How to Set Upon Smarters Pro (2026 Guide)" />
+        <meta property="og:description" content="Step-by-step guide to installing Zyminex on IPTV Smarters Pro for Android, iOS, Windows, Mac, and Smart TVs." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/tutorials/how-to-setup-smarters-pro" />
+        <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Smarters Pro Guide | Forest IPTV" />
-        <meta name="twitter:description" content="Step-by-step installation for Smarters Pro on all platforms." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Setup Guides",
-                "item": "https://www.forestiptv.pro/setup-guides"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "How to Setup Smarters Pro",
-                "item": "https://www.forestiptv.pro/tutorials/how-to-setup-smarters-pro"
-              }
-            ]
-          })}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(howToSchema)}
-        </script>
+        <meta name="twitter:title" content="Zyminex — How to Set Upon Smarters Pro (2026 Guide)" />
+        <meta name="twitter:description" content="Step-by-step guide to installing Zyminex on IPTV Smarters Pro for Android, iOS, Windows, Mac, and Smart TVs." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       {/* Hero */}
@@ -85,7 +59,7 @@ export default function TutorialSmartersPage() {
         </div>
         <div className="container hero__content" style={{ textAlign: 'center' }}>
           <span className="label-md" style={{ color: 'var(--primary)', marginBottom: 'var(--space-4)', display: 'inline-block' }}>Installation Guide</span>
-          <h1 className="display-lg hero__title">How to Set Up Forest IPTV on Smarters Pro <span className="hero__title-accent">(Step-by-Step)</span></h1>
+          <h1 className="display-lg hero__title">How to Set Up Zyminex on Smarters Pro <span className="hero__title-accent">(Step-by-Step)</span></h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '640px', margin: 'var(--space-4) auto var(--space-6)' }}>
             IPTV Smarters Pro is one of the most versatile streaming apps. Follow this guide to get it running on your favorite device.
           </p>
@@ -111,7 +85,7 @@ export default function TutorialSmartersPage() {
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)', color: 'var(--primary)' }}>What You Need Before Starting</h2>
             <ul style={{ listStyleType: 'disc', listStylePosition: 'inside', color: 'var(--on-surface)', marginBottom: 'var(--space-8)', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
                <li>A compatible device (Android, iOS, Firestick, PC, Mac, or Smart TV).</li>
-               <li>Your Forest IPTV subscription configuration email.</li>
+               <li>Your Zyminex subscription configuration email.</li>
             </ul>
 
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)' }}>Step 1: Download Smarters Pro</h2>
@@ -130,7 +104,7 @@ export default function TutorialSmartersPage() {
             
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>
                Fill out the fields as follows:<br/><br/>
-               <strong>Any Name:</strong> Forest IPTV<br/>
+               <strong>Any Name:</strong> Zyminex<br/>
                <strong>Username:</strong> (Found in your email)<br/>
                <strong>Password:</strong> (Found in your email)<br/>
                <strong>URL:</strong> (The server URL link provided)
@@ -164,3 +138,4 @@ export default function TutorialSmartersPage() {
     </div>
   )
 }
+

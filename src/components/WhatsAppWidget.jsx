@@ -1,9 +1,8 @@
-import React from 'react';
-import './WhatsAppWidget.css';
+﻿import React from 'react';
 
 const WhatsAppWidget = () => {
   const phoneNumber = '212763569826';
-  const message = 'Hello Forest IPTV, I am interested in your service!';
+  const message = 'Hello Zyminex, I am interested in your service!';
   const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
@@ -17,3 +16,4 @@ const WhatsAppWidget = () => {
   );
 };
 export default WhatsAppWidget;
+

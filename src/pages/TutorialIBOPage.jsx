@@ -1,12 +1,12 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function TutorialIBOPage() {
   const howToSchema = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    "name": "How to Set Up Forest IPTV on IBO Player",
-    "description": "Learn how to easily install and configure IBO Player on your Smart TV with your Forest IPTV subscription.",
+    "name": "How to Set Up Zyminex on IBO Player",
+    "description": "Learn how to easily install and configure IBO Player on your Smart TV with your Zyminex subscription.",
     "step": [
       {
         "@type": "HowToStep",
@@ -21,7 +21,7 @@ export default function TutorialIBOPage() {
       {
         "@type": "HowToStep",
         "name": "Upload Playlist",
-        "text": "Visit the official IBO Player website portal to upload your Forest IPTV M3U link using your MAC address."
+        "text": "Visit the official IBO Player website portal to upload your Zyminex M3U link using your MAC address."
       },
       {
         "@type": "HowToStep",
@@ -33,49 +33,23 @@ export default function TutorialIBOPage() {
 
   return (
     <div className="tutorial-page">
-      <Helmet>
-        <title>How to Set Up Forest IPTV on IBO Player (2026 Guide)</title>
-        <meta name="description" content="Step-by-step guide to installing Forest IPTV on IBO Player for Samsung Tizen, LG webOS, and Android TVs." />
-        <link rel="canonical" href="https://www.forestiptv.pro/tutorials/how-to-setup-ibo-player" />
-        <meta property="og:title" content="IBO Player Setup Guide | Forest IPTV" />
-        <meta property="og:description" content="Learn how to install and configure Forest IPTV on IBO Player for Samsung and LG TVs." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/tutorials/how-to-setup-ibo-player" />
-        <meta property="og:type" content="article" />
+            <Helmet>
+        <title>How to Set Upon IBO Player (2026 Guide) | Zyminex</title>
+        <meta name="description" content="Step-by-step guide to installing Zyminex on IBO Player for Samsung Tizen, LG webOS, and Android TVs." />
+        <link rel="canonical" href="https://www.zyminex.pro/tutorials/how-to-setup-ibo-player" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — How to Set Upon IBO Player (2026 Guide)" />
+        <meta property="og:description" content="Step-by-step guide to installing Zyminex on IBO Player for Samsung Tizen, LG webOS, and Android TVs." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/tutorials/how-to-setup-ibo-player" />
+        <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="IBO Player Setup | Forest IPTV" />
-        <meta name="twitter:description" content="Step-by-step instructions for IBO Player on all Smart TVs." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Setup Guides",
-                "item": "https://www.forestiptv.pro/setup-guides"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "How to Setup IBO Player",
-                "item": "https://www.forestiptv.pro/tutorials/how-to-setup-ibo-player"
-              }
-            ]
-          })}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(howToSchema)}
-        </script>
+        <meta name="twitter:title" content="Zyminex — How to Set Upon IBO Player (2026 Guide)" />
+        <meta name="twitter:description" content="Step-by-step guide to installing Zyminex on IBO Player for Samsung Tizen, LG webOS, and Android TVs." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       {/* Hero */}
@@ -85,9 +59,9 @@ export default function TutorialIBOPage() {
         </div>
         <div className="container hero__content" style={{ textAlign: 'center' }}>
           <span className="label-md" style={{ color: 'var(--primary)', marginBottom: 'var(--space-4)', display: 'inline-block' }}>Installation Guide</span>
-          <h1 className="display-lg hero__title">How to Set Up Forest IPTV on IBO Player <span className="hero__title-accent">(Step-by-Step)</span></h1>
+          <h1 className="display-lg hero__title">How to Set Up Zyminex on IBO Player <span className="hero__title-accent">(Step-by-Step)</span></h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '640px', margin: 'var(--space-4) auto var(--space-6)' }}>
-            IBO Player is widely considered the best choice for Samsung and LG Smart TVs. Learn how to configure your Forest IPTV playlist seamlessly.
+            IBO Player is widely considered the best choice for Samsung and LG Smart TVs. Learn how to configure your Zyminex playlist seamlessly.
           </p>
         </div>
       </section>
@@ -112,7 +86,7 @@ export default function TutorialIBOPage() {
             <ul style={{ listStyleType: 'disc', listStylePosition: 'inside', color: 'var(--on-surface)', marginBottom: 'var(--space-8)', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
                <li>A Samsung Tizen or LG webOS Smart TV (or any Android TV).</li>
                <li>A mobile phone or computer to access the IBO Player website.</li>
-               <li>Your Forest IPTV M3U Playlist URL.</li>
+               <li>Your Zyminex M3U Playlist URL.</li>
             </ul>
 
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)' }}>Step 1: Download IBO Player</h2>
@@ -125,21 +99,21 @@ export default function TutorialIBOPage() {
                Open the app on your TV. The main screen will display your <strong>Device MAC Address</strong> and your <strong>Device Key</strong>. Keep these visible on your screen.
             </p>
             
-            <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)' }}>Step 3: Upload Forest IPTV Playlist</h2>
+            <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)' }}>Step 3: Upload Zyminex Playlist</h2>
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>
                On your phone or PC, go to the official IBO Player upload portal (website usually listed on the app screen).<br/><br/>
-               Enter the Device MAC Address and Device Key. Click on "Add Playlist". Give it a name (like Forest IPTV) and paste your long M3U playlist link provided in your welcome email. Save the playlist.
+               Enter the Device MAC Address and Device Key. Click on "Add Playlist". Give it a name (like Zyminex) and paste your long M3U playlist link provided in your welcome email. Save the playlist.
             </p>
 
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)' }}>Step 4: Restart App and Enjoy</h2>
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>
-               Return to your TV, close the IBO Player app entirely, and reopen it. Your Forest IPTV channels and VODs will now begin loading.
+               Return to your TV, close the IBO Player app entirely, and reopen it. Your Zyminex channels and VODs will now begin loading.
             </p>
 
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)', marginTop: 'var(--space-10)' }}>Troubleshooting</h2>
             <div style={{ background: 'var(--surface-container)', padding: 'var(--space-6)', borderRadius: 'var(--radius-md)' }}>
                <h3 className="title-md" style={{ marginBottom: 'var(--space-2)' }}>IBO Player Trial Expiration</h3>
-               <p className="body-md" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>Note that IBO Player is a premium app that requires a one-time activation fee (usually around €8) to the app developer after a 7-day trial. This is separate from your Forest IPTV subscription.</p>
+               <p className="body-md" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>Note that IBO Player is a premium app that requires a one-time activation fee (usually around €8) to the app developer after a 7-day trial. This is separate from your Zyminex subscription.</p>
                
                <h3 className="title-md" style={{ marginBottom: 'var(--space-2)' }}>Playlist Missing</h3>
                <p className="body-md" style={{ color: 'var(--on-surface-variant)' }}>If your channels do not show up, press the "Reload" button on the TV remote within the app, or double-check that your MAC address was entered without typos on the upload portal.</p>
@@ -159,3 +133,4 @@ export default function TutorialIBOPage() {
     </div>
   )
 }
+

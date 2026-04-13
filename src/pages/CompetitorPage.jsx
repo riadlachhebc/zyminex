@@ -1,12 +1,26 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function CompetitorPage() {
   return (
     <div className="competitor-page" id="competitor-page">
-      <Helmet>
-        <title>The Best iMax IPTV Alternative in 2026 | Forest IPTV</title>
-        <meta name="description" content="Frustrated with iMax IPTV buffering or poor customer support? Discover why Forest IPTV is the #1 alternative for 4K streaming and reliable uptime." />
+            <Helmet>
+        <title>The Best iMax IPTV Alternative in 2026 | Zyminex</title>
+        <meta name="description" content="Frustrated with iMax IPTV buffering or poor customer support? Discover why Zyminex is the #1 alternative for 4K streaming and reliable uptime." />
+        <link rel="canonical" href="https://www.zyminex.pro" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — The Best iMax IPTV Alternative in 2026" />
+        <meta property="og:description" content="Frustrated with iMax IPTV buffering or poor customer support? Discover why Zyminex is the #1 alternative for 4K streaming and reliable uptime." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:site" content="@zyminex" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Zyminex — The Best iMax IPTV Alternative in 2026" />
+        <meta name="twitter:description" content="Frustrated with iMax IPTV buffering or poor customer support? Discover why Zyminex is the #1 alternative for 4K streaming and reliable uptime." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       {/* Hero */}
@@ -16,7 +30,7 @@ export default function CompetitorPage() {
         </div>
         <div className="container hero__content" style={{ textAlign: 'center' }}>
           <span className="label-md" style={{ color: 'var(--tertiary)', marginBottom: 'var(--space-4)', display: 'inline-block' }}>Provider Comparison</span>
-          <h1 className="display-lg hero__title">Looking for an iMax IPTV Alternative? <br/><span className="hero__title-accent">Try Forest IPTV</span></h1>
+          <h1 className="display-lg hero__title">Looking for an iMax IPTV Alternative? <br/><span className="hero__title-accent">Try Zyminex</span></h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '640px', margin: 'var(--space-4) auto var(--space-6)' }}>
             If you're tired of buffering during major sporting events or unresponsive customer support, it’s time to switch to the most stable network of 2026.
           </p>
@@ -29,7 +43,7 @@ export default function CompetitorPage() {
       {/* Why Switch */}
       <section className="section">
          <div className="container">
-            <h2 className="display-sm" style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>Why Users Are Switching to Forest IPTV</h2>
+            <h2 className="display-sm" style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>Why Users Are Switching to Zyminex</h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-6)' }}>
                <div className="card" style={{ padding: 'var(--space-6)', background: 'var(--surface-container-low)', borderRadius: 'var(--radius-xl)' }}>
                  <span className="material-icons-outlined" style={{ fontSize: '32px', color: 'var(--primary)', marginBottom: 'var(--space-4)' }}>sports_esports</span>
@@ -53,14 +67,14 @@ export default function CompetitorPage() {
       {/* Comparison Table */}
       <section className="section section-alt">
          <div className="container">
-            <h2 className="display-sm" style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>Forest IPTV vs. iMax IPTV: Feature Comparison</h2>
+            <h2 className="display-sm" style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>Zyminex vs. iMax IPTV: Feature Comparison</h2>
             
             <div style={{ overflowX: 'auto', maxWidth: '800px', margin: '0 auto', background: 'var(--surface-container-lowest)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-6)' }}>
                <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', color: 'var(--on-surface)' }}>
                   <thead>
                      <tr style={{ borderBottom: '2px solid var(--surface-container)' }}>
                         <th style={{ padding: 'var(--space-3) var(--space-4)' }}>Feature</th>
-                        <th style={{ padding: 'var(--space-3) var(--space-4)', color: 'var(--primary)', fontWeight: 800 }}>Forest IPTV</th>
+                        <th style={{ padding: 'var(--space-3) var(--space-4)', color: 'var(--primary)', fontWeight: 800 }}>Zyminex</th>
                         <th style={{ padding: 'var(--space-3) var(--space-4)', color: 'var(--outline)', fontWeight: 400 }}>iMax IPTV</th>
                      </tr>
                   </thead>
@@ -96,7 +110,7 @@ export default function CompetitorPage() {
          <div className="container" style={{ textAlign: 'center' }}>
             <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>Better Anti-Freezing Technology</h2>
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '600px', margin: '0 auto' }}>
-               Forest IPTV operates its own bare-metal servers. We do not oversell our bandwidth. When you tune into a 4K game, our unique Anti-Freezing hardware kicks in to provide a dedicated, buffer-free packet stream to your specific location.
+               Zyminex operates its own bare-metal servers. We do not oversell our bandwidth. When you tune into a 4K game, our unique Anti-Freezing hardware kicks in to provide a dedicated, buffer-free packet stream to your specific location.
             </p>
          </div>
       </section>
@@ -114,3 +128,4 @@ export default function CompetitorPage() {
     </div>
   )
 }
+

@@ -1,6 +1,5 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
-import './FaqPage.css'
 
 const faqs = [
   {
@@ -107,34 +106,23 @@ function FaqItem({ q, a }) {
 export default function FaqPage() {
   return (
     <div className="faq-page" id="faq-page">
-      <Helmet>
-        <title>Forest IPTV FAQ — Common Questions About IPTV Streaming</title>
-        <meta name="description" content="New to IPTV? Read our complete FAQ guide to learn how internet television works, how to set up your devices, and what to look for in a premium subscription." />
-        <link rel="canonical" href="https://www.forestiptv.pro/faq" />
-        <meta property="og:title" content="Forest IPTV FAQ — All Your Questions Answered" />
-        <meta property="og:description" content="New to IPTV? Read our complete FAQ guide to learn how internet television works and how to set up your devices." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/faq" />
+            <Helmet>
+        <title>FAQ — Common Questions About IPTV Streaming | Zyminex</title>
+        <meta name="description" content="Zyminex provides: New to IPTV? Read our complete FAQ guide to learn how internet television works, how to set up your devices, and what to look for in a premium subscription." />
+        <link rel="canonical" href="https://www.zyminex.pro/faq" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — FAQ — Common Questions About IPTV Streaming" />
+        <meta property="og:description" content="Zyminex provides: New to IPTV? Read our complete FAQ guide to learn how internet television works, how to set up your devices, and what to look for in a premium subscription." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/faq" />
         <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Forest IPTV FAQ — Streaming Support" />
-        <meta name="twitter:description" content="Learn how internet television works and how to set up your devices with our complete FAQ." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": faqs.flatMap(group => group.items).map(item => ({
-              "@type": "Question",
-              "name": item.q,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": item.a
-              }
-            }))
-          })}
-        </script>
+        <meta name="twitter:title" content="Zyminex — FAQ — Common Questions About IPTV Streaming" />
+        <meta name="twitter:description" content="Zyminex provides: New to IPTV? Read our complete FAQ guide to learn how internet television works, how to set up your devices, and what to look for in a premium subscription." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
       
       <section className="faq-hero" id="faq-hero">
@@ -168,3 +156,5 @@ export default function FaqPage() {
     </div>
   )
 }
+
+

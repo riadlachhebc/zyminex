@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import './Navbar.css'
 
 const navLinks = [
   { path: '/', label: 'Home' },
@@ -30,9 +29,9 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''} ${mobileOpen ? 'navbar--open' : ''}`} id="main-nav">
       <div className="navbar__inner container">
-        <Link to="/" className="navbar__logo" id="nav-logo">
-          <span className="navbar__logo-icon material-icons-outlined">forest</span>
-          <span className="navbar__logo-text">Forest <span className="navbar__logo-accent">IPTV</span></span>
+        <Link to="/" className="navbar__logo" id="nav-logo" aria-label="Zyminex Logo">
+          <span className="navbar__logo-icon material-icons-outlined">play_circle</span>
+          <span className="navbar__logo-text">Zyminex</span>
         </Link>
 
         <div className={`navbar__links ${mobileOpen ? 'navbar__links--open' : ''}`}>
@@ -65,3 +64,4 @@ export default function Navbar() {
     </nav>
   )
 }
+

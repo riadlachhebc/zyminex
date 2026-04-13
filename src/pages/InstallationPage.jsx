@@ -1,6 +1,5 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import './InstallationPage.css'
 
 const guides = [
   {
@@ -36,49 +35,32 @@ const guides = [
 export default function InstallationPage() {
   return (
     <div className="install-page" id="install-page">
-      <Helmet>
-        <title>Forest IPTV Setup Guide | Easy Installation for All Devices</title>
-        <meta name="description" content="Read our official setup guide for Forest IPTV. Learn how to install our premium 4K IPTV on Firestick, Android TV, and more." />
-        <link rel="canonical" href="https://www.forestiptv.pro/setup-guides" />
-        <meta property="og:title" content="Forest IPTV Setup Guide — Easy Installation" />
-        <meta property="og:description" content="Learn how to install our premium 4K IPTV on Firestick, Android TV, and more." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/setup-guides" />
-        <meta property="og:type" content="article" />
+            <Helmet>
+        <title>Setup Guide | Easy Installation for All Devices | Zyminex</title>
+        <meta name="description" content="Read our official setup guide for Zyminex. Learn how to install our premium 4K IPTV on Firestick, Android TV, and more." />
+        <link rel="canonical" href="https://www.zyminex.pro/setup-guides" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — Setup Guide | Easy Installation for All Devices" />
+        <meta property="og:description" content="Read our official setup guide for Zyminex. Learn how to install our premium 4K IPTV on Firestick, Android TV, and more." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/setup-guides" />
+        <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Forest IPTV Setup Guides" />
-        <meta name="twitter:description" content="Step-by-step instructions for all your devices." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Setup Guides",
-                "item": "https://www.forestiptv.pro/setup-guides"
-              }
-            ]
-          })}
-        </script>
+        <meta name="twitter:title" content="Zyminex — Setup Guide | Easy Installation for All Devices" />
+        <meta name="twitter:description" content="Read our official setup guide for Zyminex. Learn how to install our premium 4K IPTV on Firestick, Android TV, and more." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
       
       <section className="install-hero" id="install-hero">
         <div className="install-hero__glow"></div>
         <div className="container">
           <span className="label-md" style={{ color: 'var(--primary)' }}>Setup Hub</span>
-          <h1 className="display-lg" style={{ marginTop: 'var(--space-3)' }}>How to Install Forest IPTV — Complete Setup Guide</h1>
+          <h1 className="display-lg" style={{ marginTop: 'var(--space-3)' }}>How to Install Zyminex — Complete Setup Guide</h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '800px', margin: 'var(--space-4) auto 0' }}>
-            Welcome to the official Forest IPTV setup guide. If you are ready to cut the cord and experience limitless entertainment, you are exactly in the right place. When you choose to buy Forest IPTV, you are upgrading to the best premium IPTV service available today, complete with thousands of live channels, blockbuster movies, and top-tier sports networks.
+            Welcome to the official Zyminex setup guide. If you are ready to cut the cord and experience limitless entertainment, you are exactly in the right place. When you choose to buy Zyminex, you are upgrading to the best premium IPTV service available today, complete with thousands of live channels, blockbuster movies, and top-tier sports networks.
             <br /><br />
             We have engineered our platform to be incredibly user-friendly so that anyone can configure their new 4K IPTV subscription without needing a degree in computer science. Whether you want to watch on your big screen at home or stream on the go, our secure infrastructure acts as your ultimate buffer-free IPTV provider. Follow the simple, step-by-step instructions below to install our service on your preferred device and start streaming immediately.
           </p>
@@ -118,9 +100,9 @@ export default function InstallationPage() {
       {/* Detailed Device Sections */}
       <section className="section section-alt" id="firestick-setup">
         <div className="container">
-          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Forest IPTV on Firestick</h2>
+          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Zyminex on Firestick</h2>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-6)' }}>
-            Amazon's streaming device is incredibly popular, making Forest IPTV for Firestick one of the most requested configurations by our users. Here is how to get started:
+            Amazon's streaming device is incredibly popular, making Zyminex for Firestick one of the most requested configurations by our users. Here is how to get started:
           </p>
           <ul className="body-lg" style={{ color: 'var(--on-surface-variant)', listStyle: 'none', padding: 0 }}>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
@@ -133,7 +115,7 @@ export default function InstallationPage() {
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
-              <span><strong>Download an IPTV Player:</strong> Open the Downloader app and enter the URL for your preferred player (we highly recommend doing a Forest IPTV Smarters Pro setup by typing in the official Smarters APK link provided in your welcome email).</span>
+              <span><strong>Download an IPTV Player:</strong> Open the Downloader app and enter the URL for your preferred player (we highly recommend doing a Zyminex Smarters Pro setup by typing in the official Smarters APK link provided in your welcome email).</span>
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
@@ -145,7 +127,7 @@ export default function InstallationPage() {
 
       <section className="section" id="roku-setup">
         <div className="container">
-          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Forest IPTV on Roku</h2>
+          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Zyminex on Roku</h2>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-6)' }}>
             Roku operates a closed ecosystem, meaning traditional IPTV apps are often removed from their store. However, you can still easily enjoy your service using screen mirroring or our web platform.
           </p>
@@ -156,11 +138,11 @@ export default function InstallationPage() {
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
-              <span><strong>Access the Web Player:</strong> Open the browser on your phone or computer and navigate to the Forest IPTV web player.</span>
+              <span><strong>Access the Web Player:</strong> Open the browser on your phone or computer and navigate to the Zyminex web player.</span>
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
-              <span><strong>Enter Your Credentials:</strong> Use your secure Forest IPTV login details to access your dashboard.</span>
+              <span><strong>Enter Your Credentials:</strong> Use your secure Zyminex login details to access your dashboard.</span>
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
@@ -172,7 +154,7 @@ export default function InstallationPage() {
 
       <section className="section section-alt" id="apple-tv-setup">
         <div className="container">
-          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Forest IPTV on Apple TV</h2>
+          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Zyminex on Apple TV</h2>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-6)' }}>
             Apple TV users can easily access our powerful anti-freezing IPTV service by utilizing third-party players available directly in the App Store.
           </p>
@@ -191,7 +173,7 @@ export default function InstallationPage() {
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
-              <span><strong>Enter Xtream Codes:</strong> Select "Add User" and input your subscription name, username, password, and the server URL to instantly load the massive Forest IPTV channel list.</span>
+              <span><strong>Enter Xtream Codes:</strong> Select "Add User" and input your subscription name, username, password, and the server URL to instantly load the massive Zyminex channel list.</span>
             </li>
           </ul>
         </div>
@@ -199,7 +181,7 @@ export default function InstallationPage() {
 
       <section className="section" id="android-tv-setup">
         <div className="container">
-          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Forest IPTV on Android TV Box</h2>
+          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Zyminex on Android TV Box</h2>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-6)' }}>
             Because Android offers an open platform, we are widely considered the best IPTV for Android TV. Setup is incredibly fast.
           </p>
@@ -210,7 +192,7 @@ export default function InstallationPage() {
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
-              <span><strong>Search for Your Player:</strong> Search for your preferred app. We highly recommend configuring Forest IPTV TiviMate for the most premium, cable-like TV guide experience.</span>
+              <span><strong>Search for Your Player:</strong> Search for your preferred app. We highly recommend configuring Zyminex TiviMate for the most premium, cable-like TV guide experience.</span>
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
@@ -226,7 +208,7 @@ export default function InstallationPage() {
 
       <section className="section section-alt" id="smart-tv-setup">
         <div className="container">
-          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Forest IPTV on Smart TV</h2>
+          <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>How to Install Zyminex on Smart TV</h2>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-6)' }}>
             Most modern LG and Samsung Smart TVs have built-in app stores that support IPTV players.
           </p>
@@ -245,7 +227,7 @@ export default function InstallationPage() {
             </li>
             <li style={{ marginBottom: 'var(--space-3)', display: 'flex', gap: '12px' }}>
               <span className="material-icons-outlined" style={{ color: 'var(--primary)' }}>check_circle</span>
-              <span><strong>Upload Your Playlist:</strong> Visit the app's official website on your computer or phone, enter your TV's MAC Address, and paste the M3U URL provided with your Forest IPTV subscription. Restart the TV app to load your channels.</span>
+              <span><strong>Upload Your Playlist:</strong> Visit the app's official website on your computer or phone, enter your TV's MAC Address, and paste the M3U URL provided with your Zyminex subscription. Restart the TV app to load your channels.</span>
             </li>
           </ul>
         </div>
@@ -267,3 +249,5 @@ export default function InstallationPage() {
     </div>
   )
 }
+
+

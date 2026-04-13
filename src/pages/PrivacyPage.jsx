@@ -1,5 +1,4 @@
-import './LegalPage.css'
-
+﻿
 export default function PrivacyPage() {
   return (
     <div className="legal-page" id="privacy-page">
@@ -31,3 +30,5 @@ export default function PrivacyPage() {
     </div>
   )
 }
+
+

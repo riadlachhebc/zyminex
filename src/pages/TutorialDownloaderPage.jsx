@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function TutorialDownloaderPage() {
@@ -6,7 +6,7 @@ export default function TutorialDownloaderPage() {
     "@context": "https://schema.org",
     "@type": "HowTo",
     "name": "How to Install Apps Using Downloader on Firestick",
-    "description": "Learn how to easily sideload Forest IPTV Apps using the Downloader App on your Amazon Fire TV Stick.",
+    "description": "Learn how to easily sideload Zyminex Apps using the Downloader App on your Amazon Fire TV Stick.",
     "step": [
       {
         "@type": "HowToStep",
@@ -21,7 +21,7 @@ export default function TutorialDownloaderPage() {
       {
         "@type": "HowToStep",
         "name": "Enter Direct Code",
-        "text": "Open Downloader, allow permissions, and enter the fast-download code provided by the Forest IPTV team."
+        "text": "Open Downloader, allow permissions, and enter the fast-download code provided by the Zyminex team."
       },
       {
         "@type": "HowToStep",
@@ -33,49 +33,23 @@ export default function TutorialDownloaderPage() {
 
   return (
     <div className="tutorial-page">
-      <Helmet>
-        <title>How to Sideload Apps on Firestick using Downloader</title>
-        <meta name="description" content="Step-by-step guide to sideloading the Forest IPTV Android app or TiviMate on Amazon Firestick via the Downloader App." />
-        <link rel="canonical" href="https://www.forestiptv.pro/tutorials/how-to-set-up-downloader" />
-        <meta property="og:title" content="Firestick Sideloading Guide | Forest IPTV" />
-        <meta property="og:description" content="Learn how to sideload the Forest IPTV app on Amazon Firestick via Downloader." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/tutorials/how-to-set-up-downloader" />
-        <meta property="og:type" content="article" />
+            <Helmet>
+        <title>How to Sideload Apps on Firestick using Downloader | Zyminex</title>
+        <meta name="description" content="Step-by-step guide to sideloading the Zyminex Android app or TiviMate on Amazon Firestick via the Downloader App." />
+        <link rel="canonical" href="https://www.zyminex.pro/tutorials/how-to-set-up-downloader" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — How to Sideload Apps on Firestick using Downloader" />
+        <meta property="og:description" content="Step-by-step guide to sideloading the Zyminex Android app or TiviMate on Amazon Firestick via the Downloader App." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/tutorials/how-to-set-up-downloader" />
+        <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Firestick Setup Guide | Forest IPTV" />
-        <meta name="twitter:description" content="Step-by-step sideloading instructions for your Firestick." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Setup Guides",
-                "item": "https://www.forestiptv.pro/setup-guides"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "How to Setup Downloader",
-                "item": "https://www.forestiptv.pro/tutorials/how-to-set-up-downloader"
-              }
-            ]
-          })}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(howToSchema)}
-        </script>
+        <meta name="twitter:title" content="Zyminex — How to Sideload Apps on Firestick using Downloader" />
+        <meta name="twitter:description" content="Step-by-step guide to sideloading the Zyminex Android app or TiviMate on Amazon Firestick via the Downloader App." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       {/* Hero */}
@@ -112,7 +86,7 @@ export default function TutorialDownloaderPage() {
             <ul style={{ listStyleType: 'disc', listStylePosition: 'inside', color: 'var(--on-surface)', marginBottom: 'var(--space-8)', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
                <li>An Amazon Firestick connected to your TV.</li>
                <li>An active Amazon account signed in to the Firestick.</li>
-               <li>The numerical Downloader code given in your Forest IPTV portal.</li>
+               <li>The numerical Downloader code given in your Zyminex portal.</li>
             </ul>
 
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)' }}>Step 1: Prep Your Firestick Settings</h2>
@@ -162,3 +136,4 @@ export default function TutorialDownloaderPage() {
     </div>
   )
 }
+

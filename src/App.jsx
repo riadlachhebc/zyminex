@@ -23,16 +23,10 @@ const TutorialSmartersPage = lazy(() => import('./pages/TutorialSmartersPage'))
 const TutorialIBOPage = lazy(() => import('./pages/TutorialIBOPage'))
 const TutorialDownloaderPage = lazy(() => import('./pages/TutorialDownloaderPage'))
 const BlogPage = lazy(() => import('./pages/BlogPage'))
-const BlogBufferingPage = lazy(() => import('./pages/articles/BlogBufferingPage'))
-const FirestickSetupPage = lazy(() => import('./pages/articles/FirestickSetupPage'))
-const CordCuttingPage = lazy(() => import('./pages/articles/CordCuttingPage'))
-const IPTVCrackdown2026Page = lazy(() => import('./pages/articles/IPTVCrackdown2026Page'))
-const IPTVGuideBlankPage = lazy(() => import('./pages/articles/IPTVGuideBlankPage'))
-const ISPBlockingIPTVPage = lazy(() => import('./pages/articles/ISPBlockingIPTVPage'))
-const IPTVChannelsDisappearedPage = lazy(() => import('./pages/articles/IPTVChannelsDisappearedPage'))
+const TivimateVsSmartersPage = lazy(() => import('./pages/articles/TivimateVsSmartersPage'))
+
 const ChannelPage = lazy(() => import('./pages/ChannelPage'))
 
-import './App.css'
 
 function App() {
   return (
@@ -40,7 +34,7 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <main>
-        <Suspense fallback={<div style={{minHeight:'100vh',background:'#121411'}}></div>}>
+        <Suspense fallback={<div style={{minHeight:'100vh',background:'#111318'}}></div>}>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/buy-iptv-subscription" element={<PricingPage />} />
@@ -57,13 +51,8 @@ function App() {
             <Route path="/tutorials/how-to-set-up-downloader" element={<TutorialDownloaderPage />} />
             <Route path="/channel-list" element={<ChannelPage />} />
             <Route path="/blog" element={<BlogPage />} />
-            <Route path="/why-is-my-iptv-buffering-5-easy-fixes-to-stop-freezing-in-2026" element={<BlogBufferingPage />} />
-            <Route path="/how-to-setup-iptv-on-amazon-firestick-2026-guide" element={<FirestickSetupPage />} />
-            <Route path="/top-5-benefits-cutting-the-cord-premium-iptv" element={<CordCuttingPage />} />
-            <Route path="/2026-iptv-crackdown-dodgy-firestick-safety" element={<IPTVCrackdown2026Page />} />
-            <Route path="/iptv-guide-blank-buffering-fix-2026" element={<IPTVGuideBlankPage />} />
-            <Route path="/isp-blocking-iptv-how-to-bypass" element={<ISPBlockingIPTVPage />} />
-            <Route path="/iptv-channels-disappeared-empty-playlist-fix" element={<IPTVChannelsDisappearedPage />} />
+            <Route path="/tivimate-vs-iptv-smarters-pro-best-player-2026" element={<TivimateVsSmartersPage />} />
+
             <Route path="/terms" element={<TermsPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/refund" element={<RefundPage />} />
@@ -77,3 +66,4 @@ function App() {
 }
 
 export default App
+

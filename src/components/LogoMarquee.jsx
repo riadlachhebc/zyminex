@@ -1,5 +1,4 @@
-import React from 'react'
-import './LogoMarquee.css'
+﻿import React from 'react'
 
 const LogoMarquee = ({ items = [], direction = 'left', variant = 'poster' }) => {
   if (items.length === 0) return null
@@ -36,3 +35,4 @@ const LogoMarquee = ({ items = [], direction = 'left', variant = 'poster' }) => 
 }
 
 export default LogoMarquee
+

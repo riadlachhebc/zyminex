@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
-import './HomePage.css'
-import './PricingPage.css'
-import './BlogPage.css'
 import LogoMarquee from '../components/LogoMarquee'
 
 // Import channel logos
@@ -87,7 +84,7 @@ const stats = [
 
 const homeFaqs = [
   {
-    q: 'How fast is the delivery after I buy Forest IPTV?',
+    q: 'How fast is the delivery after I buy Zyminex?',
     a: 'Delivery is instant! As soon as your payment is confirmed, your credentials and setup instructions are sent directly to your email inbox so you can start streaming immediately.'
   },
   {
@@ -100,7 +97,7 @@ const homeFaqs = [
   },
   {
     q: 'What happens if I need technical support?',
-    a: 'We offer 24/7 customer support. Whether you need help navigating the Forest IPTV login dashboard or configuring your apps, our dedicated support team is always just a message away.'
+    a: 'We offer 24/7 customer support. Whether you need help navigating the Zyminex login dashboard or configuring your apps, our dedicated support team is always just a message away.'
   }
 ]
 
@@ -157,31 +154,13 @@ const plans = [
 
 const homeBlogPosts = [
   {
-    id: 'iptv-buffering-fixes',
-    path: '/why-is-my-iptv-buffering-5-easy-fixes-to-stop-freezing-in-2026',
-    image: 'https://i.ibb.co/zVTFYS9T/IPTV-buffering-blog-202604020446.jpg',
-    category: 'Guides & Fixes',
-    date: 'Apr 2, 2026',
-    title: 'Why Is My IPTV Buffering? (5 Easy Fixes to Stop Freezing in 2026)',
-    excerpt: 'Tired of your screen freezing right before the big game? Discover the top 5 reasons your IPTV keeps buffering and learn how to fix it instantly in 2026.'
-  },
-  {
-    id: 'firestick-setup',
-    path: '/how-to-setup-iptv-on-amazon-firestick-2026-guide',
-    image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80',
-    category: 'Tutorials & Guides',
-    date: 'Apr 2, 2026',
-    title: 'How to Setup IPTV on Amazon Firestick (2026 Guide)',
-    excerpt: 'Learn how to quickly step up and install IPTV on your Amazon Firestick for smooth 4K streaming.'
-  },
-  {
-    id: 'cutting-cord',
-    path: '/top-5-benefits-cutting-the-cord-premium-iptv',
-    image: 'https://images.unsplash.com/photo-1584697964400-2af6a2f6204c?auto=format&fit=crop&w=800&q=80',
-    category: 'Industry Insights',
-    date: 'Apr 2, 2026',
-    title: 'Top 5 Benefits of Cutting the Cord Using Premium IPTV',
-    excerpt: 'Discover why millions are cutting cable and how premium IPTV can save you thousands of dollars while offering a massive catalog of content.'
+    id: 'tivimate-vs-smarters-2026',
+    path: '/tivimate-vs-iptv-smarters-pro-best-player-2026',
+    image: 'https://i.ibb.co/3YYDYxKz/Tivi-Mate-vs-IPTV-202604130102.jpg',
+    category: 'App Reviews & Tutorials',
+    date: 'Apr 13, 2026',
+    title: 'TiviMate vs. IPTV Smarters Pro: Which is the Best IPTV Player in 2026?',
+    excerpt: 'Confused about which streaming app to use? Read our ultimate 2026 comparison.'
   }
 ];
 
@@ -196,10 +175,25 @@ export default function HomePage() {
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Forest IPTV",
-    "url": "https://www.forestiptv.pro",
-    "logo": "https://www.forestiptv.pro/logo.png",
-    "description": "Best Premium IPTV Service Provider offering 20,000+ live channels and 4K VODs."
+    "name": "Zyminex",
+    "url": "https://www.zyminex.pro",
+    "logo": "https://www.zyminex.pro/assets/logo.png",
+    "description": "Zyminex is the best Premium IPTV Service Provider offering 20,000+ live channels and 4K VODs.",
+    "sameAs": [
+      "https://wa.me/212763569826"
+    ]
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Zyminex",
+    "url": "https://www.zyminex.pro",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.zyminex.pro/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
   };
 
   const faqSchema = {
@@ -218,23 +212,28 @@ export default function HomePage() {
   return (
     <div className="home" id="home-page">
       <Helmet>
-        <title>Forest IPTV — Best 4K IPTV Subscription</title>
-        <meta name="description" content="Get the best Forest IPTV subscription. 4K streaming, anti-freeze technology, 22,000+ channels & free trial. Works on Firestick, Android, Smart TV & more." />
-        <link rel="canonical" href="https://www.forestiptv.pro/" />
-        <meta property="og:title" content="Forest IPTV — Best 4K IPTV Subscription" />
-        <meta property="og:description" content="Get the best Forest IPTV subscription. 4K streaming, anti-freeze technology, 22,000+ channels & free trial." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/" />
+        <title>Zyminex — Best 4K IPTV Subscription</title>
+        <meta name="description" content="Zyminex offers the best 4K IPTV subscription. Experience 22,000+ live channels, VODs, and anti-freeze technology with a free trial today." />
+        <link rel="canonical" href="https://www.zyminex.pro/" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — Best 4K IPTV Subscription" />
+        <meta property="og:description" content="Zyminex offers the best 4K IPTV subscription. Experience 22,000+ live channels, VODs, and anti-freeze technology with a free trial today." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Forest IPTV" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Forest IPTV — Best 4K IPTV Subscription" />
-        <meta name="twitter:description" content="Get the best Forest IPTV subscription. 4K streaming, anti-freeze technology, 22,000+ channels & free trial." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
+        <meta name="twitter:title" content="Zyminex — Best 4K IPTV Subscription" />
+        <meta name="twitter:description" content="Zyminex offers the best 4K IPTV subscription. Experience 22,000+ live channels, VODs, and anti-freeze technology with a free trial today." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
 
         <script type="application/ld+json">
           {JSON.stringify(orgSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(websiteSchema)}
         </script>
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}
@@ -253,11 +252,11 @@ export default function HomePage() {
             Anti-Freezing Technology Active
           </div>
           <h1 className="display-lg hero__title animate-fade-in-up stagger-1">
-            Welcome to Forest IPTV:<br />
+            Welcome to Zyminex:<br />
             <span className="hero__title-accent">The Ultimate 4K Streaming Experience</span>
           </h1>
           <p className="body-lg hero__subtitle animate-fade-in-up stagger-2">
-            Are you tired of overpaying for restrictive cable packages and constantly switching between expensive streaming apps? Welcome to Forest IPTV, your all-in-one gateway to limitless global entertainment. We provide top-tier access to thousands of live TV channels, blockbuster movies, and exclusive pay-per-view events—all from the comfort of your living room or on the go. Whether you're a die-hard sports fan or a movie enthusiast, our platform is designed to deliver crystal-clear quality without the frustrating lag. Read on to discover why cutting the cord has never been easier.
+            Zyminex is your all-in-one gateway to limitless entertainment. Get access to 20,000+ live TV channels, blockbuster movies, and exclusive PPV — all in crystal-clear 4K. No contracts. No buffering. Just stream.
           </p>
           <div className="hero__actions animate-fade-in-up stagger-3">
             <Link to="/buy-iptv-subscription" className="btn btn-primary btn-lg">
@@ -291,10 +290,10 @@ export default function HomePage() {
       <section className="section" id="pricing-trials">
         <div className="container">
           <div className="section-header">
-            <h2 className="display-sm">Flexible Forest IPTV Pricing & Risk-Free Trials</h2>
+            <h2 className="display-sm">Flexible Zyminex Pricing & Risk-Free Trials</h2>
             <div className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
-              <p>We believe in transparency. There are no hidden fees, no cancellation penalties, and no hardware rentals. Our Forest IPTV pricing is straightforward, offering massive discounts for longer commitments. You can securely buy Forest IPTV for a full year for maximum savings, or simply start with a flexible Forest IPTV 3 month plan to test the waters.</p>
-              <p>Not ready to commit your hard-earned money just yet? We completely understand. We want you to experience our premium quality risk-free. Simply request a Forest IPTV Free Test Trial today. Your Free Test Trial will give you full, unrestricted access to our complete channel list and VOD library so you can test our anti-freezing technology for yourself.</p>
+              <p>We believe in transparency. There are no hidden fees, no cancellation penalties, and no hardware rentals. Our Zyminex pricing is straightforward, offering massive discounts for longer commitments. You can securely buy Zyminex for a full year for maximum savings, or simply start with a flexible Zyminex 3 month plan to test the waters.</p>
+              <p>Not ready to commit your hard-earned money just yet? We completely understand. We want you to experience our premium quality risk-free. Simply request a Zyminex Free Test Trial today. Your Free Test Trial will give you full, unrestricted access to our complete channel list and VOD library so you can test our anti-freezing technology for yourself.</p>
             </div>
           </div>
           <div className="plans-grid" style={{ marginTop: 'var(--space-10)' }}>
@@ -325,7 +324,7 @@ export default function HomePage() {
                   ))}
                 </ul>
                 <a 
-                  href={`https://wa.me/212763569826?text=${encodeURIComponent(`Hello Forest IPTV, I am interested in ordering the ${plan.name} plan for $${plan.price}.`)}`}
+                  href={`https://wa.me/212763569826?text=${encodeURIComponent(`Hello Zyminex, I am interested in ordering the ${plan.name} plan for $${plan.price}.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`btn btn-lg ${plan.highlighted ? 'btn-primary' : 'btn-secondary'}`} 
@@ -343,9 +342,13 @@ export default function HomePage() {
       <section className="section section-alt features-section" id="features-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="display-sm">Why Choose a Forest IPTV Subscription Over Cable?</h2>
+            <span className="section-eyebrow">
+              <span className="material-icons-outlined" style={{ fontSize: '12px' }}>bolt</span>
+              Why Zyminex
+            </span>
+            <h2 className="display-sm">Why Choose a Zyminex Subscription Over Cable?</h2>
             <div className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
-              <p>The television landscape has changed, and a modern Forest IPTV subscription gives you ultimate control over what you watch and how much you pay. Recognized as the best premium IPTV service on the market, we offer a massive, frequently updated Forest IPTV channel list that includes local networks, international broadcasts, and a massive Video-on-Demand (VOD) library.</p>
+              <p>The television landscape has changed, and a modern Zyminex subscription gives you ultimate control over what you watch and how much you pay. Recognized as the best premium IPTV service on the market, we offer a massive, frequently updated Zyminex channel list that includes local networks, international broadcasts, and a massive Video-on-Demand (VOD) library.</p>
               <p>Instead of settling for standard definition, you can finally enjoy your favorite shows in stunning high resolution with our dedicated 4K IPTV subscription packages. Why pay hundreds of dollars a month for a fraction of the content when you can have it all in one place?</p>
             </div>
           </div>
@@ -376,7 +379,7 @@ export default function HomePage() {
             <h2 className="display-sm">A Buffer-Free IPTV Provider Built for Live Sports & Entertainment</h2>
             <div className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
               <p>There is nothing worse than your screen freezing right before a game-winning touchdown or a crucial movie scene. We know that stability is the most important factor for our users. That’s why we operate as a strictly buffer-free IPTV provider, utilizing advanced anti-freezing IPTV service technology and premium global servers to ensure 100% uptime.</p>
-              <p>Because of our high-speed server network, we are widely considered the best IPTV for live sports, offering seamless streams of football, basketball, MMA, and international racing events. If you are tired of your current lagging provider, making the switch to us is the perfect upgrade. In fact, our service is so reliable that users tell us they never even have to search for a Forest IPTV alternative once they experience our streaming quality.</p>
+              <p>Because of our high-speed server network, we are widely considered the best IPTV for live sports, offering seamless streams of football, basketball, MMA, and international racing events. If you are tired of your current lagging provider, making the switch to us is the perfect upgrade. In fact, our service is so reliable that users tell us they never even have to search for a Zyminex alternative once they experience our streaming quality.</p>
             </div>
           </div>
           <div className="categories-grid">
@@ -400,7 +403,7 @@ export default function HomePage() {
             <h2 className="display-sm">Seamless Device Compatibility: Watch Anywhere</h2>
             <div className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
               <p>We believe your entertainment should fit your lifestyle, not the other way around. Our service is highly versatile and compatible with almost any smart device in your home.</p>
-              <p>If you prefer watching on a television, our service is perfectly optimized as the premier Forest IPTV for Firestick solution, and it also stands out as the best IPTV for Android TV boxes. Prefer to watch on your computer while working? Simply access the Forest IPTV login portal and stream directly through our convenient Forest IPTV web player—no extra downloads required.</p>
+              <p>If you prefer watching on a television, our service is perfectly optimized as the premier Zyminex for Firestick solution, and it also stands out as the best IPTV for Android TV boxes. Prefer to watch on your computer while working? Simply access the Zyminex login portal and stream directly through our convenient Zyminex web player—no extra downloads required.</p>
             </div>
           </div>
           <div className="setup-steps">
@@ -432,8 +435,8 @@ export default function HomePage() {
           <div className="section-header">
             <h2 className="display-sm">Simple Setup and Easy-to-Use Applications</h2>
             <div className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
-              <p>Getting started is incredibly easy, even if you aren't tech-savvy. We provide a comprehensive Forest IPTV setup guide that walks you through exactly how to connect your devices in minutes.</p>
-              <p>Our servers integrate flawlessly with the most popular streaming players on the market. Whether you need a quick Forest IPTV Smarters Pro setup tutorial or you prefer customizing your TV guide layout using Forest IPTV TiviMate, our step-by-step instructions make installation a breeze.</p>
+              <p>Getting started is incredibly easy, even if you aren't tech-savvy. We provide a comprehensive Zyminex setup guide that walks you through exactly how to connect your devices in minutes.</p>
+              <p>Our servers integrate flawlessly with the most popular streaming players on the market. Whether you need a quick Zyminex Smarters Pro setup tutorial or you prefer customizing your TV guide layout using Zyminex TiviMate, our step-by-step instructions make installation a breeze.</p>
             </div>
           </div>
         </div>
@@ -465,18 +468,19 @@ export default function HomePage() {
       <section className="section testimonials-section" id="testimonials-section">
         <div className="container">
           <div className="section-header">
-            <span className="label-md" style={{ color: 'var(--primary)' }}>Real Reviews</span>
+            <span className="section-eyebrow">
+              <span className="material-icons-outlined" style={{ fontSize: '12px' }}>verified</span>
+              Real Reviews
+            </span>
             <h2 className="display-sm">Trusted by Thousands</h2>
           </div>
           <div className="testimonials-grid">
             {testimonials.map((t, i) => (
               <div key={i} className="testimonial-card">
                 <div className="testimonial-card__stars">
-                  <span className="material-icons-outlined" style={{ color: 'var(--primary)', fontSize: '18px' }}>star</span>
-                  <span className="material-icons-outlined" style={{ color: 'var(--primary)', fontSize: '18px' }}>star</span>
-                  <span className="material-icons-outlined" style={{ color: 'var(--primary)', fontSize: '18px' }}>star</span>
-                  <span className="material-icons-outlined" style={{ color: 'var(--primary)', fontSize: '18px' }}>star</span>
-                  <span className="material-icons-outlined" style={{ color: 'var(--primary)', fontSize: '18px' }}>star</span>
+                  {'★★★★★'.split('').map((s, si) => (
+                    <span key={si} style={{ color: 'var(--tertiary)', fontSize: '16px' }}>★</span>
+                  ))}
                 </div>
                 <p className="body-lg testimonial-card__quote">"{t.quote}"</p>
                 <div className="testimonial-card__author">
@@ -536,9 +540,9 @@ export default function HomePage() {
                 </div>
                 <div className="blog-card__content">
                   <span className="label-sm" style={{ color: 'var(--outline)' }}>{post.date}</span>
-                  <h2 className="title-lg blog-card__title">
+                  <h3 className="title-lg blog-card__title">
                     <Link to={post.path}>{post.title}</Link>
-                  </h2>
+                  </h3>
                   <p className="body-md blog-card__excerpt" style={{ color: 'var(--on-surface-variant)' }}>
                     {post.excerpt}
                   </p>

@@ -1,43 +1,26 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function ResellerPage() {
   return (
     <div className="reseller-page" id="reseller-page">
-      <Helmet>
-        <title>IPTV Reseller Panel — Start Your Own IPTV Business</title>
-        <meta name="description" content="Join the Forest IPTV reseller program. Get access to the best IPTV reseller panel with 4K streaming and 24/7 technical support." />
-        <link rel="canonical" href="https://www.forestiptv.pro/iptv-reseller-panel" />
-        <meta property="og:title" content="IPTV Reseller Panel — Start Your IPTV Business" />
-        <meta property="og:description" content="Join the Forest IPTV reseller program. Get access to our premium 4K IPTV panel." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/iptv-reseller-panel" />
+            <Helmet>
+        <title>IPTV Reseller Panel — Start Your Own IPTV Business | Zyminex</title>
+        <meta name="description" content="Join the Zyminex reseller program. Get access to the best IPTV reseller panel with 4K streaming and 24/7 technical support." />
+        <link rel="canonical" href="https://www.zyminex.pro/iptv-reseller-panel" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — IPTV Reseller Panel — Start Your Own IPTV Business" />
+        <meta property="og:description" content="Join the Zyminex reseller program. Get access to the best IPTV reseller panel with 4K streaming and 24/7 technical support." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/iptv-reseller-panel" />
         <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Forest IPTV Reseller Program" />
-        <meta name="twitter:description" content="Manage your own customers with our premium IPTV reseller panel." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />/
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "IPTV Reseller Panel",
-                "item": "https://www.forestiptv.pro/iptv-reseller-panel"
-              }
-            ]
-          })}
-        </script>
+        <meta name="twitter:title" content="Zyminex — IPTV Reseller Panel — Start Your Own IPTV Business" />
+        <meta name="twitter:description" content="Join the Zyminex reseller program. Get access to the best IPTV reseller panel with 4K streaming and 24/7 technical support." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       {/* Hero */}
@@ -47,13 +30,13 @@ export default function ResellerPage() {
         </div>
         <div className="container hero__content" style={{ textAlign: 'center' }}>
           <span className="label-md" style={{ color: 'var(--primary)', marginBottom: 'var(--space-4)', display: 'inline-block' }}>B2B Program</span>
-          <h1 className="display-lg hero__title">Start Earning with the <br/><span className="hero__title-accent">Forest IPTV Reseller Panel</span></h1>
+          <h1 className="display-lg hero__title">Start Earning with the <br/><span className="hero__title-accent">Zyminex Reseller Panel</span></h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '640px', margin: 'var(--space-4) auto var(--space-6)' }}>
             Start your own fully white-labeled streaming business. Purchase discounted credits, manage your own clients, and set your own profit margins using our robust infrastructure.
           </p>
           <div style={{ display: 'flex', gap: 'var(--space-4)', justifyContent: 'center' }}>
              <a 
-                href={`https://wa.me/212763569826?text=${encodeURIComponent('Hello Forest IPTV, I am interested in the Reseller Program. Please send me the pricing and credit details.')}`}
+                href={`https://wa.me/212763569826?text=${encodeURIComponent('Hello Zyminex, I am interested in the Reseller Program. Please send me the pricing and credit details.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary btn-lg"
@@ -97,7 +80,7 @@ export default function ResellerPage() {
             </p>
             <div style={{ display: 'flex', gap: 'var(--space-4)', justifyContent: 'center' }}>
                <a 
-                  href={`https://wa.me/212763569826?text=${encodeURIComponent('Hello Forest IPTV, I am interested in the Reseller Program. Please send me the pricing and credit details.')}`}
+                  href={`https://wa.me/212763569826?text=${encodeURIComponent('Hello Zyminex, I am interested in the Reseller Program. Please send me the pricing and credit details.')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary btn-lg"
@@ -114,9 +97,9 @@ export default function ResellerPage() {
          <div className="container">
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--space-10)' }}>
                <div>
-                 <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>Benefits of Partnering with Forest IPTV</h2>
+                 <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>Benefits of Partnering with Zyminex</h2>
                  <p className="body-lg" style={{ color: 'var(--on-surface-variant)' }}>
-                    Don't risk your reputation on unstable servers. By reselling Forest IPTV, you are selling the industry's highest quality streams. Our robust anti-freezing tech means fewer support tickets for you, resulting in happier, long-term clients and recurring revenue.
+                    Don't risk your reputation on unstable servers. By reselling Zyminex, you are selling the industry's highest quality streams. Our robust anti-freezing tech means fewer support tickets for you, resulting in happier, long-term clients and recurring revenue.
                  </p>
                </div>
                <div>
@@ -131,3 +114,4 @@ export default function ResellerPage() {
     </div>
   )
 }
+

@@ -1,7 +1,6 @@
-import { useState, useMemo, useEffect } from 'react'
+﻿import { useState, useMemo, useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import './ChannelPage.css'
 
 const categories = ['All', 'Sports', 'Movies', 'News', 'Kids', 'International', 'Latino']
 
@@ -47,20 +46,23 @@ export default function ChannelPage() {
 
   return (
     <div className="channel-page">
-      <Helmet>
-        <title>Forest IPTV Channel List — 22,000+ Live Channels USA & International</title>
-        <meta name="description" content="Explore the massive Forest IPTV channel list. Stream live sports, international TV, and 4K movies with the best premium IPTV service. Get a free trial to test our channels today!" />
-        <link rel="canonical" href="https://www.forestiptv.pro/channel-list" />
-        <meta property="og:title" content="Forest IPTV Channel List — 22,000+ Live Channels" />
-        <meta property="og:description" content="Explore the massive Forest IPTV channel list. Stream live sports, international TV, and 4K movies with the best premium IPTV service." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/channel-list" />
+            <Helmet>
+        <title>Channel List — 22,000+ Live Channels USA & International | Zyminex</title>
+        <meta name="description" content="Explore the massive Zyminex channel list. Stream live sports, international TV, and 4K movies with the best premium IPTV service. Get a free trial to test our channels today!" />
+        <link rel="canonical" href="https://www.zyminex.pro/channel-list" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — Channel List — 22,000+ Live Channels USA & International" />
+        <meta property="og:description" content="Explore the massive Zyminex channel list. Stream live sports, international TV, and 4K movies with the best premium IPTV service. Get a free trial to test our channels today!" />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/channel-list" />
         <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Forest IPTV Channel List — 22,000+ Channels" />
-        <meta name="twitter:description" content="Explore our massive 4K channel lineup. Live sports, world news, and premium movies." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
+        <meta name="twitter:title" content="Zyminex — Channel List — 22,000+ Live Channels USA & International" />
+        <meta name="twitter:description" content="Explore the massive Zyminex channel list. Stream live sports, international TV, and 4K movies with the best premium IPTV service. Get a free trial to test our channels today!" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       {/* Banner */}
@@ -73,9 +75,9 @@ export default function ChannelPage() {
 
       <section className="section" id="channel-header">
         <div className="container" style={{ textAlign: 'center' }}>
-          <h1 className="display-md" style={{ marginBottom: 'var(--space-4)' }}>Discover the Ultimate Forest IPTV Channel List: 20,000+ Live Streams & VODs</h1>
+          <h1 className="display-md" style={{ marginBottom: 'var(--space-4)' }}>Discover the Ultimate Zyminex Channel List: 20,000+ Live Streams & VODs</h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '800px', margin: '0 auto var(--space-8)' }}>
-            Tired of scrolling through limited cable packages with nothing good to watch? Welcome to the Forest IPTV channels guide, your portal to unlimited global entertainment. When you make the switch to our platform, you unlock a universe of live television, blockbuster movies, and exclusive sports coverage from around the world. We have meticulously curated a massive, high-quality library designed to replace your expensive cable bill without sacrificing the shows you love. Dive into our extensive offerings below and see why thousands of viewers have chosen us as their ultimate home entertainment hub.
+            Tired of scrolling through limited cable packages with nothing good to watch? Welcome to the Zyminex channels guide, your portal to unlimited global entertainment. When you make the switch to our platform, you unlock a universe of live television, blockbuster movies, and exclusive sports coverage from around the world. We have meticulously curated a massive, high-quality library designed to replace your expensive cable bill without sacrificing the shows you love. Dive into our extensive offerings below and see why thousands of viewers have chosen us as their ultimate home entertainment hub.
           </p>
 
           <div className="channel-stats">
@@ -146,7 +148,7 @@ export default function ChannelPage() {
           <div style={{ marginBottom: 'var(--space-12)' }}>
             <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>⚽ Sports Channels</h2>
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)' }}>
-              Never miss a game-winning moment again. Widely rated as the best IPTV for live sports, Forest IPTV gives you exclusive access to all major global networks, including NFL Sunday Ticket, NBA League Pass, Premier League soccer, NHL, and MLB. Enjoy VIP access to live PPV events, UFC fights, and international racing—all streamed in stunning HD and 4K. Thanks to our advanced anti-freezing IPTV service technology, you can finally watch high-stakes matches with zero lag from a truly buffer-free IPTV provider.
+              Never miss a game-winning moment again. Widely rated as the best IPTV for live sports, Zyminex gives you exclusive access to all major global networks, including NFL Sunday Ticket, NBA League Pass, Premier League soccer, NHL, and MLB. Enjoy VIP access to live PPV events, UFC fights, and international racing—all streamed in stunning HD and 4K. Thanks to our advanced anti-freezing IPTV service technology, you can finally watch high-stakes matches with zero lag from a truly buffer-free IPTV provider.
             </p>
           </div>
 
@@ -154,7 +156,7 @@ export default function ChannelPage() {
           <div style={{ marginBottom: 'var(--space-12)' }}>
             <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>🇺🇸 USA Channels</h2>
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)' }}>
-              Cut the cord without losing your favorite American television. Our massive Forest IPTV channel list includes all major US broadcast networks (ABC, CBS, NBC, FOX, ESPN) alongside premium cable favorites like HBO, AMC, Starz, and Showtime. Whether you are catching up on local news, binge-watching reality TV, or enjoying a family movie night with your 4K IPTV subscription, we deliver the ultimate US entertainment experience. Discover why we are the best premium IPTV service for replacing expensive cable packages.
+              Cut the cord without losing your favorite American television. Our massive Zyminex channel list includes all major US broadcast networks (ABC, CBS, NBC, FOX, ESPN) alongside premium cable favorites like HBO, AMC, Starz, and Showtime. Whether you are catching up on local news, binge-watching reality TV, or enjoying a family movie night with your 4K IPTV subscription, we deliver the ultimate US entertainment experience. Discover why we are the best premium IPTV service for replacing expensive cable packages.
             </p>
           </div>
 
@@ -162,7 +164,7 @@ export default function ChannelPage() {
           <div style={{ marginBottom: 'var(--space-12)' }}>
             <h2 className="display-sm" style={{ marginBottom: 'var(--space-4)' }}>🌍 International Channels</h2>
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)' }}>
-              Bring the world directly to your living room. A Forest IPTV subscription unlocks thousands of premium live channels from the UK, Canada, Latin America, Europe, the Middle East, Asia, and beyond. Perfect for expats and bilingual households, our diverse international lineup ensures you stay connected to your home country's local news, regional sports, and exclusive dramas. Ready to explore the globe? Claim your Forest IPTV free trial today to test our worldwide servers, or buy Forest IPTV to unlock instant global broadcasting.
+              Bring the world directly to your living room. A Zyminex subscription unlocks thousands of premium live channels from the UK, Canada, Latin America, Europe, the Middle East, Asia, and beyond. Perfect for expats and bilingual households, our diverse international lineup ensures you stay connected to your home country's local news, regional sports, and exclusive dramas. Ready to explore the globe? Claim your Zyminex free trial today to test our worldwide servers, or buy Zyminex to unlock instant global broadcasting.
             </p>
           </div>
         </div>
@@ -182,3 +184,5 @@ export default function ChannelPage() {
     </div>
   )
 }
+
+

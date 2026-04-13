@@ -1,110 +1,38 @@
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import './BlogPage.css'
 
 const blogPosts = [
   {
-    id: 'iptv-channels-disappeared',
-    path: '/iptv-channels-disappeared-empty-playlist-fix',
-    image: 'https://i.ibb.co/gb2QvJ7s/Person-holding-remote-202604120000.jpg',
-    category: 'Troubleshooting & Tech Guides',
-    date: 'Apr 11, 2026',
-    title: 'IPTV Channels Disappeared? How to Fix an Empty Playlist (2026 Guide)',
-    excerpt: 'Did you turn on your TV only to find the "No Playlist Found" error? Learn why your IPTV channels suddenly disappeared overnight and how to restore your streams.'
-  },
-  {
-    id: 'isp-blocking-iptv',
-    path: '/isp-blocking-iptv-how-to-bypass',
-    image: 'https://i.ibb.co/ns6wHhfV/Glowing-Wi-Fi-router-202604082313.jpg',
-    category: 'Troubleshooting & Tech Guides',
-    date: 'Apr 8, 2026',
-    title: 'Is Your ISP Blocking Your IPTV? (How to Bypass the April 2026 Network Blocks)',
-    excerpt: 'Is your IPTV showing a connection error on Wi-Fi but working perfectly on your mobile data? Your Internet Service Provider (ISP) is actively blocking your stream. Learn how to diagnose ISP throttling and bypass the April 2026 live network blocks in minutes.'
-  },
-  {
-    id: 'iptv-guide-blank-fix',
-    path: '/iptv-guide-blank-buffering-fix-2026',
-    image: 'https://i.ibb.co/Y7cTG0pC/A-frustrated-user-202604052301.jpg',
-    category: 'Troubleshooting & Tech Guides',
-    date: 'Apr 5, 2026',
-    title: 'Why Your IPTV Guide Is Blank & Buffering (April 2026 Fix)',
-    excerpt: 'Is your TV guide suddenly blank, or does your stream freeze during live sports? Discover the hidden hardware and network issues plaguing IPTV in April 2026.'
-  },
-  {
-    id: 'iptv-crackdown-2026',
-    path: '/2026-iptv-crackdown-dodgy-firestick-safety',
-    image: 'https://i.ibb.co/zzfBBp2/Padlock-over-TV-202604030125.jpg',
-    category: 'Industry News & Security',
-    date: 'Apr 3, 2026',
-    title: 'The 2026 IPTV Crackdown: Are "Dodgy Firesticks" Safe? (Security Guide)',
-    excerpt: 'Authorities are launching massive crackdowns on "dodgy Firesticks" and cheap IPTV providers. Discover if your data is safe and how to secure your setup.'
-  },
-  {
-    id: 'iptv-buffering-fixes',
-    path: '/why-is-my-iptv-buffering-5-easy-fixes-to-stop-freezing-in-2026',
-    image: 'https://i.ibb.co/zVTFYS9T/IPTV-buffering-blog-202604020446.jpg',
-    category: 'Guides & Fixes',
-    date: 'Apr 2, 2026',
-    title: 'Why Is My IPTV Buffering? (5 Easy Fixes to Stop Freezing in 2026)',
-    excerpt: 'Tired of your screen freezing right before the big game? Discover the top 5 reasons your IPTV keeps buffering and learn how to fix it instantly in 2026.'
-  },
-  {
-    id: 'firestick-setup',
-    path: '/how-to-setup-iptv-on-amazon-firestick-2026-guide',
-    image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80',
-    category: 'Tutorials & Guides',
-    date: 'Apr 2, 2026',
-    title: 'How to Setup IPTV on Amazon Firestick (2026 Guide)',
-    excerpt: 'Learn how to quickly step up and install IPTV on your Amazon Firestick for smooth 4K streaming.'
-  },
-  {
-    id: 'cutting-cord',
-    path: '/top-5-benefits-cutting-the-cord-premium-iptv',
-    image: 'https://images.unsplash.com/photo-1584697964400-2af6a2f6204c?auto=format&fit=crop&w=800&q=80',
-    category: 'Industry Insights',
-    date: 'Apr 2, 2026',
-    title: 'Top 5 Benefits of Cutting the Cord Using Premium IPTV',
-    excerpt: 'Discover why millions are cutting cable and how premium IPTV can save you thousands of dollars while offering a massive catalog of content.'
+    id: 'tivimate-vs-smarters-2026',
+    path: '/tivimate-vs-iptv-smarters-pro-best-player-2026',
+    image: 'https://i.ibb.co/3YYDYxKz/Tivi-Mate-vs-IPTV-202604130102.jpg',
+    category: 'App Reviews & Tutorials',
+    date: 'Apr 13, 2026',
+    title: 'TiviMate vs. IPTV Smarters Pro: Which is the Best IPTV Player in 2026?',
+    excerpt: 'Confused about which streaming app to use? Read our ultimate 2026 comparison of TiviMate vs. IPTV Smarters Pro.'
   }
 ];
 
 export default function BlogPage() {
   return (
     <div className="blog-page">
-      <Helmet>
-        <title>Forest IPTV Blog | Latest News & Streaming Guides</title>
-        <meta name="description" content="Stay updated with the latest IPTV news, setup tutorials, and streaming tips from Forest IPTV. Discover how to enhance your entertainment." />
-        <link rel="canonical" href="https://www.forestiptv.pro/blog" />
-        <meta property="og:title" content="Forest IPTV Blog — News & Streaming Guides" />
-        <meta property="og:description" content="Stay updated with the latest IPTV news, setup tutorials, and streaming tips." />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/blog" />
+            <Helmet>
+        <title>Blog | Latest News & Streaming Guides | Zyminex</title>
+        <meta name="description" content="Stay updated with the latest IPTV news, setup tutorials, and streaming tips from Zyminex. Discover how to enhance your entertainment." />
+        <link rel="canonical" href="https://www.zyminex.pro/blog" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — Blog | Latest News & Streaming Guides" />
+        <meta property="og:description" content="Stay updated with the latest IPTV news, setup tutorials, and streaming tips from Zyminex. Discover how to enhance your entertainment." />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/blog" />
         <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Forest IPTV Blog | News & Tutorials" />
-        <meta name="twitter:description" content="Discover how to enhance your entertainment with our latest IPTV guides." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://www.forestiptv.pro/blog"
-              }
-            ]
-          })}
-        </script>
+        <meta name="twitter:title" content="Zyminex — Blog | Latest News & Streaming Guides" />
+        <meta name="twitter:description" content="Stay updated with the latest IPTV news, setup tutorials, and streaming tips from Zyminex. Discover how to enhance your entertainment." />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       <section className="blog-hero">
@@ -113,7 +41,7 @@ export default function BlogPage() {
           <span className="label-md" style={{ color: 'var(--primary)' }}>Official Blog</span>
           <h1 className="display-lg" style={{ marginTop: 'var(--space-3)' }}>Insights & Updates</h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '600px', margin: 'var(--space-4) auto 0' }}>
-            Everything you need to know about cutting the cord, optimizing your streaming setup, and getting the most out of Forest IPTV.
+            Everything you need to know about cutting the cord, optimizing your streaming setup, and getting the most out of Zyminex.
           </p>
         </div>
       </section>
@@ -170,3 +98,5 @@ export default function BlogPage() {
     </div>
   )
 }
+
+

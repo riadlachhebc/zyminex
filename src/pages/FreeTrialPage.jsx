@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import './FreeTrialPage.css'
 
 const trialFeatures = [
   { icon: 'timer', title: 'Free Test Trial access', desc: 'Complete access to our entire premium library.' },
@@ -13,7 +12,7 @@ const trialFeatures = [
 const steps = [
   { num: '01', title: 'Request', desc: 'Fill out the form with your correct device type.' },
   { num: '02', title: 'Receive', desc: 'Check your email for custom setup instructions.' },
-  { num: '03', title: 'Stream', desc: 'Log in and enjoy the forest canopy of content.' },
+  { num: '03', title: 'Stream', desc: 'Log in and enjoy the massive library of content.' },
 ]
 
 export default function FreeTrialPage() {
@@ -25,7 +24,7 @@ export default function FreeTrialPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const message = `Hello Forest IPTV, I would like to request a Free Test Trial.\n\nName: ${formData.name}\nEmail: ${formData.email}\nDevice: ${formData.device}`
+    const message = `Hello Zyminex, I would like to request a Free Test Trial.\n\nName: ${formData.name}\nEmail: ${formData.email}\nDevice: ${formData.device}`
     const waUrl = `https://wa.me/212763569826?text=${encodeURIComponent(message)}`
     window.open(waUrl, '_blank', 'noopener,noreferrer')
     setFormData({ name: '', email: '', device: '' })
@@ -33,47 +32,30 @@ export default function FreeTrialPage() {
 
   return (
     <div className="trial-page" id="trial-page">
-      <Helmet>
-        <title>IPTV Free Test Trial — Test Our 22,000+ Channels</title>
-        <meta name="description" content="Claim your IPTV Free Test Trial with Forest IPTV today. Test our buffer-free servers, 4K sports channels, and VOD library before you buy. Instant activation!" />
-        <link rel="canonical" href="https://www.forestiptv.pro/iptv-free-trial" />
-        <meta property="og:title" content="IPTV Free Test Trial — Try Forest IPTV Today" />
-        <meta property="og:description" content="Test our buffer-free servers, 4K sports channels, and VOD library before you buy. Instant activation!" />
-        <meta property="og:image" content="https://www.forestiptv.pro/og-image.png" />
-        <meta property="og:url" content="https://www.forestiptv.pro/iptv-free-trial" />
+            <Helmet>
+        <title>IPTV Free Test Trial — Test Our 22,000+ Channels | Zyminex</title>
+        <meta name="description" content="Claim your IPTV Free Test Trial with Zyminex today. Test our buffer-free servers, 4K sports channels, and VOD library before you buy. Instant activation!" />
+        <link rel="canonical" href="https://www.zyminex.pro/iptv-free-trial" />
+        
+        <meta property="og:site_name" content="Zyminex" />
+        <meta property="og:title" content="Zyminex — IPTV Free Test Trial — Test Our 22,000+ Channels" />
+        <meta property="og:description" content="Claim your IPTV Free Test Trial with Zyminex today. Test our buffer-free servers, 4K sports channels, and VOD library before you buy. Instant activation!" />
+        <meta property="og:image" content="https://www.zyminex.pro/og-image.png" />
+        <meta property="og:url" content="https://www.zyminex.pro/iptv-free-trial" />
         <meta property="og:type" content="website" />
 
+        <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="IPTV Free Trial | Forest IPTV" />
-        <meta name="twitter:description" content="Instant activation for your 4K IPTV test. Try before you buy." />
-        <meta name="twitter:image" content="https://www.forestiptv.pro/og-image.png" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.forestiptv.pro/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Free Test Trial",
-                "item": "https://www.forestiptv.pro/iptv-free-trial"
-              }
-            ]
-          })}
-        </script>
+        <meta name="twitter:title" content="Zyminex — IPTV Free Test Trial — Test Our 22,000+ Channels" />
+        <meta name="twitter:description" content="Claim your IPTV Free Test Trial with Zyminex today. Test our buffer-free servers, 4K sports channels, and VOD library before you buy. Instant activation!" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/og-image.png" />
       </Helmet>
 
       <section className="trial-hero" id="trial-hero">
         <div className="trial-hero__glow"></div>
         <div className="container">
           <span className="label-md" style={{ color: 'var(--tertiary)' }}>Risk-Free Testing</span>
-          <h1 className="display-lg" style={{ marginTop: 'var(--space-3)' }}>Claim Your Forest IPTV Free Test Trial</h1>
+          <h1 className="display-lg" style={{ marginTop: 'var(--space-3)' }}>Claim Your Zyminex Free Test Trial</h1>
           <p className="body-lg" style={{ color: 'var(--on-surface-variant)', maxWidth: '600px', margin: 'var(--space-4) auto 0' }}>
             Witness the pinnacle of streaming technology. Claim your Free Test Trial to test our anti-freezing technology before committing.
           </p>
@@ -117,7 +99,7 @@ export default function FreeTrialPage() {
 
             {/* Features */}
             <div className="trial-features">
-              <h2 className="headline-md" style={{ marginBottom: 'var(--space-6)' }}>Why Test Forest IPTV?</h2>
+              <h2 className="headline-md" style={{ marginBottom: 'var(--space-6)' }}>Why Test Zyminex?</h2>
               <div className="trial-features-grid">
                 {trialFeatures.map((f) => (
                   <div key={f.title} className="trial-feature-card">
@@ -167,3 +149,5 @@ export default function FreeTrialPage() {
     </div>
   )
 }
+
+
