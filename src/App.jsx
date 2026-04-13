@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import WhatsAppWidget from './components/WhatsAppWidget'
 import ScrollToTop from './components/ScrollToTop'
-const HomePage = lazy(() => import('./pages/HomePage'))
+import HomePage from './pages/HomePage'
 
 // Standard Lazy loaded pages
 const PricingPage = lazy(() => import('./pages/PricingPage'))
@@ -34,7 +34,18 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <main>
-        <Suspense fallback={<div style={{minHeight:'100vh',background:'#111318'}}></div>}>
+        <Suspense fallback={
+          <div style={{
+            minHeight: '100vh',
+            background: '#0a0a0f',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: '#fff'
+          }}>
+            Loading...
+          </div>
+        }>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/buy-iptv-subscription" element={<PricingPage />} />

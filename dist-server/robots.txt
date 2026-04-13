@@ -1,4 +1,3 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://www.forestiptv.pro/sitemap.xml
+﻿User-agent: *
+Allow: /
+Sitemap: https://www.zyminex.pro/sitemap.xml
