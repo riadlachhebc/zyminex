@@ -109,7 +109,7 @@ export default function WatchSportsIptv() {
               Ultimately, all the Ethernet cables in the world cannot repair a stream coming from a cheap, overloaded server. The backbone of lag-free sports is the provider's native backend infrastructure. You must utilize a service implementing dynamic load-balancing to reroute traffic automatically before a server crashes. 
             </p>
             <p className="body-md">
-              We highly encourage you to never miss an important game again. To verify the unbelievable quality of our global sports feeds, we explicitly let users <Link to="/blog/iptv-free-trial-guide" style={{ color: 'var(--primary)' }}>try IPTV free trial</Link> links exactly during peak sports hours. You can directly <Link to="/iptv-sports" style={{ color: 'var(--primary)' }}>view all sports channels</Link> available in your region. If you are thoroughly impressed by the 60FPS fluid quality, <Link to="/buy-iptv-subscription" style={{ color: 'var(--primary)' }}>get your sports IPTV plan</Link> secured for the remainder of the season.
+              We highly encourage you to never miss an important game again. To verify the unbelievable quality of our global sports feeds, we explicitly let users <Link to="/blog/iptv-free-trial-guide" style={{ color: 'var(--primary)' }}>try IPTV free trial</Link> links exactly during peak sports hours. You can directly <Link to="/channel-list" style={{ color: 'var(--primary)' }}>view all sports channels</Link> available in your region. If you are thoroughly impressed by the 60FPS fluid quality, <Link to="/buy-iptv-subscription" style={{ color: 'var(--primary)' }}>get your sports IPTV plan</Link> secured for the remainder of the season.
             </p>
 
             {/* FAQs */}

@@ -109,7 +109,7 @@ export default function AntiFreezeIptvExplained() {
               Understanding the complex orchestration of load balancing, edge CDNs, and adaptive HLS protocols is fascinating, but seeing it in action is the only proof that matters. We strongly encourage all users, especially those traumatized by cheap reseller freeze-ups, to <Link to="/iptv-free-trial" style={{ color: 'var(--primary)' }}>test anti-freeze technology free</Link> on their own devices. 
             </p>
             <p className="body-md">
-              When you run our 4K streams during the highest network congestion hours and observe absolutely zero lag, you will realize the monumental difference premium server architecture provides. If you happen to encounter any setup issues while running your tests, please <Link to="/support" style={{ color: 'var(--primary)' }}>contact our support team</Link>. We provide 24/7 technical assistance to ensure your home hardware is properly configured to receive the stream.
+              When you run our 4K streams during the highest network congestion hours and observe absolutely zero lag, you will realize the monumental difference premium server architecture provides. If you happen to encounter any setup issues while running your tests, please <Link to="/contact" style={{ color: 'var(--primary)' }}>contact our support team</Link>. We provide 24/7 technical assistance to ensure your home hardware is properly configured to receive the stream.
             </p>
 
             {/* FAQs */}

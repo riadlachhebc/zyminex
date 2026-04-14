@@ -152,17 +152,8 @@ const plans = [
   },
 ]
 
-const homeBlogPosts = [
-  {
-    id: 'tivimate-vs-smarters-2026',
-    path: '/tivimate-vs-iptv-smarters-pro-best-player-2026',
-    image: 'https://i.ibb.co/3YYDYxKz/Tivi-Mate-vs-IPTV-202604130102.jpg',
-    category: 'App Reviews & Tutorials',
-    date: 'Apr 13, 2026',
-    title: 'TiviMate vs. IPTV Smarters Pro: Which is the Best IPTV Player in 2026?',
-    excerpt: 'Confused about which streaming app to use? Read our ultimate 2026 comparison.'
-  }
-];
+import { blogPosts } from '../data/blogPosts';
+const homeBlogPosts = blogPosts.slice(0, 3);
 
 export default function HomePage() {
   const [openFaq, setOpenFaq] = useState(null)
