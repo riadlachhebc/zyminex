@@ -1,5 +1,6 @@
-﻿import { Helmet } from 'react-helmet-async'
+import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
+import tivimateImg from '../assets/tivimate_interface.png'
 
 export default function TutorialTivimatePage() {
   const howToSchema = {
@@ -94,19 +95,17 @@ export default function TutorialTivimatePage() {
                If you are on an Android TV device, search for "TiviMate IPTV Player" in the Google Play Store and click Install.
                If you are using a Firestick, open your Downloader app and enter the shortcode for TiviMate.
             </p>
-            {/* Placeholder for screenshot */}
-            <div style={{ width: '100%', height: '300px', background: 'var(--surface-container-highest)', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--outline)', marginBottom: 'var(--space-8)' }}>
-               [Screenshot: TiviMate App Icon in App Store]
-            </div>
+
 
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)' }}>Step 2: Login via Xtream Codes API</h2>
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>
                Open the TiviMate app. Select <strong>"Add Playlist"</strong>. From the options provided, choose <strong>"Xtream Codes login"</strong>. This is highly recommended over M3U links.
             </p>
-            {/* Placeholder for screenshot */}
-            <div style={{ width: '100%', height: '300px', background: 'var(--surface-container-highest)', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--outline)', marginBottom: 'var(--space-8)' }}>
-               [Screenshot: Selecting Xtream Codes Login screen]
-            </div>
+            <img 
+              src={tivimateImg} 
+              alt="TiviMate EPG Premium Interface" 
+              style={{ width: '100%', height: 'auto', aspectRatio: '16/9', borderRadius: 'var(--radius-md)', objectFit: 'cover', marginBottom: 'var(--space-8)', boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)' }} 
+            />
             
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>
                Enter the Server Address, Username, and Password exactly as they appear in your welcome email. Make sure "Include VOD" is enabled.

@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
+import smartersImg from '../assets/smarters_pro_interface.png'
 
 export default function TutorialSmartersPage() {
   const howToSchema = {
@@ -93,7 +94,7 @@ export default function TutorialSmartersPage() {
                Search for "IPTV Smarters Pro" or "Smarters Player Lite" in your device's app store. If you are on Amazon Firestick, you will need to sideload it using the Downloader app.
             </p>
             <img 
-              src="/images/tutorials/smarters_pro_interface.png" 
+              src={smartersImg} 
               alt="Smarters Pro App Interface Login Screen" 
               style={{ width: '100%', height: 'auto', aspectRatio: '16/9', borderRadius: 'var(--radius-md)', objectFit: 'cover', marginBottom: 'var(--space-8)', boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)' }} 
             />
