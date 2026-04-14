@@ -2144,8 +2144,13 @@ const TutorialTivimatePage = lazy(() => import("./assets/TutorialTivimatePage-CO
 const TutorialSmartersPage = lazy(() => import("./assets/TutorialSmartersPage-m_cppz25.js"));
 const TutorialIBOPage = lazy(() => import("./assets/TutorialIBOPage-CFPFxO_D.js"));
 const TutorialDownloaderPage = lazy(() => import("./assets/TutorialDownloaderPage-CwQ0rTHf.js"));
-const BlogPage = lazy(() => import("./assets/BlogPage-CnHLEyU5.js"));
+const BlogPage = lazy(() => import("./assets/BlogPage-g89FOA08.js"));
 const TivimateVsSmartersPage = lazy(() => import("./assets/TivimateVsSmartersPage-DtBiRJ2V.js"));
+const BestIptvService2026 = lazy(() => import("./assets/best-iptv-service-2026-CwtCN_vD.js"));
+const IptvFirestickSetupGuide = lazy(() => import("./assets/iptv-firestick-setup-guide-DhNRQmXP.js"));
+const WatchSportsIptv = lazy(() => import("./assets/watch-sports-iptv-BhnFaaku.js"));
+const AntiFreezeIptvExplained = lazy(() => import("./assets/anti-freeze-iptv-explained-CkhKk3HJ.js"));
+const IptvFreeTrialGuide = lazy(() => import("./assets/iptv-free-trial-guide-C8HC7ds_.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2174,6 +2179,11 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/tutorials/how-to-set-up-downloader", element: /* @__PURE__ */ jsx(TutorialDownloaderPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/channel-list", element: /* @__PURE__ */ jsx(ChannelPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog", element: /* @__PURE__ */ jsx(BlogPage, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/best-iptv-service-2026", element: /* @__PURE__ */ jsx(BestIptvService2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-firestick-setup-guide", element: /* @__PURE__ */ jsx(IptvFirestickSetupGuide, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/watch-sports-iptv", element: /* @__PURE__ */ jsx(WatchSportsIptv, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/anti-freeze-iptv-explained", element: /* @__PURE__ */ jsx(AntiFreezeIptvExplained, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-free-trial-guide", element: /* @__PURE__ */ jsx(IptvFreeTrialGuide, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),

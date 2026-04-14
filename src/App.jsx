@@ -24,6 +24,11 @@ const TutorialIBOPage = lazy(() => import('./pages/TutorialIBOPage'))
 const TutorialDownloaderPage = lazy(() => import('./pages/TutorialDownloaderPage'))
 const BlogPage = lazy(() => import('./pages/BlogPage'))
 const TivimateVsSmartersPage = lazy(() => import('./pages/articles/TivimateVsSmartersPage'))
+const BestIptvService2026 = lazy(() => import('./pages/blog/best-iptv-service-2026'))
+const IptvFirestickSetupGuide = lazy(() => import('./pages/blog/iptv-firestick-setup-guide'))
+const WatchSportsIptv = lazy(() => import('./pages/blog/watch-sports-iptv'))
+const AntiFreezeIptvExplained = lazy(() => import('./pages/blog/anti-freeze-iptv-explained'))
+const IptvFreeTrialGuide = lazy(() => import('./pages/blog/iptv-free-trial-guide'))
 
 const ChannelPage = lazy(() => import('./pages/ChannelPage'))
 
@@ -62,6 +67,11 @@ function App() {
             <Route path="/tutorials/how-to-set-up-downloader" element={<TutorialDownloaderPage />} />
             <Route path="/channel-list" element={<ChannelPage />} />
             <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/best-iptv-service-2026" element={<BestIptvService2026 />} />
+            <Route path="/blog/iptv-firestick-setup-guide" element={<IptvFirestickSetupGuide />} />
+            <Route path="/blog/watch-sports-iptv" element={<WatchSportsIptv />} />
+            <Route path="/blog/anti-freeze-iptv-explained" element={<AntiFreezeIptvExplained />} />
+            <Route path="/blog/iptv-free-trial-guide" element={<IptvFreeTrialGuide />} />
             <Route path="/tivimate-vs-iptv-smarters-pro-best-player-2026" element={<TivimateVsSmartersPage />} />
 
             <Route path="/terms" element={<TermsPage />} />
