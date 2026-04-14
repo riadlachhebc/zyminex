@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { blogPosts } from './src/data/blogPosts.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -23,7 +24,8 @@ const routesToPrerender = [
   '/blog',
   '/terms',
   '/privacy',
-  '/refund'
+  '/refund',
+  ...blogPosts.map(post => post.path)
 ];
 
 async function prerender() {

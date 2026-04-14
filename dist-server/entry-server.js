@@ -1710,6 +1710,62 @@ const poster3 = "/assets/poster-3-BzzXk99v.webp";
 const poster4 = "/assets/poster-4-tWvN7VqK.webp";
 const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
+const blogPosts = [
+  {
+    id: "best-iptv-service-2026",
+    path: "/blog/best-iptv-service-2026",
+    image: "/images/blog/best_iptv_service.png",
+    category: "Cord-Cutting Guides",
+    date: "Apr 14, 2026",
+    title: "The Best IPTV Service in 2026: Ultimate Cord-Cutting Guide",
+    excerpt: "Discover the best IPTV service in 2026. Learn how to cut the cord, find premium channel lineups, and stream flawlessly in 4K without buffering."
+  },
+  {
+    id: "iptv-firestick-setup-guide",
+    path: "/blog/iptv-firestick-setup-guide",
+    image: "/images/blog/firestick_setup.png",
+    category: "Tutorials & Setup",
+    date: "Apr 14, 2026",
+    title: "How to Set Up IPTV on Firestick (2026 Ultimate Guide)",
+    excerpt: "A complete 2026 step-by-step tutorial on how to safely install and set up IPTV on your Amazon Firestick."
+  },
+  {
+    id: "watch-sports-iptv",
+    path: "/blog/watch-sports-iptv",
+    image: "/images/blog/watch_sports.png",
+    category: "Sports Streaming",
+    date: "Apr 14, 2026",
+    title: "How to Watch Live Sports on IPTV Without Buffering in 2026",
+    excerpt: "Tired of buffering during the big game? Learn how to optimize your IPTV setup for flawless 60FPS live sports streaming."
+  },
+  {
+    id: "anti-freeze-iptv-explained",
+    path: "/blog/anti-freeze-iptv-explained",
+    image: "/images/blog/anti_freeze_servers.png",
+    category: "Technology & Servers",
+    date: "Apr 14, 2026",
+    title: "Anti-Freeze IPTV Technology Explained: Why Servers Matter",
+    excerpt: "What is anti-freeze IPTV technology? Discover how advanced server infrastructure completely eliminates buffering and stuttering."
+  },
+  {
+    id: "iptv-free-trial-guide",
+    path: "/blog/iptv-free-trial-guide",
+    image: "/images/blog/free_trial_ticket.png",
+    category: "Purchasing Advice",
+    date: "Apr 14, 2026",
+    title: "IPTV Free Trial Guide: How to Test Services Safely in 2026",
+    excerpt: "Never pay upfront. Learn how to secure an IPTV free trial, what specifically to test, and how to verify 4K quality before committing."
+  },
+  {
+    id: "tivimate-vs-smarters-2026",
+    path: "/tivimate-vs-iptv-smarters-pro-best-player-2026",
+    image: "https://i.ibb.co/3YYDYxKz/Tivi-Mate-vs-IPTV-202604130102.jpg",
+    category: "App Reviews & Tutorials",
+    date: "Apr 13, 2026",
+    title: "TiviMate vs. IPTV Smarters Pro: Which is the Best IPTV Player in 2026?",
+    excerpt: "Confused about which streaming app to use? Read our ultimate 2026 comparison of TiviMate vs. IPTV Smarters Pro."
+  }
+];
 const features = [
   { icon: "hd", title: "4K Ultra HD Streaming", desc: "Experience every detail with breathtaking clarity. Optimized for high-bitrate streaming." },
   { icon: "speed", title: "Anti-Freezing Technology", desc: "Zero buffering. Our proprietary compression ensures smooth playback even on modest connections." },
@@ -1834,17 +1890,7 @@ const plans = [
     highlighted: false
   }
 ];
-const homeBlogPosts = [
-  {
-    id: "tivimate-vs-smarters-2026",
-    path: "/tivimate-vs-iptv-smarters-pro-best-player-2026",
-    image: "https://i.ibb.co/3YYDYxKz/Tivi-Mate-vs-IPTV-202604130102.jpg",
-    category: "App Reviews & Tutorials",
-    date: "Apr 13, 2026",
-    title: "TiviMate vs. IPTV Smarters Pro: Which is the Best IPTV Player in 2026?",
-    excerpt: "Confused about which streaming app to use? Read our ultimate 2026 comparison."
-  }
-];
+const homeBlogPosts = blogPosts.slice(0, 3);
 function HomePage() {
   const [openFaq, setOpenFaq] = useState(null);
   const toggleFaq = (index) => {
@@ -2144,13 +2190,13 @@ const TutorialTivimatePage = lazy(() => import("./assets/TutorialTivimatePage-CO
 const TutorialSmartersPage = lazy(() => import("./assets/TutorialSmartersPage-m_cppz25.js"));
 const TutorialIBOPage = lazy(() => import("./assets/TutorialIBOPage-CFPFxO_D.js"));
 const TutorialDownloaderPage = lazy(() => import("./assets/TutorialDownloaderPage-CwQ0rTHf.js"));
-const BlogPage = lazy(() => import("./assets/BlogPage-g89FOA08.js"));
+const BlogPage = lazy(() => import("./assets/BlogPage-BkpEnivr.js"));
 const TivimateVsSmartersPage = lazy(() => import("./assets/TivimateVsSmartersPage-DtBiRJ2V.js"));
-const BestIptvService2026 = lazy(() => import("./assets/best-iptv-service-2026-CwtCN_vD.js"));
-const IptvFirestickSetupGuide = lazy(() => import("./assets/iptv-firestick-setup-guide-DhNRQmXP.js"));
-const WatchSportsIptv = lazy(() => import("./assets/watch-sports-iptv-BhnFaaku.js"));
-const AntiFreezeIptvExplained = lazy(() => import("./assets/anti-freeze-iptv-explained-CkhKk3HJ.js"));
-const IptvFreeTrialGuide = lazy(() => import("./assets/iptv-free-trial-guide-C8HC7ds_.js"));
+const BestIptvService2026 = lazy(() => import("./assets/best-iptv-service-2026-C9wvlops.js"));
+const IptvFirestickSetupGuide = lazy(() => import("./assets/iptv-firestick-setup-guide-Cpa2jlb_.js"));
+const WatchSportsIptv = lazy(() => import("./assets/watch-sports-iptv-mzfmauwD.js"));
+const AntiFreezeIptvExplained = lazy(() => import("./assets/anti-freeze-iptv-explained-QSFn__u9.js"));
+const IptvFreeTrialGuide = lazy(() => import("./assets/iptv-free-trial-guide-DafuQomh.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2201,5 +2247,6 @@ function render(url, helmetContext = {}) {
 export {
   Helmet as H,
   Link as L,
+  blogPosts as b,
   render as default
 };
