@@ -1,4 +1,4 @@
-﻿import { Helmet } from 'react-helmet-async'
+import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function TutorialSmartersPage() {
@@ -92,10 +92,11 @@ export default function TutorialSmartersPage() {
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>
                Search for "IPTV Smarters Pro" or "Smarters Player Lite" in your device's app store. If you are on Amazon Firestick, you will need to sideload it using the Downloader app.
             </p>
-            {/* Placeholder for screenshot */}
-            <div style={{ width: '100%', height: '300px', background: 'var(--surface-container-highest)', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--outline)', marginBottom: 'var(--space-8)' }}>
-               [Screenshot: Smarters Pro App Interface]
-            </div>
+            <img 
+              src="/images/tutorials/smarters_pro_interface.png" 
+              alt="Smarters Pro App Interface Login Screen" 
+              style={{ width: '100%', height: 'auto', aspectRatio: '16/9', borderRadius: 'var(--radius-md)', objectFit: 'cover', marginBottom: 'var(--space-8)', boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)' }} 
+            />
 
             <h2 className="headline-md" style={{ marginBottom: 'var(--space-4)' }}>Step 2: Login via Xtream Codes</h2>
             <p className="body-lg" style={{ color: 'var(--on-surface-variant)', marginBottom: 'var(--space-4)' }}>
