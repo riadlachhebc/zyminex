@@ -1565,7 +1565,7 @@ function Navbar() {
   }, [location]);
   return /* @__PURE__ */ jsx("nav", { className: `navbar ${scrolled ? "navbar--scrolled" : ""} ${mobileOpen ? "navbar--open" : ""}`, id: "main-nav", children: /* @__PURE__ */ jsxs("div", { className: "navbar__inner container", children: [
     /* @__PURE__ */ jsxs(Link, { to: "/", className: "navbar__logo", id: "nav-logo", "aria-label": "Zyminex Logo", children: [
-      /* @__PURE__ */ jsx("span", { className: "navbar__logo-icon material-icons-outlined", children: "play_circle" }),
+      /* @__PURE__ */ jsx("span", { className: "navbar__logo-icon material-icons-outlined", "aria-hidden": "true", children: "play_circle" }),
       /* @__PURE__ */ jsx("span", { className: "navbar__logo-text", children: "Zyminex" })
     ] }),
     /* @__PURE__ */ jsxs("div", { className: `navbar__links ${mobileOpen ? "navbar__links--open" : ""}`, children: [
@@ -1711,6 +1711,24 @@ const poster4 = "/assets/poster-4-tWvN7VqK.webp";
 const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
+  {
+    id: "iptv-crackdown-2026",
+    path: "/blog/iptv-crackdown-2026",
+    image: "/images/blog/iptv_crackdown_2026.png",
+    category: "Legal & Security",
+    date: "Apr 16, 2026",
+    title: "IPTV Crackdowns in 2026: Why Courts are Now Blocking VPNs",
+    excerpt: "Discover how the 2026 IPTV legal crackdown impacts you, why the French court IPTV ban targets VPNs, and how to find safe IPTV alternatives immediately."
+  },
+  {
+    id: "best-iptv-apps-2026",
+    path: "/blog/best-iptv-apps-2026",
+    image: "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1200&q=80",
+    category: "App Reviews & Tutorials",
+    date: "Apr 15, 2026",
+    title: "Top 5 Best IPTV Apps for Smart TV & Android in 2026",
+    excerpt: "Looking for the fastest, most reliable IPTV player? We review the top 5 best IPTV apps for Smart TV, Android, and Firestick in 2026."
+  },
   {
     id: "best-iptv-service-2026",
     path: "/blog/best-iptv-service-2026",
@@ -2193,10 +2211,12 @@ const TutorialDownloaderPage = lazy(() => import("./assets/TutorialDownloaderPag
 const BlogPage = lazy(() => import("./assets/BlogPage-BkpEnivr.js"));
 const TivimateVsSmartersPage = lazy(() => import("./assets/TivimateVsSmartersPage-DtBiRJ2V.js"));
 const BestIptvService2026 = lazy(() => import("./assets/best-iptv-service-2026-C9wvlops.js"));
+const BestIptvApps2026 = lazy(() => import("./assets/best-iptv-apps-2026-dwVqe437.js"));
 const IptvFirestickSetupGuide = lazy(() => import("./assets/iptv-firestick-setup-guide-Cpa2jlb_.js"));
 const WatchSportsIptv = lazy(() => import("./assets/watch-sports-iptv-mzfmauwD.js"));
 const AntiFreezeIptvExplained = lazy(() => import("./assets/anti-freeze-iptv-explained-QSFn__u9.js"));
 const IptvFreeTrialGuide = lazy(() => import("./assets/iptv-free-trial-guide-DafuQomh.js"));
+const IptvCrackdown2026 = lazy(() => import("./assets/iptv-crackdown-2026-p5IDnj0q.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2226,10 +2246,12 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/channel-list", element: /* @__PURE__ */ jsx(ChannelPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog", element: /* @__PURE__ */ jsx(BlogPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/best-iptv-service-2026", element: /* @__PURE__ */ jsx(BestIptvService2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/best-iptv-apps-2026", element: /* @__PURE__ */ jsx(BestIptvApps2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-firestick-setup-guide", element: /* @__PURE__ */ jsx(IptvFirestickSetupGuide, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/watch-sports-iptv", element: /* @__PURE__ */ jsx(WatchSportsIptv, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/anti-freeze-iptv-explained", element: /* @__PURE__ */ jsx(AntiFreezeIptvExplained, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-free-trial-guide", element: /* @__PURE__ */ jsx(IptvFreeTrialGuide, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-crackdown-2026", element: /* @__PURE__ */ jsx(IptvCrackdown2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),

@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'iptv-crackdown-2026',
+    path: '/blog/iptv-crackdown-2026',
+    image: '/images/blog/iptv_crackdown_2026.png',
+    category: 'Legal & Security',
+    date: 'Apr 16, 2026',
+    title: 'IPTV Crackdowns in 2026: Why Courts are Now Blocking VPNs',
+    excerpt: 'Discover how the 2026 IPTV legal crackdown impacts you, why the French court IPTV ban targets VPNs, and how to find safe IPTV alternatives immediately.'
+  },
+  {
     id: 'best-iptv-apps-2026',
     path: '/blog/best-iptv-apps-2026',
     image: 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1200&q=80',

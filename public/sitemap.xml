@@ -51,6 +51,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://www.zyminex.pro/blog/iptv-crackdown-2026</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.zyminex.pro/faq</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
