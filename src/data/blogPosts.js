@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'best-iptv-apps-2026',
+    path: '/blog/best-iptv-apps-2026',
+    image: 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1200&q=80',
+    category: 'App Reviews & Tutorials',
+    date: 'Apr 15, 2026',
+    title: 'Top 5 Best IPTV Apps for Smart TV & Android in 2026',
+    excerpt: 'Looking for the fastest, most reliable IPTV player? We review the top 5 best IPTV apps for Smart TV, Android, and Firestick in 2026.'
+  },
+  {
     id: 'best-iptv-service-2026',
     path: '/blog/best-iptv-service-2026',
     image: '/images/blog/best_iptv_service.png',
