@@ -30,7 +30,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''} ${mobileOpen ? 'navbar--open' : ''}`} id="main-nav">
       <div className="navbar__inner container">
         <Link to="/" className="navbar__logo" id="nav-logo" aria-label="Zyminex Logo">
-          <span className="navbar__logo-icon material-icons-outlined">play_circle</span>
+          <span className="navbar__logo-icon material-icons-outlined" aria-hidden="true">play_circle</span>
           <span className="navbar__logo-text">Zyminex</span>
         </Link>
 
