@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'iptv-free-trial-checklist-2026',
+    path: '/blog/iptv-free-trial-checklist-2026',
+    image: '/images/blog/iptv_free_trial_checklist.png',
+    category: 'Purchasing Advice',
+    date: 'Apr 16, 2026',
+    title: 'IPTV Free Trial 2026: The Ultimate 24-Hour Testing Checklist',
+    excerpt: 'Before you buy a subscription, use this exact 2026 checklist to test IPTV free trials. Learn how to verify 4K quality, test anti-freeze servers, and avoid scams.'
+  },
+  {
     id: 'iptv-crackdown-2026',
     path: '/blog/iptv-crackdown-2026',
     image: '/images/blog/iptv_crackdown_2026.png',

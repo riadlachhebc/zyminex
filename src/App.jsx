@@ -31,6 +31,7 @@ const WatchSportsIptv = lazy(() => import('./pages/blog/watch-sports-iptv'))
 const AntiFreezeIptvExplained = lazy(() => import('./pages/blog/anti-freeze-iptv-explained'))
 const IptvFreeTrialGuide = lazy(() => import('./pages/blog/iptv-free-trial-guide'))
 const IptvCrackdown2026 = lazy(() => import('./pages/blog/iptv-crackdown-2026'))
+const IptvFreeTrialChecklist2026 = lazy(() => import('./pages/blog/iptv-free-trial-checklist-2026'))
 
 const ChannelPage = lazy(() => import('./pages/ChannelPage'))
 
@@ -76,6 +77,7 @@ function App() {
             <Route path="/blog/anti-freeze-iptv-explained" element={<AntiFreezeIptvExplained />} />
             <Route path="/blog/iptv-free-trial-guide" element={<IptvFreeTrialGuide />} />
             <Route path="/blog/iptv-crackdown-2026" element={<IptvCrackdown2026 />} />
+            <Route path="/blog/iptv-free-trial-checklist-2026" element={<IptvFreeTrialChecklist2026 />} />
             <Route path="/tivimate-vs-iptv-smarters-pro-best-player-2026" element={<TivimateVsSmartersPage />} />
 
             <Route path="/terms" element={<TermsPage />} />
