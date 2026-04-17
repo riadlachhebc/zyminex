@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'iptv-vs-cable-cord-cutting-2026',
+    path: '/blog/iptv-vs-cable-cord-cutting-2026',
+    image: '/images/blog/iptv_vs_cable_cord_cutting.png',
+    category: 'Cord-Cutting Guides',
+    date: 'Apr 17, 2026',
+    title: 'IPTV vs. Traditional Cable: Why Millions are Cord-Cutting This Year',
+    excerpt: 'Discover why millions are ditching traditional cable TV packages for affordable IPTV streaming in 2026. Compare the costs, flexibility, and equipment needed to cut the cord.'
+  },
+  {
     id: 'iptv-free-trial-checklist-2026',
     path: '/blog/iptv-free-trial-checklist-2026',
     image: '/images/blog/iptv_free_trial_checklist.png',

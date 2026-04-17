@@ -48,6 +48,11 @@ const blogMeta = {
     description: 'Use this exact 2026 checklist to test IPTV free trials. Verify 4K quality, anti-freeze servers, and avoid scams.',
     image: `${BASE_URL}/images/blog/iptv_free_trial_checklist.png`,
   },
+  '/blog/iptv-vs-cable-cord-cutting-2026': {
+    title: 'IPTV vs. Traditional Cable: Why Millions are Cord-Cutting This Year | Zyminex',
+    description: 'Discover why millions are ditching traditional cable TV packages for affordable IPTV streaming in 2026. Compare the costs, flexibility, and equipment needed to cut the cord.',
+    image: `${BASE_URL}/images/blog/iptv_vs_cable_cord_cutting.png`,
+  },
   '/tivimate-vs-iptv-smarters-pro-best-player-2026': {
     title: 'TiviMate vs. IPTV Smarters Pro: Best IPTV Player in 2026? | Zyminex',
     description: 'Confused about which app to use? Read our ultimate 2026 comparison of TiviMate vs. IPTV Smarters Pro.',
