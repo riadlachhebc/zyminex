@@ -32,9 +32,11 @@ export default function BestIptvService2026() {
         <meta property="og:description" content="Discover the best IPTV service in 2026. Learn how to cut the cord, find premium channel lineups, and stream flawlessly in 4K without buffering." />
         <meta property="og:url" content="https://www.zyminex.pro/blog/best-iptv-service-2026" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.zyminex.pro/images/blog/best_iptv_service.png" />
         
         <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/images/blog/best_iptv_service.png" />
         <meta name="twitter:title" content="The Best IPTV Service in 2026: Ultimate Cord-Cutting Guide" />
         <meta name="twitter:description" content="Discover the best IPTV service in 2026. Learn how to cut the cord, find premium channel lineups, and stream flawlessly in 4K without buffering." />
 

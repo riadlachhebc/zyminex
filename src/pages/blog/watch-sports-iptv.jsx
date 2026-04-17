@@ -32,6 +32,11 @@ export default function WatchSportsIptv() {
         <meta property="og:description" content="Tired of buffering during the big game? Learn how to optimize your IPTV setup for flawless 60FPS live sports streaming and never miss a goal again." />
         <meta property="og:url" content="https://www.zyminex.pro/blog/watch-sports-iptv" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.zyminex.pro/images/blog/watch_sports.png" />
+        
+        <meta name="twitter:site" content="@zyminex" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/images/blog/watch_sports.png" />
 
         <script type="application/ld+json">
           {JSON.stringify(schema)}

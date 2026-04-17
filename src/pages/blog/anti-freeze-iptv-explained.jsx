@@ -32,6 +32,11 @@ export default function AntiFreezeIptvExplained() {
         <meta property="og:description" content="What is anti-freeze IPTV technology? Discover how advanced server infrastructure completely eliminates buffering and stuttering." />
         <meta property="og:url" content="https://www.zyminex.pro/blog/anti-freeze-iptv-explained" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.zyminex.pro/images/blog/anti_freeze_servers.png" />
+        
+        <meta name="twitter:site" content="@zyminex" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/images/blog/anti_freeze_servers.png" />
 
         <script type="application/ld+json">
           {JSON.stringify(schema)}

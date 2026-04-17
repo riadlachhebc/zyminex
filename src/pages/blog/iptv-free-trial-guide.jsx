@@ -32,6 +32,11 @@ export default function IptvFreeTrialGuide() {
         <meta property="og:description" content="Never pay upfront. Learn how to secure an IPTV free trial, what specifically to test, and how to verify 4K quality before committing to a subscription." />
         <meta property="og:url" content="https://www.zyminex.pro/blog/iptv-free-trial-guide" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.zyminex.pro/images/blog/free_trial_ticket.png" />
+        
+        <meta name="twitter:site" content="@zyminex" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/images/blog/free_trial_ticket.png" />
 
         <script type="application/ld+json">
           {JSON.stringify(schema)}

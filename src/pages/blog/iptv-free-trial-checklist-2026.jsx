@@ -33,6 +33,10 @@ export default function IptvFreeTrialChecklist2026() {
         <meta property="og:url" content="https://www.zyminex.pro/blog/iptv-free-trial-checklist-2026" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.zyminex.pro/images/blog/iptv_free_trial_checklist.png" />
+        
+        <meta name="twitter:site" content="@zyminex" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/images/blog/iptv_free_trial_checklist.png" />
 
         <script type="application/ld+json">
           {JSON.stringify(schema)}

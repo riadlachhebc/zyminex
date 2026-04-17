@@ -33,6 +33,10 @@ export default function IptvCrackdown2026() {
         <meta property="og:url" content="https://www.zyminex.pro/blog/iptv-crackdown-2026" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.zyminex.pro/images/blog/iptv_crackdown_2026.png" />
+        
+        <meta name="twitter:site" content="@zyminex" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/images/blog/iptv_crackdown_2026.png" />
 
         <script type="application/ld+json">
           {JSON.stringify(schema)}

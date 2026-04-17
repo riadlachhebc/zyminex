@@ -32,9 +32,11 @@ export default function BestIptvApps2026() {
         <meta property="og:description" content="Discover the best IPTV apps for Smart TV, Android, and Firestick in 2026. Compare features, UI, and performance of TiviMate, Smarters Pro, IBO Player, and more." />
         <meta property="og:url" content="https://www.zyminex.pro/blog/best-iptv-apps-2026" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1200&q=80" />
         
         <meta name="twitter:site" content="@zyminex" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1200&q=80" />
         <meta name="twitter:title" content="Top 5 Best IPTV Apps for Smart TV & Android in 2026" />
         <meta name="twitter:description" content="Discover the best IPTV apps for Smart TV, Android, and Firestick in 2026. Compare features, UI, and performance of TiviMate, Smarters Pro, IBO Player, and more." />
 

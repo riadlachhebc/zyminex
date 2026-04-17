@@ -32,6 +32,11 @@ export default function IptvFirestickSetupGuide() {
         <meta property="og:description" content="A complete 2026 step-by-step tutorial on how to safely install and set up IPTV on your Amazon Firestick. Discover the best apps and configurations." />
         <meta property="og:url" content="https://www.zyminex.pro/blog/iptv-firestick-setup-guide" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.zyminex.pro/images/blog/firestick_setup.png" />
+        
+        <meta name="twitter:site" content="@zyminex" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://www.zyminex.pro/images/blog/firestick_setup.png" />
 
         <script type="application/ld+json">
           {JSON.stringify(schema)}
