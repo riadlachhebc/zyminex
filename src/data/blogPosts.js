@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'youtube-tv-vs-premium-iptv-2026',
+    path: '/blog/youtube-tv-vs-premium-iptv-2026',
+    image: '/images/blog/youtube_vs_iptv_hero_2026.png',
+    category: 'Comparisons',
+    date: 'Apr 18, 2026',
+    title: 'YouTube TV vs. Premium IPTV: Which is the Best Cable Replacement in 2026?',
+    excerpt: 'Comparing YouTube TV vs Premium IPTV in 2026. Discover which service offers better sports, 4K quality, and the best value for cord-cutters this year.'
+  },
+  {
     id: 'iptv-vs-cable-cord-cutting-2026',
     path: '/blog/iptv-vs-cable-cord-cutting-2026',
     image: '/images/blog/iptv_vs_cable_cord_cutting.png',
