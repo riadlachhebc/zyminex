@@ -1712,6 +1712,33 @@ const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
   {
+    id: "best-latino-iptv-usa-2026",
+    path: "/blog/best-latino-iptv-usa-2026",
+    image: "/images/blog/best_latino_iptv_hero_2026.webp",
+    category: "Streaming Guides",
+    date: "Apr 19, 2026",
+    title: "Best Latino IPTV USA 2026: Top Spanish Channels & Live Sports",
+    excerpt: "Discover the best Latino IPTV in the USA for 2026. Stream Liga MX, Univision, and Telemundo in 4K with no buffering. See our top-rated bilingual services."
+  },
+  {
+    id: "youtube-tv-vs-premium-iptv-2026",
+    path: "/blog/youtube-tv-vs-premium-iptv-2026",
+    image: "/images/blog/youtube_vs_iptv_hero_2026.png",
+    category: "Comparisons",
+    date: "Apr 18, 2026",
+    title: "YouTube TV vs. Premium IPTV: Which is the Best Cable Replacement in 2026?",
+    excerpt: "Comparing YouTube TV vs Premium IPTV in 2026. Discover which service offers better sports, 4K quality, and the best value for cord-cutters this year."
+  },
+  {
+    id: "iptv-vs-cable-cord-cutting-2026",
+    path: "/blog/iptv-vs-cable-cord-cutting-2026",
+    image: "/images/blog/iptv_vs_cable_cord_cutting.png",
+    category: "Cord-Cutting Guides",
+    date: "Apr 17, 2026",
+    title: "IPTV vs. Traditional Cable: Why Millions are Cord-Cutting This Year",
+    excerpt: "Discover why millions are ditching traditional cable TV packages for affordable IPTV streaming in 2026. Compare the costs, flexibility, and equipment needed to cut the cord."
+  },
+  {
     id: "iptv-free-trial-checklist-2026",
     path: "/blog/iptv-free-trial-checklist-2026",
     image: "/images/blog/iptv_free_trial_checklist.png",
@@ -2227,6 +2254,9 @@ const AntiFreezeIptvExplained = lazy(() => import("./assets/anti-freeze-iptv-exp
 const IptvFreeTrialGuide = lazy(() => import("./assets/iptv-free-trial-guide-CGL0kTcB.js"));
 const IptvCrackdown2026 = lazy(() => import("./assets/iptv-crackdown-2026-bQTVI-5X.js"));
 const IptvFreeTrialChecklist2026 = lazy(() => import("./assets/iptv-free-trial-checklist-2026-CJOJRwb1.js"));
+const IptvVsCableCordCutting2026 = lazy(() => import("./assets/iptv-vs-cable-cord-cutting-2026-CbQ1AW13.js"));
+const YoutubeTvVsPremiumIptv2026 = lazy(() => import("./assets/youtube-tv-vs-premium-iptv-2026-DmUCHWQq.js"));
+const BestLatinoIptvUsa2026 = lazy(() => import("./assets/best-latino-iptv-usa-2026-Bng8XVam.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2263,6 +2293,9 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-free-trial-guide", element: /* @__PURE__ */ jsx(IptvFreeTrialGuide, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-crackdown-2026", element: /* @__PURE__ */ jsx(IptvCrackdown2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-free-trial-checklist-2026", element: /* @__PURE__ */ jsx(IptvFreeTrialChecklist2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-vs-cable-cord-cutting-2026", element: /* @__PURE__ */ jsx(IptvVsCableCordCutting2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/youtube-tv-vs-premium-iptv-2026", element: /* @__PURE__ */ jsx(YoutubeTvVsPremiumIptv2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/best-latino-iptv-usa-2026", element: /* @__PURE__ */ jsx(BestLatinoIptvUsa2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),

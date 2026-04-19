@@ -8,6 +8,11 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/best-latino-iptv-usa-2026': {
+    title: 'Best Latino IPTV USA 2026: Top Spanish Channels & Live Sports',
+    description: 'Discover the best Latino IPTV in the USA for 2026. Stream Liga MX, Univision, and Telemundo in 4K with no buffering. See our top-rated bilingual services.',
+    image: `${BASE_URL}/images/blog/best_latino_iptv_hero_2026.png`,
+  },
   '/blog/best-iptv-service-2026': {
     title: 'The Best IPTV Service in 2026: Ultimate Cord-Cutting Guide | Zyminex',
     description: 'Discover the best IPTV service in 2026. Learn how to cut the cord, find premium channel lineups, and stream flawlessly in 4K without buffering.',

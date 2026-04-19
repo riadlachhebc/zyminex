@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'best-latino-iptv-usa-2026',
+    path: '/blog/best-latino-iptv-usa-2026',
+    image: '/images/blog/best_latino_iptv_hero_2026.png',
+    category: 'Streaming Guides',
+    date: 'Apr 19, 2026',
+    title: 'Best Latino IPTV USA 2026: Top Spanish Channels & Live Sports',
+    excerpt: 'Discover the best Latino IPTV in the USA for 2026. Stream Liga MX, Univision, and Telemundo in 4K with no buffering. See our top-rated bilingual services.'
+  },
+  {
     id: 'youtube-tv-vs-premium-iptv-2026',
     path: '/blog/youtube-tv-vs-premium-iptv-2026',
     image: '/images/blog/youtube_vs_iptv_hero_2026.png',
