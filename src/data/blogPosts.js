@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'sky-tv-alternatives-europe-2026',
+    path: '/blog/sky-tv-alternatives-europe-2026',
+    image: '/images/blog/hero_sky_alternatives_2026.png',
+    category: 'Streaming Guides',
+    date: 'Apr 26, 2026',
+    title: '7 Best Sky TV Alternatives in Europe (2026 IPTV Guide)',
+    excerpt: 'Tired of Sky and DAZN price hikes? Discover why millions in Europe are switching to IPTV in 2026 to save €1,200+ annually on sports and movies.'
+  },
+  {
     id: 'best-latino-iptv-usa-2026',
     path: '/blog/best-latino-iptv-usa-2026',
     image: '/images/blog/best_latino_iptv_hero_2026.png',

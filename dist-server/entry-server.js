@@ -1712,9 +1712,18 @@ const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
   {
+    id: "sky-tv-alternatives-europe-2026",
+    path: "/blog/sky-tv-alternatives-europe-2026",
+    image: "/images/blog/hero_sky_alternatives_2026.png",
+    category: "Streaming Guides",
+    date: "Apr 26, 2026",
+    title: "7 Best Sky TV Alternatives in Europe (2026 IPTV Guide)",
+    excerpt: "Tired of Sky and DAZN price hikes? Discover why millions in Europe are switching to IPTV in 2026 to save €1,200+ annually on sports and movies."
+  },
+  {
     id: "best-latino-iptv-usa-2026",
     path: "/blog/best-latino-iptv-usa-2026",
-    image: "/images/blog/best_latino_iptv_hero_2026.webp",
+    image: "/images/blog/best_latino_iptv_hero_2026.png",
     category: "Streaming Guides",
     date: "Apr 19, 2026",
     title: "Best Latino IPTV USA 2026: Top Spanish Channels & Live Sports",
@@ -2256,7 +2265,8 @@ const IptvCrackdown2026 = lazy(() => import("./assets/iptv-crackdown-2026-bQTVI-
 const IptvFreeTrialChecklist2026 = lazy(() => import("./assets/iptv-free-trial-checklist-2026-CJOJRwb1.js"));
 const IptvVsCableCordCutting2026 = lazy(() => import("./assets/iptv-vs-cable-cord-cutting-2026-CbQ1AW13.js"));
 const YoutubeTvVsPremiumIptv2026 = lazy(() => import("./assets/youtube-tv-vs-premium-iptv-2026-DmUCHWQq.js"));
-const BestLatinoIptvUsa2026 = lazy(() => import("./assets/best-latino-iptv-usa-2026-Bng8XVam.js"));
+const BestLatinoIptvUsa2026 = lazy(() => import("./assets/best-latino-iptv-usa-2026-Dwp4j2q4.js"));
+const SkyTvAlternativesEurope2026 = lazy(() => import("./assets/SkyTvAlternativesEurope2026-713YzDpX.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2296,6 +2306,7 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-vs-cable-cord-cutting-2026", element: /* @__PURE__ */ jsx(IptvVsCableCordCutting2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/youtube-tv-vs-premium-iptv-2026", element: /* @__PURE__ */ jsx(YoutubeTvVsPremiumIptv2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/best-latino-iptv-usa-2026", element: /* @__PURE__ */ jsx(BestLatinoIptvUsa2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/sky-tv-alternatives-europe-2026", element: /* @__PURE__ */ jsx(SkyTvAlternativesEurope2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),

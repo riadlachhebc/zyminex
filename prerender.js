@@ -8,6 +8,11 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/sky-tv-alternatives-europe-2026': {
+    title: '7 Best Sky TV Alternatives in Europe (2026 IPTV Guide) | Zyminex',
+    description: 'Tired of Sky and DAZN price hikes? Discover why millions in Europe are switching to IPTV in 2026 to save €1,200+ annually on sports and movies.',
+    image: `${BASE_URL}/images/blog/hero_sky_alternatives_2026.png`,
+  },
   '/blog/best-latino-iptv-usa-2026': {
     title: 'Best Latino IPTV USA 2026: Top Spanish Channels & Live Sports',
     description: 'Discover the best Latino IPTV in the USA for 2026. Stream Liga MX, Univision, and Telemundo in 4K with no buffering. See our top-rated bilingual services.',
