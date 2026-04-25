@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'stream-nfl-draft-2026-no-cable',
+    path: '/blog/stream-nfl-draft-2026-no-cable',
+    image: '/images/blog/stream-nfl-draft-2026-hero.webp',
+    category: 'Streaming Guides',
+    date: 'Apr 01, 2026',
+    title: 'Stream NFL Draft 2026 Live: Watch Without Cable (HD)',
+    excerpt: 'Don\'t miss a single pick! Learn how to stream the 2026 NFL Draft live in Pittsburgh without cable. Get 4K quality on ESPN and NFL Network now.'
+  },
+  {
     id: 'sky-tv-alternatives-europe-2026',
     path: '/blog/sky-tv-alternatives-europe-2026',
     image: '/images/blog/hero_sky_alternatives_2026.png',

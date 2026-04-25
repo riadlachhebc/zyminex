@@ -8,6 +8,11 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/stream-nfl-draft-2026-no-cable': {
+    title: 'Stream NFL Draft 2026 Live: Watch Without Cable (HD) | Zyminex',
+    description: 'Don\'t miss a single pick! Learn how to stream the 2026 NFL Draft live in Pittsburgh without cable. Get 4K quality on ESPN and NFL Network now.',
+    image: `${BASE_URL}/images/blog/stream-nfl-draft-2026-hero.webp`,
+  },
   '/blog/sky-tv-alternatives-europe-2026': {
     title: '7 Best Sky TV Alternatives in Europe (2026 IPTV Guide) | Zyminex',
     description: 'Tired of Sky and DAZN price hikes? Discover why millions in Europe are switching to IPTV in 2026 to save €1,200+ annually on sports and movies.',

@@ -36,6 +36,7 @@ const IptvVsCableCordCutting2026 = lazy(() => import('./pages/blog/iptv-vs-cable
 const YoutubeTvVsPremiumIptv2026 = lazy(() => import('./pages/blog/youtube-tv-vs-premium-iptv-2026'))
 const BestLatinoIptvUsa2026 = lazy(() => import('./pages/blog/best-latino-iptv-usa-2026'))
 const SkyTvAlternativesEurope2026 = lazy(() => import('./pages/blog/SkyTvAlternativesEurope2026'))
+const StreamNflDraft2026NoCable = lazy(() => import('./pages/blog/StreamNflDraft2026NoCable'))
 
 const ChannelPage = lazy(() => import('./pages/ChannelPage'))
 
@@ -86,6 +87,7 @@ function App() {
             <Route path="/blog/youtube-tv-vs-premium-iptv-2026" element={<YoutubeTvVsPremiumIptv2026 />} />
             <Route path="/blog/best-latino-iptv-usa-2026" element={<BestLatinoIptvUsa2026 />} />
             <Route path="/blog/sky-tv-alternatives-europe-2026" element={<SkyTvAlternativesEurope2026 />} />
+            <Route path="/blog/stream-nfl-draft-2026-no-cable" element={<StreamNflDraft2026NoCable />} />
             <Route path="/tivimate-vs-iptv-smarters-pro-best-player-2026" element={<TivimateVsSmartersPage />} />
 
             <Route path="/terms" element={<TermsPage />} />
