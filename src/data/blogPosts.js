@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'install-iptv-samsung-lg-smart-tv-2026',
+    path: '/blog/install-iptv-samsung-lg-smart-tv-2026',
+    image: '/images/blog/iptv-smart-tv-2026-installation.webp',
+    category: 'Troubleshooting',
+    date: 'Apr 30, 2026',
+    title: 'IPTV on Smart TV 2026: Install Banned Apps (Samsung & LG)',
+    excerpt: 'Apps gone? Learn how to restore IPTV on your Samsung or LG TV using Developer Mode and USB sideloading. Step-by-step 2026 guide for Tizen & WebOS.'
+  },
+  {
     id: 'portable-iptv-streaming-travel-guide-2026',
     path: '/blog/portable-iptv-streaming-travel-guide-2026',
     image: '/images/blog/portable-iptv-streaming-europe-holiday.webp',

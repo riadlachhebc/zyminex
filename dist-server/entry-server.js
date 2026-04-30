@@ -1712,6 +1712,15 @@ const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
   {
+    id: "install-iptv-samsung-lg-smart-tv-2026",
+    path: "/blog/install-iptv-samsung-lg-smart-tv-2026",
+    image: "/images/blog/iptv-smart-tv-2026-installation.webp",
+    category: "Troubleshooting",
+    date: "Apr 30, 2026",
+    title: "IPTV on Smart TV 2026: Install Banned Apps (Samsung & LG)",
+    excerpt: "Apps gone? Learn how to restore IPTV on your Samsung or LG TV using Developer Mode and USB sideloading. Step-by-step 2026 guide for Tizen & WebOS."
+  },
+  {
     id: "portable-iptv-streaming-travel-guide-2026",
     path: "/blog/portable-iptv-streaming-travel-guide-2026",
     image: "/images/blog/portable-iptv-streaming-europe-holiday.webp",
@@ -2287,6 +2296,7 @@ const BestLatinoIptvUsa2026 = lazy(() => import("./assets/best-latino-iptv-usa-2
 const SkyTvAlternativesEurope2026 = lazy(() => import("./assets/SkyTvAlternativesEurope2026-Ck6Qeg6Z.js"));
 const StreamNflDraft2026NoCable = lazy(() => import("./assets/StreamNflDraft2026NoCable-QUvIqm8a.js"));
 const PortableIptvStreamingTravelGuide2026 = lazy(() => import("./assets/PortableIptvStreamingTravelGuide2026-E_0RDMTa.js"));
+const InstallIptvSamsungLgSmartTv2026 = lazy(() => import("./assets/InstallIptvSamsungLgSmartTv2026-CNnRUo7k.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2329,6 +2339,7 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/blog/sky-tv-alternatives-europe-2026", element: /* @__PURE__ */ jsx(SkyTvAlternativesEurope2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/stream-nfl-draft-2026-no-cable", element: /* @__PURE__ */ jsx(StreamNflDraft2026NoCable, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/portable-iptv-streaming-travel-guide-2026", element: /* @__PURE__ */ jsx(PortableIptvStreamingTravelGuide2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/install-iptv-samsung-lg-smart-tv-2026", element: /* @__PURE__ */ jsx(InstallIptvSamsungLgSmartTv2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),

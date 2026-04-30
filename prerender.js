@@ -8,6 +8,11 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/install-iptv-samsung-lg-smart-tv-2026': {
+    title: 'IPTV on Smart TV 2026: Install Banned Apps (Samsung & LG) | Zyminex',
+    description: 'Apps gone? Learn how to restore IPTV on your Samsung or LG TV using Developer Mode and USB sideloading. Step-by-step 2026 guide for Tizen & WebOS.',
+    image: `${BASE_URL}/images/blog/iptv-smart-tv-2026-installation.webp`,
+  },
   '/blog/portable-iptv-streaming-travel-guide-2026': {
     title: 'Portable IPTV Streaming: Best Travel Setups for Europe 2026 | Zyminex',
     description: 'Heading to Spain or Greece? Learn how to stream your IPTV flawlessly. From travel routers to bypassing hotel Wi-Fi blocks, get the 2026 travel guide.',
