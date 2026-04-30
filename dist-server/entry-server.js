@@ -1712,6 +1712,15 @@ const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
   {
+    id: "portable-iptv-streaming-travel-guide-2026",
+    path: "/blog/portable-iptv-streaming-travel-guide-2026",
+    image: "/images/blog/portable-iptv-streaming-europe-holiday.webp",
+    category: "Travel Guides",
+    date: "Apr 30, 2026",
+    title: "Portable IPTV Streaming: Best Travel Setups for Europe 2026",
+    excerpt: "Heading to Spain or Greece? Learn how to stream your IPTV flawlessly. From travel routers to bypassing hotel Wi-Fi blocks, get the 2026 travel guide."
+  },
+  {
     id: "stream-nfl-draft-2026-no-cable",
     path: "/blog/stream-nfl-draft-2026-no-cable",
     image: "/images/blog/stream-nfl-draft-2026-hero.webp",
@@ -2277,6 +2286,7 @@ const YoutubeTvVsPremiumIptv2026 = lazy(() => import("./assets/youtube-tv-vs-pre
 const BestLatinoIptvUsa2026 = lazy(() => import("./assets/best-latino-iptv-usa-2026-Dwp4j2q4.js"));
 const SkyTvAlternativesEurope2026 = lazy(() => import("./assets/SkyTvAlternativesEurope2026-Ck6Qeg6Z.js"));
 const StreamNflDraft2026NoCable = lazy(() => import("./assets/StreamNflDraft2026NoCable-QUvIqm8a.js"));
+const PortableIptvStreamingTravelGuide2026 = lazy(() => import("./assets/PortableIptvStreamingTravelGuide2026-E_0RDMTa.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2318,6 +2328,7 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/blog/best-latino-iptv-usa-2026", element: /* @__PURE__ */ jsx(BestLatinoIptvUsa2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/sky-tv-alternatives-europe-2026", element: /* @__PURE__ */ jsx(SkyTvAlternativesEurope2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/stream-nfl-draft-2026-no-cable", element: /* @__PURE__ */ jsx(StreamNflDraft2026NoCable, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/portable-iptv-streaming-travel-guide-2026", element: /* @__PURE__ */ jsx(PortableIptvStreamingTravelGuide2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),

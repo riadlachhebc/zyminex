@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'portable-iptv-streaming-travel-guide-2026',
+    path: '/blog/portable-iptv-streaming-travel-guide-2026',
+    image: '/images/blog/portable-iptv-streaming-europe-holiday.webp',
+    category: 'Travel Guides',
+    date: 'Apr 30, 2026',
+    title: 'Portable IPTV Streaming: Best Travel Setups for Europe 2026',
+    excerpt: 'Heading to Spain or Greece? Learn how to stream your IPTV flawlessly. From travel routers to bypassing hotel Wi-Fi blocks, get the 2026 travel guide.'
+  },
+  {
     id: 'stream-nfl-draft-2026-no-cable',
     path: '/blog/stream-nfl-draft-2026-no-cable',
     image: '/images/blog/stream-nfl-draft-2026-hero.webp',
