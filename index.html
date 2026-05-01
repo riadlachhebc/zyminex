@@ -7,27 +7,48 @@
     <meta name="description" content="Get the best Zyminex IPTV subscription. 4K streaming, anti-freeze technology, 22,000+ channels &amp; free trial. Works on Firestick, Android, Smart TV &amp; more." />
     <meta name="keywords" content="IPTV, streaming, 4K, channels, live TV, sports, movies, Zyminex" />
     <title>Zyminex — Best 4K IPTV Subscription</title>
+
+    <!-- Fix 5: Preconnect / dns-prefetch (must be FIRST) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
     <!-- Preload Hero Image (LCP Optimization) -->
     <link rel="preload" as="image" href="/src/assets/hero.png" fetchpriority="high">
 
-    <!-- Non-blocking Google Fonts — Inter only -->
+    <!-- Fix 6: Critical inline CSS — eliminates render-blocking paint -->
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: 'Inter', Arial, sans-serif; background: #0d0f14; color: #e2e2ec; -webkit-font-smoothing: antialiased; }
+      #root { min-height: 100vh; }
+      nav, .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; min-height: 72px; background: transparent; }
+      .hero, [class*='hero'] { min-height: 500px; display: flex; align-items: center; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+
+    <!-- Fix 7: Non-blocking Google Fonts (preload trick) -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900&display=swap"></noscript>
-    
+
     <!-- Non-blocking Material Icons -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined&display=swap" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined&display=swap"></noscript>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PHWD441SZS"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-PHWD441SZS');
+    <!-- Fix 4: Deferred Google Tag Manager (load after 3s post-window.load) -->
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-PHWD441SZS';
+          document.head.appendChild(s);
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', 'G-PHWD441SZS', { send_page_view: true });
+        }, 3000);
+      });
     </script>
   </head>
   <body>

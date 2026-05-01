@@ -52,13 +52,19 @@ function App() {
         <Suspense fallback={
           <div style={{
             minHeight: '100vh',
-            background: '#0a0a0f',
+            background: '#0d0f14',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center',
-            color: '#fff'
+            justifyContent: 'center'
           }}>
-            Loading...
+            <div style={{
+              width: '40px',
+              height: '40px',
+              border: '3px solid rgba(255,255,255,0.1)',
+              borderTop: '3px solid #6aabff',
+              borderRadius: '50%',
+              animation: 'spin 0.8s linear infinite'
+            }}></div>
           </div>
         }>
           <Routes>

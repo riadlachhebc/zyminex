@@ -2304,12 +2304,18 @@ function App() {
     /* @__PURE__ */ jsx(Navbar, {}),
     /* @__PURE__ */ jsx("main", { children: /* @__PURE__ */ jsx(Suspense, { fallback: /* @__PURE__ */ jsx("div", { style: {
       minHeight: "100vh",
-      background: "#0a0a0f",
+      background: "#0d0f14",
       display: "flex",
       alignItems: "center",
-      justifyContent: "center",
-      color: "#fff"
-    }, children: "Loading..." }), children: /* @__PURE__ */ jsxs(Routes, { children: [
+      justifyContent: "center"
+    }, children: /* @__PURE__ */ jsx("div", { style: {
+      width: "40px",
+      height: "40px",
+      border: "3px solid rgba(255,255,255,0.1)",
+      borderTop: "3px solid #6aabff",
+      borderRadius: "50%",
+      animation: "spin 0.8s linear infinite"
+    } }) }), children: /* @__PURE__ */ jsxs(Routes, { children: [
       /* @__PURE__ */ jsx(Route, { path: "/", element: /* @__PURE__ */ jsx(HomePage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/buy-iptv-subscription", element: /* @__PURE__ */ jsx(PricingPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/faq", element: /* @__PURE__ */ jsx(FaqPage, {}) }),
