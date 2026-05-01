@@ -499,15 +499,7 @@ textarea.input-field {
   }
 }
 
-/* --- Fix 6: content-visibility for below-fold sections (reduces Style & Layout work) --- */
-section:not(:first-child),
-footer,
-[class*='section']:not(:first-child) {
-  content-visibility: auto;
-  contain-intrinsic-size: 0 500px;
-}
-
-/* Defer page-load animations to avoid layout thrash on paint */
+/* --- Performance: Defer page-load animations to reduce layout thrash on paint --- */
 .animate-fade-in-up,
 .animate-fade-in {
   animation-delay: 0.5s;
