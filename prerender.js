@@ -8,6 +8,16 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/iptv-cable-replacement-usa-2026-guide': {
+    title: 'IPTV Cable Replacement USA: Save $1,500/Year in 2026 | Zyminex',
+    description: 'Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the $200 cable bill, and keep your 4K live sports.',
+    image: `${BASE_URL}/images/blog/iptv-cable-replacement-hero-2026.webp`,
+  },
+  '/blog/stop-isp-throttling-iptv-2026': {
+    title: 'ISP Throttling IPTV: How to Stop 2026 Buffering Waves | Zyminex',
+    description: 'Tired of IPTV buffering? Learn how to detect and bypass ISP throttling IPTV in May 2026 using VPN obfuscation, DNS tweaks, and private nodes.',
+    image: `${BASE_URL}/images/blog/stop-isp-throttling-hero-2026.webp`,
+  },
   '/blog/install-iptv-samsung-lg-smart-tv-2026': {
     title: 'IPTV on Smart TV 2026: Install Banned Apps (Samsung & LG) | Zyminex',
     description: 'Apps gone? Learn how to restore IPTV on your Samsung or LG TV using Developer Mode and USB sideloading. Step-by-step 2026 guide for Tizen & WebOS.',

@@ -1,5 +1,23 @@
 export const blogPosts = [
   {
+    id: 'iptv-cable-replacement-usa-2026-guide',
+    path: '/blog/iptv-cable-replacement-usa-2026-guide',
+    image: '/images/blog/iptv-cable-replacement-hero-2026.webp',
+    category: 'Cord-Cutting Guides',
+    date: 'May 10, 2026',
+    title: 'IPTV Cable Replacement USA: Save $1,500/Year in 2026',
+    excerpt: 'Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the $200 cable bill, and keep your 4K live sports.'
+  },
+  {
+    id: 'stop-isp-throttling-iptv-2026',
+    path: '/blog/stop-isp-throttling-iptv-2026',
+    image: '/images/blog/stop-isp-throttling-hero-2026.webp',
+    category: 'Troubleshooting',
+    date: 'May 10, 2026',
+    title: 'ISP Throttling IPTV: How to Stop 2026 Buffering Waves',
+    excerpt: 'Tired of IPTV buffering? Learn how to detect and bypass ISP throttling IPTV in May 2026 using VPN obfuscation, DNS tweaks, and private nodes.'
+  },
+  {
     id: 'install-iptv-samsung-lg-smart-tv-2026',
     path: '/blog/install-iptv-samsung-lg-smart-tv-2026',
     image: '/images/blog/iptv-smart-tv-2026-installation.webp',

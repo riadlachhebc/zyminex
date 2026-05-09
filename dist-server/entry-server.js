@@ -1712,6 +1712,24 @@ const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
   {
+    id: "iptv-cable-replacement-usa-2026-guide",
+    path: "/blog/iptv-cable-replacement-usa-2026-guide",
+    image: "/images/blog/iptv-cable-replacement-hero-2026.webp",
+    category: "Cord-Cutting Guides",
+    date: "May 10, 2026",
+    title: "IPTV Cable Replacement USA: Save $1,500/Year in 2026",
+    excerpt: "Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the $200 cable bill, and keep your 4K live sports."
+  },
+  {
+    id: "stop-isp-throttling-iptv-2026",
+    path: "/blog/stop-isp-throttling-iptv-2026",
+    image: "/images/blog/stop-isp-throttling-hero-2026.webp",
+    category: "Troubleshooting",
+    date: "May 10, 2026",
+    title: "ISP Throttling IPTV: How to Stop 2026 Buffering Waves",
+    excerpt: "Tired of IPTV buffering? Learn how to detect and bypass ISP throttling IPTV in May 2026 using VPN obfuscation, DNS tweaks, and private nodes."
+  },
+  {
     id: "install-iptv-samsung-lg-smart-tv-2026",
     path: "/blog/install-iptv-samsung-lg-smart-tv-2026",
     image: "/images/blog/iptv-smart-tv-2026-installation.webp",
@@ -2297,6 +2315,8 @@ const SkyTvAlternativesEurope2026 = lazy(() => import("./assets/SkyTvAlternative
 const StreamNflDraft2026NoCable = lazy(() => import("./assets/StreamNflDraft2026NoCable-QUvIqm8a.js"));
 const PortableIptvStreamingTravelGuide2026 = lazy(() => import("./assets/PortableIptvStreamingTravelGuide2026-E_0RDMTa.js"));
 const InstallIptvSamsungLgSmartTv2026 = lazy(() => import("./assets/InstallIptvSamsungLgSmartTv2026-CNnRUo7k.js"));
+const StopIspThrottlingIptv2026 = lazy(() => import("./assets/StopIspThrottlingIptv2026-Dbx865Up.js"));
+const IptvCableReplacementUsa2026 = lazy(() => import("./assets/IptvCableReplacementUsa2026-DE76fbDj.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2346,6 +2366,8 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/blog/stream-nfl-draft-2026-no-cable", element: /* @__PURE__ */ jsx(StreamNflDraft2026NoCable, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/portable-iptv-streaming-travel-guide-2026", element: /* @__PURE__ */ jsx(PortableIptvStreamingTravelGuide2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/install-iptv-samsung-lg-smart-tv-2026", element: /* @__PURE__ */ jsx(InstallIptvSamsungLgSmartTv2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/stop-isp-throttling-iptv-2026", element: /* @__PURE__ */ jsx(StopIspThrottlingIptv2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-cable-replacement-usa-2026-guide", element: /* @__PURE__ */ jsx(IptvCableReplacementUsa2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),
