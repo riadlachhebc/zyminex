@@ -1,5 +1,23 @@
 export const blogPosts = [
   {
+    id: 'bypass-mlb-blackout-iptv-nba-playoffs-2026',
+    path: '/blog/bypass-mlb-blackout-iptv-nba-playoffs-2026',
+    image: '/bypass-mlb-blackout-iptv-hero.png',
+    category: 'Sports Streaming',
+    date: 'May 12, 2026',
+    title: 'Bypass MLB Blackouts on IPTV: Watch NBA Playoffs Live 2026',
+    excerpt: 'Sick of "This game is unavailable in your area"? Learn how to bypass MLB blackouts and watch every NBA Playoff game live on IPTV in 2026.'
+  },
+  {
+    id: 'buy-iptv-with-crypto-safe-2026-guide',
+    path: '/blog/buy-iptv-with-crypto-safe-2026-guide',
+    image: '/buy-iptv-crypto-hero.png',
+    category: 'Legal & Security',
+    date: 'May 12, 2026',
+    title: 'Buy IPTV with Crypto Safe? What \'Operation Switch Off\' Taught Us for 2026',
+    excerpt: 'Police traced millions in \'Operation Switch Off\' using crypto audits. Discover if buying IPTV with Bitcoin or Monero is still safe and how to protect your data.'
+  },
+  {
     id: 'iptv-cable-replacement-usa-2026-guide',
     path: '/blog/iptv-cable-replacement-usa-2026-guide',
     image: '/images/blog/iptv-cable-replacement-hero-2026.webp',

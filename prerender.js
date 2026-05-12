@@ -8,6 +8,16 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/bypass-mlb-blackout-iptv-nba-playoffs-2026': {
+    title: 'Bypass MLB Blackouts on IPTV: Watch NBA Playoffs Live 2026',
+    description: 'Sick of "This game is unavailable in your area"? Learn how to bypass MLB blackouts and watch every NBA Playoff game live on IPTV in 2026.',
+    image: `${BASE_URL}/bypass-mlb-blackout-iptv-hero.png`,
+  },
+  '/blog/buy-iptv-with-crypto-safe-2026-guide': {
+    title: 'Is it safe to buy IPTV with crypto in 2026? Post-Raid Guide',
+    description: 'Police traced millions in \'Operation Switch Off\' using crypto audits. Discover if buying IPTV with Bitcoin or Monero is still safe and how to protect your data.',
+    image: `${BASE_URL}/buy-iptv-crypto-hero.png`,
+  },
   '/blog/iptv-cable-replacement-usa-2026-guide': {
     title: 'IPTV Cable Replacement USA: Save $1,500/Year in 2026 | Zyminex',
     description: 'Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the $200 cable bill, and keep your 4K live sports.',
