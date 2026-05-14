@@ -8,9 +8,14 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
-  '/blog/bypass-mlb-blackout-iptv-nba-playoffs-2026': {
-    title: 'Bypass MLB Blackouts on IPTV: Watch NBA Playoffs Live 2026',
-    description: 'Sick of "This game is unavailable in your area"? Learn how to bypass MLB blackouts and watch every NBA Playoff game live on IPTV in 2026.',
+  '/blog/fix-broken-iptv-playlist-dead-m3u-links-2026': {
+    title: 'Fix Broken IPTV Playlist: 5 Ways to Update Dead M3U Links',
+    description: 'IPTV playlist failed to load? Learn how to fix broken IPTV playlists, update dead M3U links, and bypass ISP blocking after the May 2026 server seizures.',
+    image: `${BASE_URL}/fix-broken-iptv-playlist-m3u.png`,
+  },
+  '/blog/bypass-mlb-blackout-iptv-2026-guide': {
+    title: 'Bypass MLB Blackout with IPTV: 2026 NBA & MLB Guide',
+    description: 'Frustrated by sports blackouts? Learn how to bypass MLB blackouts with IPTV and stream the 2026 NBA Playoffs in 4K without cable. Start your free trial today.',
     image: `${BASE_URL}/bypass-mlb-blackout-iptv-hero.png`,
   },
   '/blog/buy-iptv-with-crypto-safe-2026-guide': {

@@ -1,12 +1,21 @@
 export const blogPosts = [
   {
-    id: 'bypass-mlb-blackout-iptv-nba-playoffs-2026',
-    path: '/blog/bypass-mlb-blackout-iptv-nba-playoffs-2026',
+    id: 'fix-broken-iptv-playlist-dead-m3u-links-2026',
+    path: '/blog/fix-broken-iptv-playlist-dead-m3u-links-2026',
+    image: '/fix-broken-iptv-playlist-m3u.png',
+    category: 'Troubleshooting',
+    date: 'May 14, 2026',
+    title: 'Fix Broken IPTV Playlist: 5 Ways to Update Dead M3U Links',
+    excerpt: 'IPTV playlist failed to load? Learn how to fix broken IPTV playlists, update dead M3U links, and bypass ISP blocking after the May 2026 server seizures.'
+  },
+  {
+    id: 'bypass-mlb-blackout-iptv-2026-guide',
+    path: '/blog/bypass-mlb-blackout-iptv-2026-guide',
     image: '/bypass-mlb-blackout-iptv-hero.png',
     category: 'Sports Streaming',
-    date: 'May 12, 2026',
-    title: 'Bypass MLB Blackouts on IPTV: Watch NBA Playoffs Live 2026',
-    excerpt: 'Sick of "This game is unavailable in your area"? Learn how to bypass MLB blackouts and watch every NBA Playoff game live on IPTV in 2026.'
+    date: 'May 14, 2026',
+    title: 'Bypass MLB Blackout with IPTV: 2026 NBA & MLB Guide',
+    excerpt: 'Frustrated by sports blackouts? Learn how to bypass MLB blackouts with IPTV and stream the 2026 NBA Playoffs in 4K without cable. Start your free trial today.'
   },
   {
     id: 'buy-iptv-with-crypto-safe-2026-guide',
