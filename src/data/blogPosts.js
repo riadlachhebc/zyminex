@@ -1,5 +1,23 @@
 export const blogPosts = [
   {
+    id: 'replace-cable-and-netflix-2026',
+    path: '/blog/replace-cable-and-netflix-2026',
+    image: '/images/blog/replace-cable-and-netflix-hero-2026.webp',
+    category: 'Cord-Cutting Guides',
+    date: 'May 19, 2026',
+    title: 'Tired of Paying $150+ for Streaming? The Ultimate "All-In-One" TV Solution',
+    excerpt: 'Suffering from subscription fatigue? Learn how to replace cable and Netflix with the ultimate all-in-one streaming app. Bundle live TV and VOD to save big in 2026.'
+  },
+  {
+    id: 'watch-champions-league-final-2026-4k',
+    path: '/blog/watch-champions-league-final-2026-4k',
+    image: '/images/blog/champions-league-final-2026-hero.webp',
+    category: 'Streaming Guides',
+    date: 'May 19, 2026',
+    title: 'Watch Champions League Final 2026: Stream in 4K Without Cable',
+    excerpt: 'Don\'t miss Arsenal vs PSG! Learn how to watch Champions League Final 2026 in 4K without expensive cable bills. Get buffer-free sports IPTV today!'
+  },
+  {
     id: 'fix-broken-iptv-playlist-dead-m3u-links-2026',
     path: '/blog/fix-broken-iptv-playlist-dead-m3u-links-2026',
     image: '/fix-broken-iptv-playlist-m3u.png',

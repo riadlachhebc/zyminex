@@ -8,6 +8,16 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/replace-cable-and-netflix-2026': {
+    title: 'Replace Cable and Netflix: The Ultimate All-In-One TV Solution 2026',
+    description: 'Suffering from subscription fatigue? Learn how to replace cable and Netflix with the ultimate all-in-one streaming app. Bundle live TV and VOD to save big.',
+    image: `${BASE_URL}/images/blog/replace-cable-and-netflix-hero-2026.webp`,
+  },
+  '/blog/watch-champions-league-final-2026-4k': {
+    title: 'Watch Champions League Final 2026: Stream in 4K Without Cable',
+    description: 'Don\'t miss Arsenal vs PSG! Learn how to watch Champions League Final 2026 in 4K without expensive cable bills. Get buffer-free sports IPTV today!',
+    image: `${BASE_URL}/images/blog/champions-league-final-2026-hero.webp`,
+  },
   '/blog/fix-broken-iptv-playlist-dead-m3u-links-2026': {
     title: 'Fix Broken IPTV Playlist: 5 Ways to Update Dead M3U Links',
     description: 'IPTV playlist failed to load? Learn how to fix broken IPTV playlists, update dead M3U links, and bypass ISP blocking after the May 2026 server seizures.',

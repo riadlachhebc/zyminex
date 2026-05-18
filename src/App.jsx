@@ -44,6 +44,8 @@ const IptvCableReplacementUsa2026 = lazy(() => import('./pages/blog/IptvCableRep
 const BuyIptvWithCryptoSafe2026 = lazy(() => import('./pages/blog/BuyIptvWithCryptoSafe2026'))
 const BypassMlbBlackoutIptv2026Guide = lazy(() => import('./pages/blog/BypassMlbBlackoutIptv2026Guide'))
 const FixBrokenIptvPlaylist2026 = lazy(() => import('./pages/blog/FixBrokenIptvPlaylist2026'))
+const WatchChampionsLeagueFinal20264k = lazy(() => import('./pages/blog/watch-champions-league-final-2026-4k'))
+const ReplaceCableAndNetflix2026 = lazy(() => import('./pages/blog/replace-cable-and-netflix-2026'))
 
 const ChannelPage = lazy(() => import('./pages/ChannelPage'))
 
@@ -108,6 +110,8 @@ function App() {
             <Route path="/blog/buy-iptv-with-crypto-safe-2026-guide" element={<BuyIptvWithCryptoSafe2026 />} />
             <Route path="/blog/bypass-mlb-blackout-iptv-2026-guide" element={<BypassMlbBlackoutIptv2026Guide />} />
             <Route path="/blog/fix-broken-iptv-playlist-dead-m3u-links-2026" element={<FixBrokenIptvPlaylist2026 />} />
+            <Route path="/blog/watch-champions-league-final-2026-4k" element={<WatchChampionsLeagueFinal20264k />} />
+            <Route path="/blog/replace-cable-and-netflix-2026" element={<ReplaceCableAndNetflix2026 />} />
             <Route path="/tivimate-vs-iptv-smarters-pro-best-player-2026" element={<TivimateVsSmartersPage />} />
 
             <Route path="/terms" element={<TermsPage />} />
