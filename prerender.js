@@ -236,7 +236,7 @@ function buildHeadTags(routePath, meta) {
 
   if (meta.schemas) {
     for (const schema of meta.schemas) {
-      headTags += `\n    <script type="application/ld+json">${JSON.stringify(schema)}</script>`;
+      headTags += `\n    <script type="application/ld+json" data-rh="true">${JSON.stringify(schema)}</script>`;
     }
   }
   return headTags;
