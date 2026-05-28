@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'iptv-multiple-connections-multi-room-guide',
+    path: '/blog/iptv-multiple-connections-multi-room-guide',
+    image: '/images/blog/iptv_multiple_connections_hero.webp',
+    category: 'Cord-Cutting Guides',
+    date: 'May 28, 2026',
+    title: 'IPTV Multiple Connections: The Complete 2026 Multi-Room Streaming Guide',
+    excerpt: 'Discover how to get IPTV multiple connections on one subscription. Stop account bans, stream on 4 TVs at once, and save $1,200/year!'
+  },
+  {
     id: 'replace-cable-and-netflix-2026',
     path: '/blog/replace-cable-and-netflix-2026',
     image: '/images/blog/replace-cable-and-netflix-hero-2026.webp',

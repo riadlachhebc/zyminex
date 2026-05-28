@@ -8,6 +8,77 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/iptv-multiple-connections-multi-room-guide': {
+    title: 'IPTV Multiple Connections: 2026 Multi-Room Guide | Zyminex',
+    description: 'Discover how to get IPTV multiple connections on one sub. Stop account bans and stream on 4 TVs at once. Save $1,200/year with multi-room IPTV!',
+    image: `${BASE_URL}/images/blog/iptv_multiple_connections_hero.webp`,
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "IPTV Multiple Connections: The Complete 2026 Multi-Room Streaming Guide",
+        "description": "Discover how to get IPTV multiple connections on one sub. Stop account bans and stream on 4 TVs at once. Save $1,200/year with multi-room IPTV!",
+        "image": "https://www.zyminex.pro/images/blog/iptv_multiple_connections_hero.webp",
+        "datePublished": "2026-05-28",
+        "dateModified": "2026-05-28",
+        "author": {
+          "@type": "Organization",
+          "name": "Zyminex",
+          "url": "https://www.zyminex.pro"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Zyminex",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.zyminex.pro/logo.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.zyminex.pro/blog/iptv-multiple-connections-multi-room-guide"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many devices can I stream IPTV on simultaneously in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As of 2026, the number of simultaneous devices depends entirely on the subscription package you purchase. Standard plans usually allow only 1 connection. However, premium providers like Zyminex offer multi-room packages supporting 2, 3, or 4 simultaneous connections under a single account. Attempting to stream on more devices than your plan permits will result in server-side blocking or temporary account suspension."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use one IPTV subscription in two different houses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but only if your provider does not enforce a strict IP Lock policy. An IP Lock binds your IPTV multiple connections to a single external IP address (your home network). If you attempt to access the stream from two different geographical locations (different IP addresses) simultaneously, the server will flag it as account sharing and block the secondary stream. At Zyminex, we allow multi-room subscription usage across different devices, but they must adhere to standard connection limits and terms of service."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What internet speed do I need for 4 simultaneous 4K streams?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a buffer-free experience in 4K resolution, you need a minimum of 25 Mbps of dedicated download speed per device. Running four simultaneous connections requires a consistent download speed of at least 100 Mbps on your home network to avoid buffering."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Best IPTV apps for syncing multiple devices?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TiviMate and IPTV One are the undisputed gold standards in 2026. TiviMate offers advanced backup and restore options via cloud services (such as Dropbox or Google Drive), allowing you to design your playlist, group channels, and sync your settings across every TV in your home within minutes. IPTV One also provides excellent built-in multi-room synchronization and multi-view layouts."
+            }
+          }
+        ]
+      }
+    ]
+  },
   '/blog/replace-cable-and-netflix-2026': {
     title: 'Replace Cable and Netflix: The Ultimate All-In-One TV Solution 2026',
     description: 'Suffering from subscription fatigue? Learn how to replace cable and Netflix with the ultimate all-in-one streaming app. Bundle live TV and VOD to save big.',
@@ -145,7 +216,7 @@ const allRoutes = [
 
 function buildHeadTags(routePath, meta) {
   const url = `${BASE_URL}${routePath}`;
-  return `
+  let headTags = `
     <title>${meta.title}</title>
     <meta name="description" content="${meta.description}" />
     <link rel="canonical" href="${url}" />
@@ -162,6 +233,13 @@ function buildHeadTags(routePath, meta) {
     <meta name="twitter:title" content="${meta.title}" />
     <meta name="twitter:description" content="${meta.description}" />
     <meta name="twitter:image" content="${meta.image}" />`;
+
+  if (meta.schemas) {
+    for (const schema of meta.schemas) {
+      headTags += `\n    <script type="application/ld+json">${JSON.stringify(schema)}</script>`;
+    }
+  }
+  return headTags;
 }
 
 async function prerender() {
