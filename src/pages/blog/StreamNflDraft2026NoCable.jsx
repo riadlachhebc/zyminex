@@ -178,7 +178,7 @@ export default function StreamNflDraft2026NoCable() {
 
             <h2 className="headline-lg" style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-2)' }}>Why Traditional Streaming Services Might Fail You</h2>
             <p className="body-md">
-              You might be considering signing up for YouTube TV, FuboTV, or Hulu + Live TV just for the draft. However, with monthly prices soaring to $75+ per month, these "skinny bundles" are becoming just as expensive as the cable packages they aimed to replace.
+              You might be considering signing up for YouTube TV, FuboTV, or Hulu + Live TV just for the draft. However, with monthly prices soaring to €75+ per month, these "skinny bundles" are becoming just as expensive as the cable packages they aimed to replace.
             </p>
             <p className="body-md">
               Worse yet, traditional streaming services are notorious for geo-restrictions and blackout frustrations. If you are trying to access an <strong>ESPN live stream USA</strong> feed while traveling, or if local disputes block certain networks, you could miss the entire event. 

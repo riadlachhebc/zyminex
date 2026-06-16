@@ -10,7 +10,7 @@ const BASE_URL = 'https://www.zyminex.pro';
 const blogMeta = {
   '/blog/iptv-multiple-connections-multi-room-guide': {
     title: 'IPTV Multiple Connections: 2026 Multi-Room Guide | Zyminex',
-    description: 'Discover how to get IPTV multiple connections on one sub. Stop account bans and stream on 4 TVs at once. Save $1,200/year with multi-room IPTV!',
+    description: 'Discover how to get IPTV multiple connections on one sub. Stop account bans and stream on 4 TVs at once. Save €1,200/year with multi-room IPTV!',
     image: `${BASE_URL}/images/blog/iptv_multiple_connections_hero.webp`,
   },
   '/blog/replace-cable-and-netflix-2026': {
@@ -39,8 +39,8 @@ const blogMeta = {
     image: `${BASE_URL}/buy-iptv-crypto-hero.png`,
   },
   '/blog/iptv-cable-replacement-usa-2026-guide': {
-    title: 'IPTV Cable Replacement USA: Save $1,500/Year in 2026 | Zyminex',
-    description: 'Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the $200 cable bill, and keep your 4K live sports.',
+    title: 'IPTV Cable Replacement USA: Save €1,500/Year in 2026 | Zyminex',
+    description: 'Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the €200 cable bill, and keep your 4K live sports.',
     image: `${BASE_URL}/images/blog/iptv-cable-replacement-hero-2026.webp`,
   },
   '/blog/stop-isp-throttling-iptv-2026': {

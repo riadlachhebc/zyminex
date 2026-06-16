@@ -1718,7 +1718,7 @@ const blogPosts = [
     category: "Cord-Cutting Guides",
     date: "May 28, 2026",
     title: "IPTV Multiple Connections: The Complete 2026 Multi-Room Streaming Guide",
-    excerpt: "Discover how to get IPTV multiple connections on one subscription. Stop account bans, stream on 4 TVs at once, and save $1,200/year!"
+    excerpt: "Discover how to get IPTV multiple connections on one subscription. Stop account bans, stream on 4 TVs at once, and save €1,200/year!"
   },
   {
     id: "replace-cable-and-netflix-2026",
@@ -1726,7 +1726,7 @@ const blogPosts = [
     image: "/images/blog/replace-cable-and-netflix-hero-2026.webp",
     category: "Cord-Cutting Guides",
     date: "May 19, 2026",
-    title: 'Tired of Paying $150+ for Streaming? The Ultimate "All-In-One" TV Solution',
+    title: 'Tired of Paying €150+ for Streaming? The Ultimate "All-In-One" TV Solution',
     excerpt: "Suffering from subscription fatigue? Learn how to replace cable and Netflix with the ultimate all-in-one streaming app. Bundle live TV and VOD to save big in 2026."
   },
   {
@@ -1771,8 +1771,8 @@ const blogPosts = [
     image: "/images/blog/iptv-cable-replacement-hero-2026.webp",
     category: "Cord-Cutting Guides",
     date: "May 10, 2026",
-    title: "IPTV Cable Replacement USA: Save $1,500/Year in 2026",
-    excerpt: "Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the $200 cable bill, and keep your 4K live sports."
+    title: "IPTV Cable Replacement USA: Save €1,500/Year in 2026",
+    excerpt: "Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the €200 cable bill, and keep your 4K live sports."
   },
   {
     id: "stop-isp-throttling-iptv-2026",
@@ -2007,7 +2007,7 @@ const plans = [
     name: "3 Months",
     price: "29.99",
     period: "/ 3 months",
-    perMonth: "~$10/mo",
+    perMonth: "~€10/mo",
     features: [
       "4K Quality",
       "20,000+ Channels",
@@ -2023,7 +2023,7 @@ const plans = [
     name: "12 Months",
     price: "59.99",
     period: "/ year",
-    perMonth: "~$5/mo",
+    perMonth: "~€5/mo",
     features: [
       "4K Quality",
       "20,000+ Channels",
@@ -2039,7 +2039,7 @@ const plans = [
     name: "6 Months",
     price: "44.99",
     period: "/ 6 months",
-    perMonth: "~$7.50/mo",
+    perMonth: "~€7.50/mo",
     features: [
       "4K Quality",
       "20,000+ Channels",
@@ -2178,7 +2178,7 @@ function HomePage() {
             ] }),
             /* @__PURE__ */ jsx("h3", { className: "headline-md", children: plan.name }),
             /* @__PURE__ */ jsxs("div", { className: "plan-card__price", children: [
-              /* @__PURE__ */ jsx("span", { className: "plan-card__currency", children: "$" }),
+              /* @__PURE__ */ jsx("span", { className: "plan-card__currency", children: "€" }),
               /* @__PURE__ */ jsx("span", { className: "plan-card__amount", children: plan.price })
             ] }),
             /* @__PURE__ */ jsx("p", { className: "body-md", style: { color: "var(--outline)" }, children: plan.perMonth }),
@@ -2189,7 +2189,7 @@ function HomePage() {
             /* @__PURE__ */ jsx(
               "a",
               {
-                href: `https://wa.me/212763569826?text=${encodeURIComponent(`Hello Zyminex, I am interested in ordering the ${plan.name} plan for $${plan.price}.`)}`,
+                href: `https://wa.me/212763569826?text=${encodeURIComponent(`Hello Zyminex, I am interested in ordering the ${plan.name} plan for €${plan.price}.`)}`,
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: `btn btn-lg ${plan.highlighted ? "btn-primary" : "btn-secondary"}`,
@@ -2337,7 +2337,7 @@ function HomePage() {
     ] }) })
   ] });
 }
-const PricingPage = lazy(() => import("./assets/PricingPage-2OXCy5n7.js"));
+const PricingPage = lazy(() => import("./assets/PricingPage-DpjDYoXl.js"));
 const FaqPage = lazy(() => import("./assets/FaqPage-Cy8d8-4j.js"));
 const ContactPage = lazy(() => import("./assets/ContactPage-j_8Ktp4P.js"));
 const FreeTrialPage = lazy(() => import("./assets/FreeTrialPage-duuRpCo_.js"));
@@ -2355,28 +2355,28 @@ const TutorialDownloaderPage = lazy(() => import("./assets/TutorialDownloaderPag
 const BlogPage = lazy(() => import("./assets/BlogPage-BkpEnivr.js"));
 const TivimateVsSmartersPage = lazy(() => import("./assets/TivimateVsSmartersPage-DtBiRJ2V.js"));
 const BestIptvService2026 = lazy(() => import("./assets/best-iptv-service-2026-BzT4DZD6.js"));
-const IptvMultipleConnectionsMultiRoomGuide = lazy(() => import("./assets/iptv-multiple-connections-multi-room-guide-C7-3tfNK.js"));
+const IptvMultipleConnectionsMultiRoomGuide = lazy(() => import("./assets/iptv-multiple-connections-multi-room-guide-tNnpG4d8.js"));
 const BestIptvApps2026 = lazy(() => import("./assets/best-iptv-apps-2026-JOdVCygL.js"));
 const IptvFirestickSetupGuide = lazy(() => import("./assets/iptv-firestick-setup-guide-DUGC2Jps.js"));
 const WatchSportsIptv = lazy(() => import("./assets/watch-sports-iptv-DMhW-hkN.js"));
 const AntiFreezeIptvExplained = lazy(() => import("./assets/anti-freeze-iptv-explained-BjZDzeMX.js"));
 const IptvFreeTrialGuide = lazy(() => import("./assets/iptv-free-trial-guide-CGL0kTcB.js"));
 const IptvCrackdown2026 = lazy(() => import("./assets/iptv-crackdown-2026-bQTVI-5X.js"));
-const IptvFreeTrialChecklist2026 = lazy(() => import("./assets/iptv-free-trial-checklist-2026-CJOJRwb1.js"));
-const IptvVsCableCordCutting2026 = lazy(() => import("./assets/iptv-vs-cable-cord-cutting-2026-CbQ1AW13.js"));
-const YoutubeTvVsPremiumIptv2026 = lazy(() => import("./assets/youtube-tv-vs-premium-iptv-2026-DmUCHWQq.js"));
-const BestLatinoIptvUsa2026 = lazy(() => import("./assets/best-latino-iptv-usa-2026-Dwp4j2q4.js"));
-const SkyTvAlternativesEurope2026 = lazy(() => import("./assets/SkyTvAlternativesEurope2026-Ck6Qeg6Z.js"));
-const StreamNflDraft2026NoCable = lazy(() => import("./assets/StreamNflDraft2026NoCable-QUvIqm8a.js"));
+const IptvFreeTrialChecklist2026 = lazy(() => import("./assets/iptv-free-trial-checklist-2026-C62r_dt2.js"));
+const IptvVsCableCordCutting2026 = lazy(() => import("./assets/iptv-vs-cable-cord-cutting-2026-Bsq7IuRs.js"));
+const YoutubeTvVsPremiumIptv2026 = lazy(() => import("./assets/youtube-tv-vs-premium-iptv-2026-Da3ww0iN.js"));
+const BestLatinoIptvUsa2026 = lazy(() => import("./assets/best-latino-iptv-usa-2026-B56veabk.js"));
+const SkyTvAlternativesEurope2026 = lazy(() => import("./assets/SkyTvAlternativesEurope2026-DOh8ZL8Q.js"));
+const StreamNflDraft2026NoCable = lazy(() => import("./assets/StreamNflDraft2026NoCable-BpHBrgyt.js"));
 const PortableIptvStreamingTravelGuide2026 = lazy(() => import("./assets/PortableIptvStreamingTravelGuide2026-E_0RDMTa.js"));
 const InstallIptvSamsungLgSmartTv2026 = lazy(() => import("./assets/InstallIptvSamsungLgSmartTv2026-CNnRUo7k.js"));
 const StopIspThrottlingIptv2026 = lazy(() => import("./assets/StopIspThrottlingIptv2026-Jn1biLKu.js"));
-const IptvCableReplacementUsa2026 = lazy(() => import("./assets/IptvCableReplacementUsa2026-BAlVBlSj.js"));
-const BuyIptvWithCryptoSafe2026 = lazy(() => import("./assets/BuyIptvWithCryptoSafe2026-Dy4xePwi.js"));
+const IptvCableReplacementUsa2026 = lazy(() => import("./assets/IptvCableReplacementUsa2026-BSHND2d0.js"));
+const BuyIptvWithCryptoSafe2026 = lazy(() => import("./assets/BuyIptvWithCryptoSafe2026-PRZMIe9f.js"));
 const BypassMlbBlackoutIptv2026Guide = lazy(() => import("./assets/BypassMlbBlackoutIptv2026Guide-DWVvZKaI.js"));
 const FixBrokenIptvPlaylist2026 = lazy(() => import("./assets/FixBrokenIptvPlaylist2026-BI8YzDa4.js"));
-const WatchChampionsLeagueFinal20264k = lazy(() => import("./assets/watch-champions-league-final-2026-4k-CIEg_XJ5.js"));
-const ReplaceCableAndNetflix2026 = lazy(() => import("./assets/replace-cable-and-netflix-2026-DQdvDF1A.js"));
+const WatchChampionsLeagueFinal20264k = lazy(() => import("./assets/watch-champions-league-final-2026-4k-qmCLoMRZ.js"));
+const ReplaceCableAndNetflix2026 = lazy(() => import("./assets/replace-cable-and-netflix-2026-BJ7LURP3.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [

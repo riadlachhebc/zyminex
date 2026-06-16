@@ -124,7 +124,7 @@ export default function WatchChampionsLeagueFinal20264k() {
               For years, traditional cable networks and official streaming platforms like Paramount+ and TNT Sports have held sports fans hostage. They force you into expensive, multi-tier packages just to watch the games that matter. Not only are you hit with hidden fees, but sports fans repeatedly pay the infamous "sports tax" for channels they barely watch outside of big tournaments.
             </p>
             <p className="body-md">
-              Moreover, these traditional apps frequently cap their broadcast quality. Instead of the pristine 4K resolution modern TVs are built for, fans are often fed compressed 1080p feeds or experience frustrating delays of 30 to 60 seconds behind real-time. Paying $20+ a month per app for suboptimal viewing is no longer acceptable.
+              Moreover, these traditional apps frequently cap their broadcast quality. Instead of the pristine 4K resolution modern TVs are built for, fans are often fed compressed 1080p feeds or experience frustrating delays of 30 to 60 seconds behind real-time. Paying €20+ a month per app for suboptimal viewing is no longer acceptable.
             </p>
 
             <h2 className="headline-lg" style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-2)' }}>How to Stream the UEFA Final in 4K with IPTV</h2>
@@ -180,7 +180,7 @@ export default function WatchChampionsLeagueFinal20264k() {
                   </tr>
                   <tr>
                     <td style={{ padding: 'var(--space-3)', fontWeight: 'bold' }}>Cost</td>
-                    <td style={{ padding: 'var(--space-3)' }}>$20+ / Month per app</td>
+                    <td style={{ padding: 'var(--space-3)' }}>€20+ / Month per app</td>
                     <td style={{ padding: 'var(--space-3)' }}>All-in-one low price</td>
                   </tr>
                 </tbody>

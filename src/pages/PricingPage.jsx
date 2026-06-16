@@ -1,4 +1,4 @@
-﻿import { Helmet } from 'react-helmet-async'
+import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 const plans = [
@@ -6,7 +6,7 @@ const plans = [
     name: '3 Months',
     price: '29.99',
     period: '/ 3 months',
-    perMonth: '~$10/mo',
+    perMonth: '~€10/mo',
     features: [
       '4K Quality',
       '20,000+ Channels',
@@ -22,7 +22,7 @@ const plans = [
     name: '12 Months',
     price: '59.99',
     period: '/ year',
-    perMonth: '~$5/mo',
+    perMonth: '~€5/mo',
     features: [
       '4K Quality',
       '20,000+ Channels',
@@ -38,7 +38,7 @@ const plans = [
     name: '6 Months',
     price: '44.99',
     period: '/ 6 months',
-    perMonth: '~$7.50/mo',
+    perMonth: '~€7.50/mo',
     features: [
       '4K Quality',
       '20,000+ Channels',
@@ -66,13 +66,13 @@ export default function PricingPage() {
       "@type": "AggregateOffer",
       "lowPrice": "29.99",
       "highPrice": "59.99",
-      "priceCurrency": "USD",
+      "priceCurrency": "EUR",
       "offerCount": "3",
       "offers": plans.map(p => ({
         "@type": "Offer",
         "name": `Zyminex ${p.name} Plan`,
         "price": p.price,
-        "priceCurrency": "USD",
+        "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "url": "https://www.zyminex.pro/buy-iptv-subscription"
       }))
@@ -125,7 +125,7 @@ export default function PricingPage() {
                 )}
                 <h3 className="headline-md">{plan.name}</h3>
                 <div className="plan-card__price">
-                  <span className="plan-card__currency">$</span>
+                  <span className="plan-card__currency">€</span>
                   <span className="plan-card__amount">{plan.price}</span>
                 </div>
                 <p className="body-md" style={{ color: 'var(--outline)' }}>{plan.perMonth}</p>
@@ -138,7 +138,7 @@ export default function PricingPage() {
                   ))}
                 </ul>
                 <a 
-                  href={`https://wa.me/212763569826?text=${encodeURIComponent(`Hello Zyminex, I am interested in ordering the ${plan.name} plan for $${plan.price}.`)}`}
+                  href={`https://wa.me/212763569826?text=${encodeURIComponent(`Hello Zyminex, I am interested in ordering the ${plan.name} plan for €${plan.price}.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`btn btn-lg ${plan.highlighted ? 'btn-primary' : 'btn-secondary'}`} 
@@ -179,25 +179,25 @@ export default function PricingPage() {
                 <tbody>
                   <tr>
                     <td className="col-plan">3 Months</td>
-                    <td className="col-price">$29.99</td>
-                    <td>~$10/mo</td>
+                    <td className="col-price">€29.99</td>
+                    <td>~€10/mo</td>
                     <td className="col-savings">— Baseline</td>
                     <td>1</td>
                     <td className="col-best-for">Short-term flexibility</td>
                   </tr>
                   <tr>
                     <td className="col-plan">6 Months <span className="plan-icon">⭐</span></td>
-                    <td className="col-price">$44.99</td>
-                    <td>~$7.50/mo</td>
-                    <td className="col-savings">Save $15.00</td>
+                    <td className="col-price">€44.99</td>
+                    <td>~€7.50/mo</td>
+                    <td className="col-savings">Save €15.00</td>
                     <td>1</td>
                     <td className="col-best-for">Best balance of price & value</td>
                   </tr>
                   <tr>
                     <td className="col-plan">12 Months <span className="plan-icon">🏆</span></td>
-                    <td className="col-price">$59.99</td>
-                    <td>~$5/mo</td>
-                    <td className="col-savings">Save $60.00</td>
+                    <td className="col-price">€59.99</td>
+                    <td>~€5/mo</td>
+                    <td className="col-savings">Save €60.00</td>
                     <td>1</td>
                     <td className="col-best-for">Maximum savings & value</td>
                   </tr>

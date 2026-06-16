@@ -143,7 +143,7 @@ export default function IptvFreeTrialChecklist2026() {
             </p>
             <ul style={{ listStyleType: 'disc', paddingLeft: 'var(--space-6)', marginBottom: 'var(--space-4)' }}>
               <li style={{ marginBottom: 'var(--space-2)' }}><strong>Required VPN Upsells:</strong> If they tell you that you *must* buy a specific VPN for the service to work, it's a scam. Reputable services like <a href="https://www.zyminex.pro" style={{ color: 'var(--primary)', fontWeight: 'bold' }}>Zyminex</a> bypass <Link to="/blog/iptv-crackdown-2026" style={{ color: 'var(--primary)' }}>ISP crackdowns</Link> using native routing.</li>
-              <li style={{ marginBottom: 'var(--space-2)' }}><strong>No Trial Available:</strong> Avoid providers offering "paid-only" trials (e.g., $2 for 24 hours). Premium providers let their quality speak for itself for free.</li>
+              <li style={{ marginBottom: 'var(--space-2)' }}><strong>No Trial Available:</strong> Avoid providers offering "paid-only" trials (e.g., €2 for 24 hours). Premium providers let their quality speak for itself for free.</li>
               <li style={{ marginBottom: 'var(--space-2)' }}><strong>Automated WhatsApp Support Bots:</strong> If you report a broken channel during the trial and don't get a human response within a few hours, imagine the support you'll get *after* you pay for a year.</li>
             </ul>
 

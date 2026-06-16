@@ -6,7 +6,7 @@ export const blogPosts = [
     category: 'Cord-Cutting Guides',
     date: 'May 28, 2026',
     title: 'IPTV Multiple Connections: The Complete 2026 Multi-Room Streaming Guide',
-    excerpt: 'Discover how to get IPTV multiple connections on one subscription. Stop account bans, stream on 4 TVs at once, and save $1,200/year!'
+    excerpt: 'Discover how to get IPTV multiple connections on one subscription. Stop account bans, stream on 4 TVs at once, and save €1,200/year!'
   },
   {
     id: 'replace-cable-and-netflix-2026',
@@ -14,7 +14,7 @@ export const blogPosts = [
     image: '/images/blog/replace-cable-and-netflix-hero-2026.webp',
     category: 'Cord-Cutting Guides',
     date: 'May 19, 2026',
-    title: 'Tired of Paying $150+ for Streaming? The Ultimate "All-In-One" TV Solution',
+    title: 'Tired of Paying €150+ for Streaming? The Ultimate "All-In-One" TV Solution',
     excerpt: 'Suffering from subscription fatigue? Learn how to replace cable and Netflix with the ultimate all-in-one streaming app. Bundle live TV and VOD to save big in 2026.'
   },
   {
@@ -59,8 +59,8 @@ export const blogPosts = [
     image: '/images/blog/iptv-cable-replacement-hero-2026.webp',
     category: 'Cord-Cutting Guides',
     date: 'May 10, 2026',
-    title: 'IPTV Cable Replacement USA: Save $1,500/Year in 2026',
-    excerpt: 'Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the $200 cable bill, and keep your 4K live sports.'
+    title: 'IPTV Cable Replacement USA: Save €1,500/Year in 2026',
+    excerpt: 'Discover why 80M+ Americans chose IPTV cable replacement in USA for 2026. Compare costs, skip the €200 cable bill, and keep your 4K live sports.'
   },
   {
     id: 'stop-isp-throttling-iptv-2026',

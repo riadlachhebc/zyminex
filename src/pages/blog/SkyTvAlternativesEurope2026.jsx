@@ -143,7 +143,7 @@ export default function SkyTvAlternativesEurope2026() {
 
             <h2 className="headline-lg" style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-2)' }}>Comparative Analysis: Traditional Cable vs. Premium IPTV</h2>
             <p className="body-md">
-              When evaluating a <Link to="/blog/iptv-vs-cable-cord-cutting-2026" style={{ color: 'var(--primary)' }}>cord-cutting cost analysis</Link>, the financial benefits become immediately apparent. With the European IPTV market projected to reach $26.86 billion in 2026, more consumers are realizing the value proposition.
+              When evaluating a <Link to="/blog/iptv-vs-cable-cord-cutting-2026" style={{ color: 'var(--primary)' }}>cord-cutting cost analysis</Link>, the financial benefits become immediately apparent. With the European IPTV market projected to reach €26.86 billion in 2026, more consumers are realizing the value proposition.
             </p>
             
             <div style={{ overflowX: 'auto', marginBottom: 'var(--space-4)' }}>
