@@ -8,6 +8,60 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/setup-firestick-for-sports-season-2026-guide': {
+    title: 'Setup Firestick for Sports Season 2026/27 in Under 3 Mins | Zyminex',
+    description: 'Get your Firestick ready for the 2026/27 sports season kickoff! Clear cache, install TiviMate, and activate high-speed IPTV M3U streams in 3 mins.',
+    image: `${BASE_URL}/images/blog/setup-firestick-for-sports-season-hero.webp`,
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Setup Firestick for Sports Season 2026/27 in Under 3 Minutes",
+        "description": "Get your Firestick ready for the 2026/27 sports season kickoff! Clear cache, install TiviMate, and activate high-speed IPTV M3U streams in 3 mins.",
+        "image": `${BASE_URL}/images/blog/setup-firestick-for-sports-season-hero.webp`,
+        "datePublished": "2026-08-10",
+        "dateModified": "2026-08-10",
+        "author": { "@type": "Organization", "name": "Zyminex Tech Team", "url": "https://www.zyminex.pro" },
+        "publisher": { "@type": "Organization", "name": "Zyminex", "logo": { "@type": "ImageObject", "url": "https://www.zyminex.pro/logo.png" } }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Why won't my Firestick install IPTV apps from Downloader?", "acceptedAnswer": { "@type": "Answer", "text": "The most common cause is that Developer Options have not been unlocked or 'Install Unknown Apps' has not been enabled for the Downloader app. On Fire OS 2026, navigate to Settings > My Fire TV > About, then click the device name 7 times to reveal Developer Options. Next, go to Settings > My Fire TV > Developer Options > Install Unknown Apps and toggle ON for Downloader. If Downloader still won't install APKs, try clearing Downloader's own cache, then restarting your Firestick." } },
+          { "@type": "Question", "name": "How do I stop my IPTV sports stream from buffering on Firestick?", "acceptedAnswer": { "@type": "Answer", "text": "Start by clearing cached data from all streaming apps via Settings > Applications > Manage Installed Applications, then restart the device. Use a wired Ethernet adapter instead of Wi-Fi for stable bandwidth. In TiviMate, switch the video decoder to Hardware and set the buffer size to Medium (3–5 seconds). If buffering persists during peak events, enable a VPN to bypass ISP throttling—your ISP may be deliberately slowing IPTV traffic during major matchdays." } },
+          { "@type": "Question", "name": "Can I use an M3U playlist link on TiviMate for live 4K sports?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, TiviMate fully supports both M3U playlist URLs and Xtream Codes login credentials. Open TiviMate, go to Settings > Playlists > Add Playlist, select M3U Playlist, and paste your provider's M3U URL. For 4K sports playback, ensure your Firestick model supports HEVC/H.265 decoding (Fire TV Stick 4K or 4K Max) and that your provider offers dedicated 4K sports channels. Zyminex includes 4K 60fps sports feeds in all subscription plans." } }
+        ]
+      }
+    ],
+  },
+  '/blog/iptv-catch-up-sports-2026-guide': {
+    title: 'IPTV Catch Up Sports 2026: Watch Missed Matches & 4K Highlights | Zyminex',
+    description: 'Missed early-season football matches while traveling? Discover how 48-hour IPTV catch up sports, 4K replays, and VOD docs let you stream top games anywhere.',
+    image: `${BASE_URL}/images/blog/iptv-catch-up-sports-2026-hero.webp`,
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "IPTV Catch Up Sports 2026: How to Watch Missed Football Matches & 4K Highlights",
+        "description": "Missed early-season football matches while traveling? Discover how 48-hour IPTV catch up sports, 4K replays, and VOD docs let you stream top games anywhere.",
+        "image": `${BASE_URL}/images/blog/iptv-catch-up-sports-2026-hero.webp`,
+        "datePublished": "2026-08-10",
+        "dateModified": "2026-08-10",
+        "author": { "@type": "Organization", "name": "Zyminex Editorial Team", "url": "https://www.zyminex.pro" },
+        "publisher": { "@type": "Organization", "name": "Zyminex", "logo": { "@type": "ImageObject", "url": "https://www.zyminex.pro/logo.png" } }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How does 48-hour IPTV catch up work for live sports?", "acceptedAnswer": { "@type": "Answer", "text": "Server-side 48-hour IPTV catch-up records every broadcast on the provider's CDN infrastructure. When a live match finishes, the full recording is stored on cloud servers for 48 hours. You open your EPG, navigate to the finished programme, and press Play." } },
+          { "@type": "Question", "name": "Why are some missed matches missing from the EPG catch-up list?", "acceptedAnswer": { "@type": "Answer", "text": "Not all channels have catch-up enabled. Licensing restrictions may prevent server-side recording. Events aired more than 48 hours ago will have expired from the timeshift buffer." } },
+          { "@type": "Question", "name": "What IPTV players support 4K sports replays and timeshift EPGs?", "acceptedAnswer": { "@type": "Answer", "text": "TiviMate offers the best timeshift EPG integration. IPTV Smarters Pro supports catch-up on Android, iOS, and Smart TVs. IBO Player Pro works on Samsung and LG Smart TVs. Ensure your player uses the hardware decoder and supports HEVC/H.265." } }
+        ]
+      }
+    ],
+  },
   '/blog/iptv-multiple-connections-multi-room-guide': {
     title: 'IPTV Multiple Connections: 2026 Multi-Room Guide | Zyminex',
     description: 'Discover how to get IPTV multiple connections on one sub. Stop account bans and stream on 4 TVs at once. Save €1,200/year with multi-room IPTV!',

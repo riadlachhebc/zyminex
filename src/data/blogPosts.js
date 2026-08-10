@@ -1,5 +1,23 @@
 export const blogPosts = [
   {
+    id: 'setup-firestick-for-sports-season-2026-guide',
+    path: '/blog/setup-firestick-for-sports-season-2026-guide',
+    image: '/images/blog/setup-firestick-for-sports-season-hero.webp',
+    category: 'Tutorials & Setup',
+    date: 'Aug 10, 2026',
+    title: 'Setup Firestick for Sports Season 2026/27 in Under 3 Minutes',
+    excerpt: 'Get your Firestick ready for the 2026/27 sports season kickoff! Clear cache, install TiviMate, and activate high-speed IPTV M3U streams in 3 mins.'
+  },
+  {
+    id: 'iptv-catch-up-sports-2026-guide',
+    path: '/blog/iptv-catch-up-sports-2026-guide',
+    image: '/images/blog/iptv-catch-up-sports-2026-hero.webp',
+    category: 'Sports Streaming',
+    date: 'Aug 10, 2026',
+    title: 'IPTV Catch Up Sports 2026: How to Watch Missed Football Matches & 4K Highlights',
+    excerpt: 'Missed early-season football matches while traveling? Discover how 48-hour IPTV catch up sports, 4K replays, and VOD docs let you stream top games anywhere.'
+  },
+  {
     id: 'iptv-multiple-connections-multi-room-guide',
     path: '/blog/iptv-multiple-connections-multi-room-guide',
     image: '/images/blog/iptv_multiple_connections_hero.webp',
