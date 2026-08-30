@@ -8,6 +8,38 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/stream-box-office-ppv-cheap-uk': {
+    title: 'Stream Box Office PPV Cheap: Skip the £25 Sky Price Tag',
+    description: 'Looking to stream Box Office PPV free or cheap? Don\'t risk buffering during the knockout. Discover the best reliable 4K alternative to Sky Box Office today.',
+    image: `${BASE_URL}/images/blog/stream-box-office-ppv-cheap-hero.webp`,
+  },
+  '/blog/stream-college-football-no-cable': {
+    title: 'Stream College Football No Cable: Unlock SEC & Big Ten',
+    description: 'Ready for kickoff? Learn how to stream college football with no cable. Unlock SEC, Big Ten, and ACC networks hassle-free. Discover the ultimate TV alternative!',
+    image: `${BASE_URL}/images/blog/stream-college-football-no-cable-hero.webp`,
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Stream College Football No Cable: Unlock SEC, Big Ten, and ACC Networks",
+        "description": "Ready for kickoff? Learn how to stream college football with no cable. Unlock SEC, Big Ten, and ACC networks hassle-free. Discover the ultimate TV alternative!",
+        "image": `${BASE_URL}/images/blog/stream-college-football-no-cable-hero.webp`,
+        "datePublished": "2026-08-31",
+        "dateModified": "2026-08-31",
+        "author": { "@type": "Organization", "name": "Zyminex Editorial Team", "url": "https://www.zyminex.pro" },
+        "publisher": { "@type": "Organization", "name": "Zyminex", "logo": { "@type": "ImageObject", "url": "https://www.zyminex.pro/logo.png" } }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Can I watch every college football game without a traditional cable subscription?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. By using advanced live TV streaming services or premium IPTV solutions, you can access all major networks including ESPN, SEC Network, Big Ten Network, and Fox without a standard cable package." } },
+          { "@type": "Question", "name": "How can I bypass local blackouts and regional restrictions for college sports?", "acceptedAnswer": { "@type": "Answer", "text": "Regional restrictions usually apply based on your IP address or provider's location policies. A comprehensive USA IPTV service often bypasses these geo-blocks by providing direct feeds to regional sports networks, ensuring you don't miss out due to blackout rules." } },
+          { "@type": "Question", "name": "What is the most cost-effective way to get all the major college sports networks?", "acceptedAnswer": { "@type": "Answer", "text": "The most cost-effective method is switching to a reliable USA IPTV provider that bundles all national and regional sports networks for a fraction of the cost of standard cable TV or even mainstream streaming bundles like YouTube TV." } }
+        ]
+      }
+    ],
+  },
   '/blog/setup-firestick-for-sports-season-2026-guide': {
     title: 'Setup Firestick for Sports Season 2026/27 in Under 3 Mins | Zyminex',
     description: 'Get your Firestick ready for the 2026/27 sports season kickoff! Clear cache, install TiviMate, and activate high-speed IPTV M3U streams in 3 mins.',

@@ -1712,6 +1712,42 @@ const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
   {
+    id: "stream-box-office-ppv-cheap-uk",
+    path: "/blog/stream-box-office-ppv-cheap-uk",
+    image: "/images/blog/stream-box-office-ppv-cheap-hero.webp",
+    category: "Sports Streaming",
+    date: "Aug 31, 2026",
+    title: "Stream Box Office PPV Cheap: Skip the £25 Sky Price Tag",
+    excerpt: "Looking to stream Box Office PPV free or cheap? Don't risk buffering during the knockout. Discover the best reliable 4K alternative to Sky Box Office today."
+  },
+  {
+    id: "stream-college-football-no-cable",
+    path: "/blog/stream-college-football-no-cable",
+    image: "/images/blog/stream-college-football-no-cable-hero.webp",
+    category: "Sports Streaming",
+    date: "Aug 31, 2026",
+    title: "Stream College Football No Cable: Unlock SEC, Big Ten, and ACC Networks",
+    excerpt: "Ready for kickoff? Learn how to stream college football with no cable. Unlock SEC, Big Ten, and ACC networks hassle-free. Discover the ultimate TV alternative!"
+  },
+  {
+    id: "setup-firestick-for-sports-season-2026-guide",
+    path: "/blog/setup-firestick-for-sports-season-2026-guide",
+    image: "/images/blog/setup-firestick-for-sports-season-hero.webp",
+    category: "Tutorials & Setup",
+    date: "Aug 10, 2026",
+    title: "Setup Firestick for Sports Season 2026/27 in Under 3 Minutes",
+    excerpt: "Get your Firestick ready for the 2026/27 sports season kickoff! Clear cache, install TiviMate, and activate high-speed IPTV M3U streams in 3 mins."
+  },
+  {
+    id: "iptv-catch-up-sports-2026-guide",
+    path: "/blog/iptv-catch-up-sports-2026-guide",
+    image: "/images/blog/iptv-catch-up-sports-2026-hero.webp",
+    category: "Sports Streaming",
+    date: "Aug 10, 2026",
+    title: "IPTV Catch Up Sports 2026: How to Watch Missed Football Matches & 4K Highlights",
+    excerpt: "Missed early-season football matches while traveling? Discover how 48-hour IPTV catch up sports, 4K replays, and VOD docs let you stream top games anywhere."
+  },
+  {
     id: "iptv-multiple-connections-multi-room-guide",
     path: "/blog/iptv-multiple-connections-multi-room-guide",
     image: "/images/blog/iptv_multiple_connections_hero.webp",
@@ -2376,7 +2412,11 @@ const BuyIptvWithCryptoSafe2026 = lazy(() => import("./assets/BuyIptvWithCryptoS
 const BypassMlbBlackoutIptv2026Guide = lazy(() => import("./assets/BypassMlbBlackoutIptv2026Guide-DWVvZKaI.js"));
 const FixBrokenIptvPlaylist2026 = lazy(() => import("./assets/FixBrokenIptvPlaylist2026-BI8YzDa4.js"));
 const WatchChampionsLeagueFinal20264k = lazy(() => import("./assets/watch-champions-league-final-2026-4k-qmCLoMRZ.js"));
-const ReplaceCableAndNetflix2026 = lazy(() => import("./assets/replace-cable-and-netflix-2026-BJ7LURP3.js"));
+lazy(() => import("./assets/replace-cable-and-netflix-2026-BJ7LURP3.js"));
+const IptvCatchUpSports2026Guide = lazy(() => import("./assets/iptv-catch-up-sports-2026-guide-DjpjOoc0.js"));
+const SetupFirestickForSportsSeason2026Guide = lazy(() => import("./assets/setup-firestick-for-sports-season-2026-guide-CEKHySgT.js"));
+const StreamCollegeFootballNoCable = lazy(() => import("./assets/StreamCollegeFootballNoCable-BmnAtc9B.js"));
+const StreamBoxOfficePpvCheapUk = lazy(() => import("./assets/StreamBoxOfficePpvCheapUk-CxGuHixd.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2433,7 +2473,11 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/blog/bypass-mlb-blackout-iptv-2026-guide", element: /* @__PURE__ */ jsx(BypassMlbBlackoutIptv2026Guide, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/fix-broken-iptv-playlist-dead-m3u-links-2026", element: /* @__PURE__ */ jsx(FixBrokenIptvPlaylist2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/watch-champions-league-final-2026-4k", element: /* @__PURE__ */ jsx(WatchChampionsLeagueFinal20264k, {}) }),
-      /* @__PURE__ */ jsx(Route, { path: "/blog/replace-cable-and-netflix-2026", element: /* @__PURE__ */ jsx(ReplaceCableAndNetflix2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/best-iptv-service-uk-football-2026-guide", element: /* @__PURE__ */ jsx(BestIptvUkFootball2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-catch-up-sports-2026-guide", element: /* @__PURE__ */ jsx(IptvCatchUpSports2026Guide, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/setup-firestick-for-sports-season-2026-guide", element: /* @__PURE__ */ jsx(SetupFirestickForSportsSeason2026Guide, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/stream-college-football-no-cable", element: /* @__PURE__ */ jsx(StreamCollegeFootballNoCable, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/stream-box-office-ppv-cheap-uk", element: /* @__PURE__ */ jsx(StreamBoxOfficePpvCheapUk, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),

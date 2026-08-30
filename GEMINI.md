@@ -57,6 +57,14 @@ Output is generated in the `dist/` directory.
 - **Pages & Routing:** New pages should be added to `src/pages/` and registered in `src/App.jsx`.
 - **Blog Posts:** 
     - Create a new component in `src/pages/blog/`.
+    - **CRITICAL STRUCTURE:** All new blog articles MUST perfectly match the structure and styling found in `src/pages/blog/setup-firestick-for-sports-season-2026-guide.jsx` and `src/pages/blog/StreamCollegeFootballNoCable.jsx`. This includes:
+        - Consistent Typography/Classes: Use `body-md`, `headline-lg`, `display-md` instead of bare HTML tags.
+        - Header Layout: Include category label, read time, and the specific hero image styling (`aspectRatio: '16/9'`, `borderRadius: 'var(--radius-xl)'`, `boxShadow`).
+        - Middle CTA Box: A high-converting gradient CTA box must be embedded in the middle of the article.
+        - Footer Elements: Append the standardized Author Box, bottom gradient CTA Card, and "Related Articles" grid at the end of every post.
+        - Tables: Use alternating row background colors (`var(--surface-container-low)`).
+        - Interlinks: Internal `<Link>` tags must use `style={{ color: 'var(--primary)' }}`.
+        - FAQ Section: Wrap the FAQ in a `var(--surface-container-low)` background box.
     - Add the metadata to `src/data/blogPosts.js`.
     - **SEO:** Important meta tags for blog posts are managed in `prerender.js` within the `blogMeta` object for social sharing optimization.
 - **Styling:** Use CSS or inline styles as per the current patterns in `src/index.css` and component-level styles.

@@ -1,5 +1,23 @@
 export const blogPosts = [
   {
+    id: 'stream-box-office-ppv-cheap-uk',
+    path: '/blog/stream-box-office-ppv-cheap-uk',
+    image: '/images/blog/stream-box-office-ppv-cheap-hero.webp',
+    category: 'Sports Streaming',
+    date: 'Aug 31, 2026',
+    title: 'Stream Box Office PPV Cheap: Skip the £25 Sky Price Tag',
+    excerpt: 'Looking to stream Box Office PPV free or cheap? Don\'t risk buffering during the knockout. Discover the best reliable 4K alternative to Sky Box Office today.'
+  },
+  {
+    id: 'stream-college-football-no-cable',
+    path: '/blog/stream-college-football-no-cable',
+    image: '/images/blog/stream-college-football-no-cable-hero.webp',
+    category: 'Sports Streaming',
+    date: 'Aug 31, 2026',
+    title: 'Stream College Football No Cable: Unlock SEC, Big Ten, and ACC Networks',
+    excerpt: 'Ready for kickoff? Learn how to stream college football with no cable. Unlock SEC, Big Ten, and ACC networks hassle-free. Discover the ultimate TV alternative!'
+  },
+  {
     id: 'setup-firestick-for-sports-season-2026-guide',
     path: '/blog/setup-firestick-for-sports-season-2026-guide',
     image: '/images/blog/setup-firestick-for-sports-season-hero.webp',
