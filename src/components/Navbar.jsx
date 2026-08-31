@@ -6,6 +6,7 @@ const navLinks = [
   { path: '/channel-list', label: 'Channels' },
   { path: '/buy-iptv-subscription', label: 'Pricing' },
   { path: '/setup-guides', label: 'Installation' },
+  { path: '/iptv-reseller-panel', label: 'Reseller' },
   { path: '/faq', label: 'FAQ' },
   { path: '/blog', label: 'Blog' },
   { path: '/contact', label: 'Contact' },
