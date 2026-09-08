@@ -1,5 +1,23 @@
 export const blogPosts = [
   {
+    id: 'tivimate-multi-screen-sports-setup',
+    path: '/blog/tivimate-multi-screen-sports-setup',
+    image: '/images/blog/tivimate-multi-screen-sports-setup-hero.webp',
+    category: 'Setup Guides',
+    date: 'Sep 8, 2026',
+    title: 'Ultimate TiviMate Multi-Screen Sports Setup for College Football',
+    excerpt: 'Learn how to set up TiviMate multi-screen for College Football. Discover why you need a 4-connection IPTV package to avoid bans and buffering.'
+  },
+  {
+    id: 'cheap-nfl-sunday-ticket-alternative',
+    path: '/blog/cheap-nfl-sunday-ticket-alternative',
+    image: '/images/blog/cheap-nfl-sunday-ticket-alternative-hero.webp',
+    category: 'Sports Streaming',
+    date: 'Sep 8, 2026',
+    title: 'The Best Cheap NFL Sunday Ticket Alternative for 2026',
+    excerpt: 'Looking for a cheap NFL Sunday Ticket alternative? Discover how to bypass the $480 YouTube fee and stream out-of-market games, RedZone & UFC for less.'
+  },
+  {
     id: 'stream-box-office-ppv-cheap-uk',
     path: '/blog/stream-box-office-ppv-cheap-uk',
     image: '/images/blog/stream-box-office-ppv-cheap-hero.webp',

@@ -51,6 +51,8 @@ const IptvCatchUpSports2026Guide = lazy(() => import('./pages/blog/iptv-catch-up
 const SetupFirestickForSportsSeason2026Guide = lazy(() => import('./pages/blog/setup-firestick-for-sports-season-2026-guide'))
 const StreamCollegeFootballNoCable = lazy(() => import('./pages/blog/StreamCollegeFootballNoCable'))
 const StreamBoxOfficePpvCheapUk = lazy(() => import('./pages/blog/StreamBoxOfficePpvCheapUk'))
+const CheapNflSundayTicketAlternative = lazy(() => import('./pages/blog/CheapNflSundayTicketAlternative'))
+const TivimateMultiScreenSportsSetup = lazy(() => import('./pages/blog/TivimateMultiScreenSportsSetup'))
 
 const ChannelPage = lazy(() => import('./pages/ChannelPage'))
 
@@ -122,6 +124,8 @@ function App() {
             <Route path="/blog/setup-firestick-for-sports-season-2026-guide" element={<SetupFirestickForSportsSeason2026Guide />} />
             <Route path="/blog/stream-college-football-no-cable" element={<StreamCollegeFootballNoCable />} />
             <Route path="/blog/stream-box-office-ppv-cheap-uk" element={<StreamBoxOfficePpvCheapUk />} />
+            <Route path="/blog/cheap-nfl-sunday-ticket-alternative" element={<CheapNflSundayTicketAlternative />} />
+            <Route path="/blog/tivimate-multi-screen-sports-setup" element={<TivimateMultiScreenSportsSetup />} />
             <Route path="/tivimate-vs-iptv-smarters-pro-best-player-2026" element={<TivimateVsSmartersPage />} />
 
             <Route path="/terms" element={<TermsPage />} />

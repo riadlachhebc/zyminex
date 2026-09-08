@@ -1547,6 +1547,7 @@ const navLinks = [
   { path: "/channel-list", label: "Channels" },
   { path: "/buy-iptv-subscription", label: "Pricing" },
   { path: "/setup-guides", label: "Installation" },
+  { path: "/iptv-reseller-panel", label: "Reseller" },
   { path: "/faq", label: "FAQ" },
   { path: "/blog", label: "Blog" },
   { path: "/contact", label: "Contact" }
@@ -1711,6 +1712,24 @@ const poster4 = "/assets/poster-4-tWvN7VqK.webp";
 const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
+  {
+    id: "tivimate-multi-screen-sports-setup",
+    path: "/blog/tivimate-multi-screen-sports-setup",
+    image: "/images/blog/tivimate-multi-screen-sports-setup-hero.webp",
+    category: "Setup Guides",
+    date: "Sep 8, 2026",
+    title: "Ultimate TiviMate Multi-Screen Sports Setup for College Football",
+    excerpt: "Learn how to set up TiviMate multi-screen for College Football. Discover why you need a 4-connection IPTV package to avoid bans and buffering."
+  },
+  {
+    id: "cheap-nfl-sunday-ticket-alternative",
+    path: "/blog/cheap-nfl-sunday-ticket-alternative",
+    image: "/images/blog/cheap-nfl-sunday-ticket-alternative-hero.webp",
+    category: "Sports Streaming",
+    date: "Sep 8, 2026",
+    title: "The Best Cheap NFL Sunday Ticket Alternative for 2026",
+    excerpt: "Looking for a cheap NFL Sunday Ticket alternative? Discover how to bypass the $480 YouTube fee and stream out-of-market games, RedZone & UFC for less."
+  },
   {
     id: "stream-box-office-ppv-cheap-uk",
     path: "/blog/stream-box-office-ppv-cheap-uk",
@@ -2382,7 +2401,7 @@ const TermsPage = lazy(() => import("./assets/TermsPage-DBiPYgLQ.js"));
 const PrivacyPage = lazy(() => import("./assets/PrivacyPage-p6z-WcWf.js"));
 const RefundPage = lazy(() => import("./assets/RefundPage-ClEHbgn4.js"));
 const FirestickPage = lazy(() => import("./assets/FirestickPage-BDp2P1U0.js"));
-const ResellerPage = lazy(() => import("./assets/ResellerPage-Nz5ew3yP.js"));
+const ResellerPage = lazy(() => import("./assets/ResellerPage-DUNhvzzB.js"));
 const CompetitorPage = lazy(() => import("./assets/CompetitorPage-BlgLkeZa.js"));
 const TutorialTivimatePage = lazy(() => import("./assets/TutorialTivimatePage-eaSBw836.js"));
 const TutorialSmartersPage = lazy(() => import("./assets/TutorialSmartersPage-MqERewql.js"));
@@ -2412,11 +2431,13 @@ const BuyIptvWithCryptoSafe2026 = lazy(() => import("./assets/BuyIptvWithCryptoS
 const BypassMlbBlackoutIptv2026Guide = lazy(() => import("./assets/BypassMlbBlackoutIptv2026Guide-DWVvZKaI.js"));
 const FixBrokenIptvPlaylist2026 = lazy(() => import("./assets/FixBrokenIptvPlaylist2026-BI8YzDa4.js"));
 const WatchChampionsLeagueFinal20264k = lazy(() => import("./assets/watch-champions-league-final-2026-4k-qmCLoMRZ.js"));
-lazy(() => import("./assets/replace-cable-and-netflix-2026-BJ7LURP3.js"));
+const ReplaceCableAndNetflix2026 = lazy(() => import("./assets/replace-cable-and-netflix-2026-BJ7LURP3.js"));
 const IptvCatchUpSports2026Guide = lazy(() => import("./assets/iptv-catch-up-sports-2026-guide-DjpjOoc0.js"));
 const SetupFirestickForSportsSeason2026Guide = lazy(() => import("./assets/setup-firestick-for-sports-season-2026-guide-CEKHySgT.js"));
 const StreamCollegeFootballNoCable = lazy(() => import("./assets/StreamCollegeFootballNoCable-BmnAtc9B.js"));
 const StreamBoxOfficePpvCheapUk = lazy(() => import("./assets/StreamBoxOfficePpvCheapUk-CxGuHixd.js"));
+const CheapNflSundayTicketAlternative = lazy(() => import("./assets/CheapNflSundayTicketAlternative-DahTdaYw.js"));
+const TivimateMultiScreenSportsSetup = lazy(() => import("./assets/TivimateMultiScreenSportsSetup-Dfca2Sv1.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2473,11 +2494,13 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/blog/bypass-mlb-blackout-iptv-2026-guide", element: /* @__PURE__ */ jsx(BypassMlbBlackoutIptv2026Guide, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/fix-broken-iptv-playlist-dead-m3u-links-2026", element: /* @__PURE__ */ jsx(FixBrokenIptvPlaylist2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/watch-champions-league-final-2026-4k", element: /* @__PURE__ */ jsx(WatchChampionsLeagueFinal20264k, {}) }),
-      /* @__PURE__ */ jsx(Route, { path: "/blog/best-iptv-service-uk-football-2026-guide", element: /* @__PURE__ */ jsx(BestIptvUkFootball2026, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/replace-cable-and-netflix-2026", element: /* @__PURE__ */ jsx(ReplaceCableAndNetflix2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/iptv-catch-up-sports-2026-guide", element: /* @__PURE__ */ jsx(IptvCatchUpSports2026Guide, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/setup-firestick-for-sports-season-2026-guide", element: /* @__PURE__ */ jsx(SetupFirestickForSportsSeason2026Guide, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/stream-college-football-no-cable", element: /* @__PURE__ */ jsx(StreamCollegeFootballNoCable, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/stream-box-office-ppv-cheap-uk", element: /* @__PURE__ */ jsx(StreamBoxOfficePpvCheapUk, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/cheap-nfl-sunday-ticket-alternative", element: /* @__PURE__ */ jsx(CheapNflSundayTicketAlternative, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/tivimate-multi-screen-sports-setup", element: /* @__PURE__ */ jsx(TivimateMultiScreenSportsSetup, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),

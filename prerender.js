@@ -8,6 +8,60 @@ const BASE_URL = 'https://www.zyminex.pro';
 
 // ─── Blog-specific meta map (absolute image URLs for social crawlers) ─────────
 const blogMeta = {
+  '/blog/tivimate-multi-screen-sports-setup': {
+    title: 'TiviMate Multi-Screen Sports Setup: 4-Way CFB Guide | Zyminex',
+    description: 'Learn how to set up TiviMate multi-screen for College Football. Discover why you need a 4-connection IPTV package to avoid bans and buffering.',
+    image: `${BASE_URL}/images/blog/tivimate-multi-screen-sports-setup-hero.webp`,
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Ultimate TiviMate Multi-Screen Sports Setup for College Football",
+        "description": "Learn how to set up TiviMate multi-screen for College Football. Discover why you need a 4-connection IPTV package to avoid bans and buffering.",
+        "image": `${BASE_URL}/images/blog/tivimate-multi-screen-sports-setup-hero.webp`,
+        "datePublished": "2026-09-08",
+        "dateModified": "2026-09-08",
+        "author": { "@type": "Organization", "name": "Zyminex Editorial Team", "url": "https://www.zyminex.pro" },
+        "publisher": { "@type": "Organization", "name": "Zyminex", "logo": { "@type": "ImageObject", "url": "https://www.zyminex.pro/logo.png" } }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How many connections do I need for TiviMate Multi-view?", "acceptedAnswer": { "@type": "Answer", "text": "You need one connection per screen. For the popular 2x2 grid layout, you need exactly 4 simultaneous connections from your IPTV provider. Zyminex includes 4 connections on all plans." } },
+          { "@type": "Question", "name": "Why is TiviMate Multi-view buffering or crashing?", "acceptedAnswer": { "@type": "Answer", "text": "Two common causes: insufficient hardware RAM (need 2GB+ for 4 screens) and your IPTV provider throttling or not supporting enough simultaneous connections. Upgrade to a device like the Nvidia Shield Pro and ensure your provider supports 4 connections." } },
+          { "@type": "Question", "name": "How do I switch audio in TiviMate Multi-screen?", "acceptedAnswer": { "@type": "Answer", "text": "TiviMate uses 'Hot Audio Switching.' Simply move your D-Pad to focus on a different screen cell, and the audio switches in under 50 milliseconds with no delay or interruption." } }
+        ]
+      }
+    ],
+  },
+  '/blog/cheap-nfl-sunday-ticket-alternative': {
+    title: 'Cheap NFL Sunday Ticket Alternative: Stream For Less | Zyminex',
+    description: 'Looking for a cheap NFL Sunday Ticket alternative? Discover how to bypass the $480 YouTube fee and stream out-of-market games, RedZone & UFC for less.',
+    image: `${BASE_URL}/images/blog/cheap-nfl-sunday-ticket-alternative-hero.webp`,
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The Best Cheap NFL Sunday Ticket Alternative for 2026",
+        "description": "Looking for a cheap NFL Sunday Ticket alternative? Discover how to bypass the $480 YouTube fee and stream out-of-market games, RedZone & UFC for less.",
+        "image": `${BASE_URL}/images/blog/cheap-nfl-sunday-ticket-alternative-hero.webp`,
+        "datePublished": "2026-09-08",
+        "dateModified": "2026-09-08",
+        "author": { "@type": "Organization", "name": "Zyminex Editorial Team", "url": "https://www.zyminex.pro" },
+        "publisher": { "@type": "Organization", "name": "Zyminex", "logo": { "@type": "ImageObject", "url": "https://www.zyminex.pro/logo.png" } }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How can I stream NFL out-of-market games free or cheap?", "acceptedAnswer": { "@type": "Answer", "text": "The most effective way to stream NFL out-of-market games cheaply is by using a premium IPTV service like Zyminex, which includes all regional and national broadcasts, plus NFL RedZone, for a fraction of the cost of traditional satellite or cable packages." } },
+          { "@type": "Question", "name": "Is there an NFL RedZone streaming bypass?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, by subscribing to a comprehensive IPTV provider, you get the NFL RedZone streaming bypass built-in. It removes the need for the expensive $42 YouTube add-on by including the channel in the standard sports package alongside your regular games." } },
+          { "@type": "Question", "name": "What is the best US sports IPTV for 2026?", "acceptedAnswer": { "@type": "Answer", "text": "Zyminex is widely considered the best US sports IPTV for 2026 due to its unthrottled 4K 60fps streams, anti-freeze technology, and comprehensive inclusion of all major sports leagues (NFL, NBA, MLB, NHL) and UFC PPV events without blackouts." } }
+        ]
+      }
+    ],
+  },
   '/blog/stream-box-office-ppv-cheap-uk': {
     title: 'Stream Box Office PPV Cheap: Skip the £25 Sky Price Tag',
     description: 'Looking to stream Box Office PPV free or cheap? Don\'t risk buffering during the knockout. Discover the best reliable 4K alternative to Sky Box Office today.',
