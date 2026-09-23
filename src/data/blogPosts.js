@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    id: 'fix-thursday-night-football-lag-2026',
+    path: '/blog/fix-thursday-night-football-lag-2026',
+    image: '/images/blog/fix-thursday-night-football-lag-2026-hero.webp',
+    category: 'Sports Streaming',
+    date: 'Sep 23, 2026',
+    title: 'Fix Thursday Night Football Lag 2026: The 0-Delay Solution for NFL Fans',
+    excerpt: 'Tired of Amazon Prime NFL buffering and neighbors cheering before the play? Learn how to fix Thursday Night Football lag in 2026 with 0-delay streaming.'
+  },
+  {
     id: 'tivimate-multi-screen-sports-setup',
     path: '/blog/tivimate-multi-screen-sports-setup',
     image: '/images/blog/tivimate-multi-screen-sports-setup-hero.webp',

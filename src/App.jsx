@@ -53,6 +53,7 @@ const StreamCollegeFootballNoCable = lazy(() => import('./pages/blog/StreamColle
 const StreamBoxOfficePpvCheapUk = lazy(() => import('./pages/blog/StreamBoxOfficePpvCheapUk'))
 const CheapNflSundayTicketAlternative = lazy(() => import('./pages/blog/CheapNflSundayTicketAlternative'))
 const TivimateMultiScreenSportsSetup = lazy(() => import('./pages/blog/TivimateMultiScreenSportsSetup'))
+const FixThursdayNightFootballLag2026 = lazy(() => import('./pages/blog/FixThursdayNightFootballLag2026'))
 
 const ChannelPage = lazy(() => import('./pages/ChannelPage'))
 
@@ -126,6 +127,7 @@ function App() {
             <Route path="/blog/stream-box-office-ppv-cheap-uk" element={<StreamBoxOfficePpvCheapUk />} />
             <Route path="/blog/cheap-nfl-sunday-ticket-alternative" element={<CheapNflSundayTicketAlternative />} />
             <Route path="/blog/tivimate-multi-screen-sports-setup" element={<TivimateMultiScreenSportsSetup />} />
+            <Route path="/blog/fix-thursday-night-football-lag-2026" element={<FixThursdayNightFootballLag2026 />} />
             <Route path="/tivimate-vs-iptv-smarters-pro-best-player-2026" element={<TivimateVsSmartersPage />} />
 
             <Route path="/terms" element={<TermsPage />} />

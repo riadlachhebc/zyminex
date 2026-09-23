@@ -1713,6 +1713,15 @@ const poster5 = "/assets/poster-5-BF-4BoQT.webp";
 const poster6 = "/assets/poster-6-BE2q2XrJ.webp";
 const blogPosts = [
   {
+    id: "fix-thursday-night-football-lag-2026",
+    path: "/blog/fix-thursday-night-football-lag-2026",
+    image: "/images/blog/fix-thursday-night-football-lag-2026-hero.webp",
+    category: "Sports Streaming",
+    date: "Sep 23, 2026",
+    title: "Fix Thursday Night Football Lag 2026: The 0-Delay Solution for NFL Fans",
+    excerpt: "Tired of Amazon Prime NFL buffering and neighbors cheering before the play? Learn how to fix Thursday Night Football lag in 2026 with 0-delay streaming."
+  },
+  {
     id: "tivimate-multi-screen-sports-setup",
     path: "/blog/tivimate-multi-screen-sports-setup",
     image: "/images/blog/tivimate-multi-screen-sports-setup-hero.webp",
@@ -2438,6 +2447,7 @@ const StreamCollegeFootballNoCable = lazy(() => import("./assets/StreamCollegeFo
 const StreamBoxOfficePpvCheapUk = lazy(() => import("./assets/StreamBoxOfficePpvCheapUk-CxGuHixd.js"));
 const CheapNflSundayTicketAlternative = lazy(() => import("./assets/CheapNflSundayTicketAlternative-DahTdaYw.js"));
 const TivimateMultiScreenSportsSetup = lazy(() => import("./assets/TivimateMultiScreenSportsSetup-Dfca2Sv1.js"));
+const FixThursdayNightFootballLag2026 = lazy(() => import("./assets/FixThursdayNightFootballLag2026-BmQB6qT9.js"));
 const ChannelPage = lazy(() => import("./assets/ChannelPage-2HCnOVpG.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
@@ -2501,6 +2511,7 @@ function App() {
       /* @__PURE__ */ jsx(Route, { path: "/blog/stream-box-office-ppv-cheap-uk", element: /* @__PURE__ */ jsx(StreamBoxOfficePpvCheapUk, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/cheap-nfl-sunday-ticket-alternative", element: /* @__PURE__ */ jsx(CheapNflSundayTicketAlternative, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/blog/tivimate-multi-screen-sports-setup", element: /* @__PURE__ */ jsx(TivimateMultiScreenSportsSetup, {}) }),
+      /* @__PURE__ */ jsx(Route, { path: "/blog/fix-thursday-night-football-lag-2026", element: /* @__PURE__ */ jsx(FixThursdayNightFootballLag2026, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/tivimate-vs-iptv-smarters-pro-best-player-2026", element: /* @__PURE__ */ jsx(TivimateVsSmartersPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/terms", element: /* @__PURE__ */ jsx(TermsPage, {}) }),
       /* @__PURE__ */ jsx(Route, { path: "/privacy", element: /* @__PURE__ */ jsx(PrivacyPage, {}) }),
